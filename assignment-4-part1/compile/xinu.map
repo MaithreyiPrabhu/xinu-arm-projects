@@ -1,0 +1,3274 @@
+Archive member included because of file (symbol)
+
+../lib/libxc.a(atoi.o)        ../shell/xsh_kill.o (atoi)
+../lib/libxc.a(atol.o)        ../shell/xsh_sleep.o (atol)
+../lib/libxc.a(bzero.o)       ../device/loopback/loopbackOpen.o (bzero)
+../lib/libxc.a(ctype_.o)      ../device/tty/ttyRead.o (_ctype_)
+../lib/libxc.a(doprnt.o)      ../device/uart-pl011/kprintf.o (_doprnt)
+../lib/libxc.a(fprintf.o)     ../system/debug.o (fprintf)
+../lib/libxc.a(getchar.o)     ../shell/xsh_snoop.o (getchar)
+../lib/libxc.a(memcpy.o)      ../system/tar.o (memcpy)
+../lib/libxc.a(printf.o)      ../device/uart-pl011/uartStat.o (printf)
+../lib/libxc.a(rand.o)        ../shell/xsh_netemu.o (srand)
+../lib/libxc.a(sprintf.o)     ../shell/xsh_user.o (sprintf)
+../lib/libxc.a(strncmp.o)     ../system/getdev.o (strncmp)
+../lib/libxc.a(strncpy.o)     ../system/platforms/raspberry-pi/create.o (strncpy)
+../lib/libxc.a(malloc.o)      ../apps/future.o (malloc)
+../lib/libxc.a(fgetc.o)       ../lib/libxc.a(getchar.o) (fgetc)
+/nfs/nfs5/home/research/hardware/arm2/arm-2012.09/bin/../lib/gcc/arm-none-eabi/4.7.2/libgcc.a(_udivsi3.o)
+                              ../shell/xsh_ping.o (__aeabi_uidiv)
+/nfs/nfs5/home/research/hardware/arm2/arm-2012.09/bin/../lib/gcc/arm-none-eabi/4.7.2/libgcc.a(_divsi3.o)
+                              ../shell/xsh_ping.o (__aeabi_idiv)
+/nfs/nfs5/home/research/hardware/arm2/arm-2012.09/bin/../lib/gcc/arm-none-eabi/4.7.2/libgcc.a(_dvmd_tls.o)
+                              /nfs/nfs5/home/research/hardware/arm2/arm-2012.09/bin/../lib/gcc/arm-none-eabi/4.7.2/libgcc.a(_udivsi3.o) (__aeabi_idiv0)
+
+Discarded input sections
+
+ .data          0x00000000        0x0 ../loader/platforms/raspberry-pi/start.o
+ .bss           0x00000000        0x0 ../loader/platforms/raspberry-pi/start.o
+ .data          0x00000000        0x0 ../system/platforms/raspberry-pi/ctxsw.o
+ .bss           0x00000000        0x0 ../system/platforms/raspberry-pi/ctxsw.o
+ .data          0x00000000        0x0 ../system/platforms/raspberry-pi/pause.o
+ .bss           0x00000000        0x0 ../system/platforms/raspberry-pi/pause.o
+ .data          0x00000000        0x0 ../system/platforms/raspberry-pi/halt.o
+ .bss           0x00000000        0x0 ../system/platforms/raspberry-pi/halt.o
+ .text          0x00000000        0x0 ../system/platforms/raspberry-pi/clkupdate.o
+ .data          0x00000000        0x0 ../system/platforms/raspberry-pi/clkupdate.o
+ .text          0x00000000        0x0 ../system/platforms/raspberry-pi/create.o
+ .data          0x00000000        0x0 ../system/platforms/raspberry-pi/create.o
+ .text          0x00000000        0x0 ../system/platforms/raspberry-pi/handlers.o
+ .data          0x00000000        0x0 ../system/platforms/raspberry-pi/handlers.o
+ .bss           0x00000000        0x0 ../system/platforms/raspberry-pi/handlers.o
+ .text          0x00000000        0x0 ../system/platforms/raspberry-pi/interrupt.o
+ .data          0x00000000        0x0 ../system/platforms/raspberry-pi/interrupt.o
+ .bss           0x00000000        0x0 ../system/platforms/raspberry-pi/interrupt.o
+ .text.an_interrupt_handler
+                0x00000000        0x4 ../system/platforms/raspberry-pi/interrupt.o
+ .text          0x00000000        0x0 ../system/platforms/raspberry-pi/platforminit.o
+ .data          0x00000000        0x0 ../system/platforms/raspberry-pi/platforminit.o
+ .bss           0x00000000        0x0 ../system/platforms/raspberry-pi/platforminit.o
+ .text          0x00000000        0x0 ../system/platforms/raspberry-pi/stubs.o
+ .data          0x00000000        0x0 ../system/platforms/raspberry-pi/stubs.o
+ .bss           0x00000000        0x0 ../system/platforms/raspberry-pi/stubs.o
+ .text          0x00000000        0x0 ../system/platforms/raspberry-pi/vic.o
+ .data          0x00000000        0x0 ../system/platforms/raspberry-pi/vic.o
+ .text.vic_deregister_irq
+                0x00000000       0x3c ../system/platforms/raspberry-pi/vic.o
+ .text          0x00000000        0x0 ../system/initialize.o
+ .data          0x00000000        0x0 ../system/initialize.o
+ .text          0x00000000        0x0 ../system/queue.o
+ .data          0x00000000        0x0 ../system/queue.o
+ .text          0x00000000        0x0 ../system/kill.o
+ .data          0x00000000        0x0 ../system/kill.o
+ .bss           0x00000000        0x0 ../system/kill.o
+ .text          0x00000000        0x0 ../system/ready.o
+ .data          0x00000000        0x0 ../system/ready.o
+ .bss           0x00000000        0x0 ../system/ready.o
+ .text          0x00000000        0x0 ../system/resched.o
+ .data          0x00000000        0x0 ../system/resched.o
+ .text          0x00000000        0x0 ../system/resume.o
+ .data          0x00000000        0x0 ../system/resume.o
+ .bss           0x00000000        0x0 ../system/resume.o
+ .text          0x00000000        0x0 ../system/suspend.o
+ .data          0x00000000        0x0 ../system/suspend.o
+ .bss           0x00000000        0x0 ../system/suspend.o
+ .text.suspend  0x00000000      0x140 ../system/suspend.o
+ .debug_info    0x00000000      0x291 ../system/suspend.o
+ .debug_abbrev  0x00000000       0xf4 ../system/suspend.o
+ .debug_loc     0x00000000       0x2c ../system/suspend.o
+ .debug_aranges
+                0x00000000       0x20 ../system/suspend.o
+ .debug_ranges  0x00000000       0x10 ../system/suspend.o
+ .debug_line    0x00000000       0xe3 ../system/suspend.o
+ .debug_str     0x00000000      0x18e ../system/suspend.o
+ .comment       0x00000000       0x31 ../system/suspend.o
+ .ARM.attributes
+                0x00000000       0x30 ../system/suspend.o
+ .debug_frame   0x00000000       0x2c ../system/suspend.o
+ .text          0x00000000        0x0 ../system/chprio.o
+ .data          0x00000000        0x0 ../system/chprio.o
+ .bss           0x00000000        0x0 ../system/chprio.o
+ .text.chprio   0x00000000       0xe0 ../system/chprio.o
+ .debug_info    0x00000000      0x29f ../system/chprio.o
+ .debug_abbrev  0x00000000      0x103 ../system/chprio.o
+ .debug_loc     0x00000000       0x2c ../system/chprio.o
+ .debug_aranges
+                0x00000000       0x20 ../system/chprio.o
+ .debug_ranges  0x00000000       0x10 ../system/chprio.o
+ .debug_line    0x00000000       0xcf ../system/chprio.o
+ .debug_str     0x00000000      0x19c ../system/chprio.o
+ .comment       0x00000000       0x31 ../system/chprio.o
+ .ARM.attributes
+                0x00000000       0x30 ../system/chprio.o
+ .debug_frame   0x00000000       0x2c ../system/chprio.o
+ .text          0x00000000        0x0 ../system/getprio.o
+ .data          0x00000000        0x0 ../system/getprio.o
+ .bss           0x00000000        0x0 ../system/getprio.o
+ .text.getprio  0x00000000       0xdc ../system/getprio.o
+ .debug_info    0x00000000      0x27e ../system/getprio.o
+ .debug_abbrev  0x00000000       0xf4 ../system/getprio.o
+ .debug_loc     0x00000000       0x2c ../system/getprio.o
+ .debug_aranges
+                0x00000000       0x20 ../system/getprio.o
+ .debug_ranges  0x00000000       0x10 ../system/getprio.o
+ .debug_line    0x00000000       0xce ../system/getprio.o
+ .debug_str     0x00000000      0x187 ../system/getprio.o
+ .comment       0x00000000       0x31 ../system/getprio.o
+ .ARM.attributes
+                0x00000000       0x30 ../system/getprio.o
+ .debug_frame   0x00000000       0x28 ../system/getprio.o
+ .text          0x00000000        0x0 ../system/getitem.o
+ .data          0x00000000        0x0 ../system/getitem.o
+ .bss           0x00000000        0x0 ../system/getitem.o
+ .text.getlast  0x00000000       0xc4 ../system/getitem.o
+ .text          0x00000000        0x0 ../system/queinit.o
+ .bss           0x00000000        0x0 ../system/queinit.o
+ .text          0x00000000        0x0 ../system/insert.o
+ .data          0x00000000        0x0 ../system/insert.o
+ .bss           0x00000000        0x0 ../system/insert.o
+ .text          0x00000000        0x0 ../system/gettid.o
+ .data          0x00000000        0x0 ../system/gettid.o
+ .bss           0x00000000        0x0 ../system/gettid.o
+ .text          0x00000000        0x0 ../system/xdone.o
+ .data          0x00000000        0x0 ../system/xdone.o
+ .bss           0x00000000        0x0 ../system/xdone.o
+ .text          0x00000000        0x0 ../system/yield.o
+ .data          0x00000000        0x0 ../system/yield.o
+ .bss           0x00000000        0x0 ../system/yield.o
+ .text.yield    0x00000000       0x40 ../system/yield.o
+ .debug_info    0x00000000       0xe5 ../system/yield.o
+ .debug_abbrev  0x00000000       0x7e ../system/yield.o
+ .debug_loc     0x00000000       0x2c ../system/yield.o
+ .debug_aranges
+                0x00000000       0x20 ../system/yield.o
+ .debug_ranges  0x00000000       0x10 ../system/yield.o
+ .debug_line    0x00000000       0x99 ../system/yield.o
+ .debug_str     0x00000000       0xe6 ../system/yield.o
+ .comment       0x00000000       0x31 ../system/yield.o
+ .ARM.attributes
+                0x00000000       0x30 ../system/yield.o
+ .debug_frame   0x00000000       0x28 ../system/yield.o
+ .text          0x00000000        0x0 ../system/userret.o
+ .data          0x00000000        0x0 ../system/userret.o
+ .bss           0x00000000        0x0 ../system/userret.o
+ .text          0x00000000        0x0 ../system/clkinit.o
+ .data          0x00000000        0x0 ../system/clkinit.o
+ .text          0x00000000        0x0 ../system/clkhandler.o
+ .data          0x00000000        0x0 ../system/clkhandler.o
+ .bss           0x00000000        0x0 ../system/clkhandler.o
+ .text          0x00000000        0x0 ../system/insertd.o
+ .data          0x00000000        0x0 ../system/insertd.o
+ .bss           0x00000000        0x0 ../system/insertd.o
+ .text          0x00000000        0x0 ../system/sleep.o
+ .data          0x00000000        0x0 ../system/sleep.o
+ .bss           0x00000000        0x0 ../system/sleep.o
+ .text          0x00000000        0x0 ../system/unsleep.o
+ .data          0x00000000        0x0 ../system/unsleep.o
+ .bss           0x00000000        0x0 ../system/unsleep.o
+ .text          0x00000000        0x0 ../system/wakeup.o
+ .data          0x00000000        0x0 ../system/wakeup.o
+ .bss           0x00000000        0x0 ../system/wakeup.o
+ .text.testFn   0x00000000        0x4 ../system/wakeup.o
+ .text          0x00000000        0x0 ../system/semcreate.o
+ .data          0x00000000        0x0 ../system/semcreate.o
+ .text          0x00000000        0x0 ../system/semfree.o
+ .data          0x00000000        0x0 ../system/semfree.o
+ .bss           0x00000000        0x0 ../system/semfree.o
+ .text          0x00000000        0x0 ../system/semcount.o
+ .data          0x00000000        0x0 ../system/semcount.o
+ .bss           0x00000000        0x0 ../system/semcount.o
+ .text          0x00000000        0x0 ../system/signal.o
+ .data          0x00000000        0x0 ../system/signal.o
+ .bss           0x00000000        0x0 ../system/signal.o
+ .text          0x00000000        0x0 ../system/signaln.o
+ .data          0x00000000        0x0 ../system/signaln.o
+ .bss           0x00000000        0x0 ../system/signaln.o
+ .text          0x00000000        0x0 ../system/wait.o
+ .data          0x00000000        0x0 ../system/wait.o
+ .bss           0x00000000        0x0 ../system/wait.o
+ .text          0x00000000        0x0 ../system/memget.o
+ .data          0x00000000        0x0 ../system/memget.o
+ .bss           0x00000000        0x0 ../system/memget.o
+ .text          0x00000000        0x0 ../system/memfree.o
+ .data          0x00000000        0x0 ../system/memfree.o
+ .bss           0x00000000        0x0 ../system/memfree.o
+ .text          0x00000000        0x0 ../system/stkget.o
+ .data          0x00000000        0x0 ../system/stkget.o
+ .bss           0x00000000        0x0 ../system/stkget.o
+ .text          0x00000000        0x0 ../system/bfpalloc.o
+ .data          0x00000000        0x0 ../system/bfpalloc.o
+ .bss           0x00000000        0x0 ../system/bfpalloc.o
+ .text.bfpalloc
+                0x00000000      0x21c ../system/bfpalloc.o
+ .debug_info    0x00000000      0x206 ../system/bfpalloc.o
+ .debug_abbrev  0x00000000       0xdc ../system/bfpalloc.o
+ .debug_loc     0x00000000       0x2d ../system/bfpalloc.o
+ .debug_aranges
+                0x00000000       0x20 ../system/bfpalloc.o
+ .debug_ranges  0x00000000       0x10 ../system/bfpalloc.o
+ .debug_line    0x00000000       0xff ../system/bfpalloc.o
+ .debug_str     0x00000000      0x14f ../system/bfpalloc.o
+ .comment       0x00000000       0x31 ../system/bfpalloc.o
+ .ARM.attributes
+                0x00000000       0x30 ../system/bfpalloc.o
+ .debug_frame   0x00000000       0x28 ../system/bfpalloc.o
+ .text          0x00000000        0x0 ../system/bfpfree.o
+ .data          0x00000000        0x0 ../system/bfpfree.o
+ .bss           0x00000000        0x0 ../system/bfpfree.o
+ .text.bfpfree  0x00000000      0x140 ../system/bfpfree.o
+ .debug_info    0x00000000      0x1ce ../system/bfpfree.o
+ .debug_abbrev  0x00000000       0xdc ../system/bfpfree.o
+ .debug_loc     0x00000000       0x2c ../system/bfpfree.o
+ .debug_aranges
+                0x00000000       0x20 ../system/bfpfree.o
+ .debug_ranges  0x00000000       0x10 ../system/bfpfree.o
+ .debug_line    0x00000000       0xc9 ../system/bfpfree.o
+ .debug_str     0x00000000      0x141 ../system/bfpfree.o
+ .comment       0x00000000       0x31 ../system/bfpfree.o
+ .ARM.attributes
+                0x00000000       0x30 ../system/bfpfree.o
+ .debug_frame   0x00000000       0x28 ../system/bfpfree.o
+ .text          0x00000000        0x0 ../system/bufget.o
+ .data          0x00000000        0x0 ../system/bufget.o
+ .bss           0x00000000        0x0 ../system/bufget.o
+ .text.bufget   0x00000000       0xe8 ../system/bufget.o
+ .debug_info    0x00000000      0x1d2 ../system/bufget.o
+ .debug_abbrev  0x00000000       0xdc ../system/bufget.o
+ .debug_loc     0x00000000       0x2c ../system/bufget.o
+ .debug_aranges
+                0x00000000       0x20 ../system/bufget.o
+ .debug_ranges  0x00000000       0x10 ../system/bufget.o
+ .debug_line    0x00000000       0xc4 ../system/bufget.o
+ .debug_str     0x00000000      0x13e ../system/bufget.o
+ .comment       0x00000000       0x31 ../system/bufget.o
+ .ARM.attributes
+                0x00000000       0x30 ../system/bufget.o
+ .debug_frame   0x00000000       0x28 ../system/bufget.o
+ .text          0x00000000        0x0 ../system/buffree.o
+ .data          0x00000000        0x0 ../system/buffree.o
+ .bss           0x00000000        0x0 ../system/buffree.o
+ .text.buffree  0x00000000      0x114 ../system/buffree.o
+ .debug_info    0x00000000      0x1dd ../system/buffree.o
+ .debug_abbrev  0x00000000       0xdc ../system/buffree.o
+ .debug_loc     0x00000000       0x2c ../system/buffree.o
+ .debug_aranges
+                0x00000000       0x20 ../system/buffree.o
+ .debug_ranges  0x00000000       0x10 ../system/buffree.o
+ .debug_line    0x00000000       0xc8 ../system/buffree.o
+ .debug_str     0x00000000      0x14f ../system/buffree.o
+ .comment       0x00000000       0x31 ../system/buffree.o
+ .ARM.attributes
+                0x00000000       0x30 ../system/buffree.o
+ .debug_frame   0x00000000       0x28 ../system/buffree.o
+ .text          0x00000000        0x0 ../system/send.o
+ .data          0x00000000        0x0 ../system/send.o
+ .bss           0x00000000        0x0 ../system/send.o
+ .text          0x00000000        0x0 ../system/receive.o
+ .data          0x00000000        0x0 ../system/receive.o
+ .bss           0x00000000        0x0 ../system/receive.o
+ .text          0x00000000        0x0 ../system/recvclr.o
+ .data          0x00000000        0x0 ../system/recvclr.o
+ .bss           0x00000000        0x0 ../system/recvclr.o
+ .text          0x00000000        0x0 ../system/recvtime.o
+ .data          0x00000000        0x0 ../system/recvtime.o
+ .bss           0x00000000        0x0 ../system/recvtime.o
+ .text.recvtime
+                0x00000000      0x138 ../system/recvtime.o
+ .debug_info    0x00000000      0x2ab ../system/recvtime.o
+ .debug_abbrev  0x00000000       0xf4 ../system/recvtime.o
+ .debug_loc     0x00000000       0x2c ../system/recvtime.o
+ .debug_aranges
+                0x00000000       0x20 ../system/recvtime.o
+ .debug_ranges  0x00000000       0x10 ../system/recvtime.o
+ .debug_line    0x00000000       0xe8 ../system/recvtime.o
+ .debug_str     0x00000000      0x1aa ../system/recvtime.o
+ .comment       0x00000000       0x31 ../system/recvtime.o
+ .ARM.attributes
+                0x00000000       0x30 ../system/recvtime.o
+ .debug_frame   0x00000000       0x2c ../system/recvtime.o
+ .text          0x00000000        0x0 ../system/close.o
+ .data          0x00000000        0x0 ../system/close.o
+ .bss           0x00000000        0x0 ../system/close.o
+ .text.close    0x00000000       0x78 ../system/close.o
+ .debug_info    0x00000000      0x282 ../system/close.o
+ .debug_abbrev  0x00000000       0xf4 ../system/close.o
+ .debug_loc     0x00000000       0x2c ../system/close.o
+ .debug_aranges
+                0x00000000       0x20 ../system/close.o
+ .debug_ranges  0x00000000       0x10 ../system/close.o
+ .debug_line    0x00000000       0x6e ../system/close.o
+ .debug_str     0x00000000      0x11a ../system/close.o
+ .comment       0x00000000       0x31 ../system/close.o
+ .ARM.attributes
+                0x00000000       0x30 ../system/close.o
+ .debug_frame   0x00000000       0x28 ../system/close.o
+ .text          0x00000000        0x0 ../system/control.o
+ .data          0x00000000        0x0 ../system/control.o
+ .bss           0x00000000        0x0 ../system/control.o
+ .text          0x00000000        0x0 ../system/getc.o
+ .data          0x00000000        0x0 ../system/getc.o
+ .bss           0x00000000        0x0 ../system/getc.o
+ .text.getc     0x00000000       0x78 ../system/getc.o
+ .debug_info    0x00000000      0x282 ../system/getc.o
+ .debug_abbrev  0x00000000       0xf4 ../system/getc.o
+ .debug_loc     0x00000000       0x2c ../system/getc.o
+ .debug_aranges
+                0x00000000       0x20 ../system/getc.o
+ .debug_ranges  0x00000000       0x10 ../system/getc.o
+ .debug_line    0x00000000       0x6d ../system/getc.o
+ .debug_str     0x00000000      0x119 ../system/getc.o
+ .comment       0x00000000       0x31 ../system/getc.o
+ .ARM.attributes
+                0x00000000       0x30 ../system/getc.o
+ .debug_frame   0x00000000       0x28 ../system/getc.o
+ .text          0x00000000        0x0 ../system/open.o
+ .data          0x00000000        0x0 ../system/open.o
+ .bss           0x00000000        0x0 ../system/open.o
+ .text          0x00000000        0x0 ../system/ioerr.o
+ .data          0x00000000        0x0 ../system/ioerr.o
+ .bss           0x00000000        0x0 ../system/ioerr.o
+ .text          0x00000000        0x0 ../system/ionull.o
+ .data          0x00000000        0x0 ../system/ionull.o
+ .bss           0x00000000        0x0 ../system/ionull.o
+ .text          0x00000000        0x0 ../system/read.o
+ .data          0x00000000        0x0 ../system/read.o
+ .bss           0x00000000        0x0 ../system/read.o
+ .text          0x00000000        0x0 ../system/putc.o
+ .data          0x00000000        0x0 ../system/putc.o
+ .bss           0x00000000        0x0 ../system/putc.o
+ .text          0x00000000        0x0 ../system/seek.o
+ .data          0x00000000        0x0 ../system/seek.o
+ .bss           0x00000000        0x0 ../system/seek.o
+ .text.seek     0x00000000       0x84 ../system/seek.o
+ .debug_info    0x00000000      0x290 ../system/seek.o
+ .debug_abbrev  0x00000000      0x103 ../system/seek.o
+ .debug_loc     0x00000000       0x2c ../system/seek.o
+ .debug_aranges
+                0x00000000       0x20 ../system/seek.o
+ .debug_ranges  0x00000000       0x10 ../system/seek.o
+ .debug_line    0x00000000       0x6d ../system/seek.o
+ .debug_str     0x00000000      0x119 ../system/seek.o
+ .comment       0x00000000       0x31 ../system/seek.o
+ .ARM.attributes
+                0x00000000       0x30 ../system/seek.o
+ .debug_frame   0x00000000       0x28 ../system/seek.o
+ .text          0x00000000        0x0 ../system/write.o
+ .data          0x00000000        0x0 ../system/write.o
+ .bss           0x00000000        0x0 ../system/write.o
+ .text.write    0x00000000       0x88 ../system/write.o
+ .debug_info    0x00000000      0x29e ../system/write.o
+ .debug_abbrev  0x00000000       0xf4 ../system/write.o
+ .debug_loc     0x00000000       0x2c ../system/write.o
+ .debug_aranges
+                0x00000000       0x20 ../system/write.o
+ .debug_ranges  0x00000000       0x10 ../system/write.o
+ .debug_line    0x00000000       0x6e ../system/write.o
+ .debug_str     0x00000000      0x127 ../system/write.o
+ .comment       0x00000000       0x31 ../system/write.o
+ .ARM.attributes
+                0x00000000       0x30 ../system/write.o
+ .debug_frame   0x00000000       0x28 ../system/write.o
+ .text          0x00000000        0x0 ../system/getdev.o
+ .data          0x00000000        0x0 ../system/getdev.o
+ .bss           0x00000000        0x0 ../system/getdev.o
+ .text          0x00000000        0x0 ../system/debug.o
+ .data          0x00000000        0x0 ../system/debug.o
+ .bss           0x00000000        0x0 ../system/debug.o
+ .rodata        0x00000000       0x28 ../system/debug.o
+ .text.hexdump_print
+                0x00000000      0x110 ../system/debug.o
+ .text.hexdump  0x00000000      0x374 ../system/debug.o
+ .debug_info    0x00000000      0x2eb ../system/debug.o
+ .debug_abbrev  0x00000000      0x10a ../system/debug.o
+ .debug_loc     0x00000000       0x58 ../system/debug.o
+ .debug_aranges
+                0x00000000       0x28 ../system/debug.o
+ .debug_ranges  0x00000000       0x18 ../system/debug.o
+ .debug_line    0x00000000      0x14d ../system/debug.o
+ .debug_str     0x00000000      0x1b4 ../system/debug.o
+ .comment       0x00000000       0x31 ../system/debug.o
+ .ARM.attributes
+                0x00000000       0x30 ../system/debug.o
+ .debug_frame   0x00000000       0x40 ../system/debug.o
+ .text          0x00000000        0x0 ../system/tar.o
+ .data          0x00000000        0x0 ../system/tar.o
+ .bss           0x00000000        0x0 ../system/tar.o
+ .text.tarListFiles
+                0x00000000       0xe8 ../system/tar.o
+ .text.tarGetFile
+                0x00000000       0xb4 ../system/tar.o
+ .text.tarGetFilesize
+                0x00000000       0x30 ../system/tar.o
+ .rodata        0x00000000        0x8 ../system/tar.o
+ .text.tarGetData
+                0x00000000       0xb0 ../system/tar.o
+ .text.tarFilesize
+                0x00000000       0x70 ../system/tar.o
+ .debug_info    0x00000000      0x408 ../system/tar.o
+ .debug_abbrev  0x00000000       0xfe ../system/tar.o
+ .debug_loc     0x00000000       0xd0 ../system/tar.o
+ .debug_aranges
+                0x00000000       0x40 ../system/tar.o
+ .debug_ranges  0x00000000       0x30 ../system/tar.o
+ .debug_line    0x00000000       0xec ../system/tar.o
+ .debug_str     0x00000000      0x1c5 ../system/tar.o
+ .comment       0x00000000       0x31 ../system/tar.o
+ .ARM.attributes
+                0x00000000       0x30 ../system/tar.o
+ .debug_frame   0x00000000       0x84 ../system/tar.o
+ .text          0x00000000        0x0 ../device/loopback/loopbackGetc.o
+ .data          0x00000000        0x0 ../device/loopback/loopbackGetc.o
+ .bss           0x00000000        0x0 ../device/loopback/loopbackGetc.o
+ .text          0x00000000        0x0 ../device/loopback/loopbackClose.o
+ .data          0x00000000        0x0 ../device/loopback/loopbackClose.o
+ .bss           0x00000000        0x0 ../device/loopback/loopbackClose.o
+ .text          0x00000000        0x0 ../device/loopback/loopbackOpen.o
+ .data          0x00000000        0x0 ../device/loopback/loopbackOpen.o
+ .bss           0x00000000        0x0 ../device/loopback/loopbackOpen.o
+ .text          0x00000000        0x0 ../device/loopback/loopbackPutc.o
+ .data          0x00000000        0x0 ../device/loopback/loopbackPutc.o
+ .bss           0x00000000        0x0 ../device/loopback/loopbackPutc.o
+ .text          0x00000000        0x0 ../device/loopback/loopbackWrite.o
+ .data          0x00000000        0x0 ../device/loopback/loopbackWrite.o
+ .bss           0x00000000        0x0 ../device/loopback/loopbackWrite.o
+ .text          0x00000000        0x0 ../device/loopback/loopbackRead.o
+ .data          0x00000000        0x0 ../device/loopback/loopbackRead.o
+ .bss           0x00000000        0x0 ../device/loopback/loopbackRead.o
+ .text          0x00000000        0x0 ../device/loopback/loopbackControl.o
+ .data          0x00000000        0x0 ../device/loopback/loopbackControl.o
+ .bss           0x00000000        0x0 ../device/loopback/loopbackControl.o
+ .text          0x00000000        0x0 ../device/loopback/loopbackInit.o
+ .data          0x00000000        0x0 ../device/loopback/loopbackInit.o
+ .text          0x00000000        0x0 ../device/uart-pl011/uartInit.o
+ .data          0x00000000        0x0 ../device/uart-pl011/uartInit.o
+ .text          0x00000000        0x0 ../device/uart-pl011/uartInterrupt.o
+ .data          0x00000000        0x0 ../device/uart-pl011/uartInterrupt.o
+ .bss           0x00000000        0x0 ../device/uart-pl011/uartInterrupt.o
+ .text          0x00000000        0x0 ../device/uart-pl011/uartPutc.o
+ .data          0x00000000        0x0 ../device/uart-pl011/uartPutc.o
+ .bss           0x00000000        0x0 ../device/uart-pl011/uartPutc.o
+ .text          0x00000000        0x0 ../device/uart-pl011/uartRead.o
+ .data          0x00000000        0x0 ../device/uart-pl011/uartRead.o
+ .bss           0x00000000        0x0 ../device/uart-pl011/uartRead.o
+ .text          0x00000000        0x0 ../device/uart-pl011/uartWrite.o
+ .data          0x00000000        0x0 ../device/uart-pl011/uartWrite.o
+ .bss           0x00000000        0x0 ../device/uart-pl011/uartWrite.o
+ .text          0x00000000        0x0 ../device/uart-pl011/uartGetc.o
+ .data          0x00000000        0x0 ../device/uart-pl011/uartGetc.o
+ .bss           0x00000000        0x0 ../device/uart-pl011/uartGetc.o
+ .text          0x00000000        0x0 ../device/uart-pl011/uartControl.o
+ .data          0x00000000        0x0 ../device/uart-pl011/uartControl.o
+ .bss           0x00000000        0x0 ../device/uart-pl011/uartControl.o
+ .text.uartControl
+                0x00000000      0x200 ../device/uart-pl011/uartControl.o
+ .debug_info    0x00000000      0x416 ../device/uart-pl011/uartControl.o
+ .debug_abbrev  0x00000000      0x11b ../device/uart-pl011/uartControl.o
+ .debug_loc     0x00000000       0x20 ../device/uart-pl011/uartControl.o
+ .debug_aranges
+                0x00000000       0x20 ../device/uart-pl011/uartControl.o
+ .debug_ranges  0x00000000       0x10 ../device/uart-pl011/uartControl.o
+ .debug_line    0x00000000       0xa5 ../device/uart-pl011/uartControl.o
+ .debug_str     0x00000000      0x1c3 ../device/uart-pl011/uartControl.o
+ .comment       0x00000000       0x31 ../device/uart-pl011/uartControl.o
+ .ARM.attributes
+                0x00000000       0x30 ../device/uart-pl011/uartControl.o
+ .debug_frame   0x00000000       0x24 ../device/uart-pl011/uartControl.o
+ .text          0x00000000        0x0 ../device/uart-pl011/uartStat.o
+ .data          0x00000000        0x0 ../device/uart-pl011/uartStat.o
+ .bss           0x00000000        0x0 ../device/uart-pl011/uartStat.o
+ .rodata        0x00000000      0x158 ../device/uart-pl011/uartStat.o
+ .text.uartStat
+                0x00000000      0x200 ../device/uart-pl011/uartStat.o
+ .debug_info    0x00000000      0x538 ../device/uart-pl011/uartStat.o
+ .debug_abbrev  0x00000000      0x113 ../device/uart-pl011/uartStat.o
+ .debug_loc     0x00000000       0x2c ../device/uart-pl011/uartStat.o
+ .debug_aranges
+                0x00000000       0x20 ../device/uart-pl011/uartStat.o
+ .debug_ranges  0x00000000       0x10 ../device/uart-pl011/uartStat.o
+ .debug_line    0x00000000       0xda ../device/uart-pl011/uartStat.o
+ .debug_str     0x00000000      0x242 ../device/uart-pl011/uartStat.o
+ .comment       0x00000000       0x31 ../device/uart-pl011/uartStat.o
+ .ARM.attributes
+                0x00000000       0x30 ../device/uart-pl011/uartStat.o
+ .debug_frame   0x00000000       0x28 ../device/uart-pl011/uartStat.o
+ .text          0x00000000        0x0 ../device/uart-pl011/kprintf.o
+ .data          0x00000000        0x0 ../device/uart-pl011/kprintf.o
+ .bss           0x00000000        0x0 ../device/uart-pl011/kprintf.o
+ .text          0x00000000        0x0 ../device/tty/ttyControl.o
+ .data          0x00000000        0x0 ../device/tty/ttyControl.o
+ .bss           0x00000000        0x0 ../device/tty/ttyControl.o
+ .text          0x00000000        0x0 ../device/tty/ttyOpen.o
+ .data          0x00000000        0x0 ../device/tty/ttyOpen.o
+ .bss           0x00000000        0x0 ../device/tty/ttyOpen.o
+ .text          0x00000000        0x0 ../device/tty/ttyRead.o
+ .data          0x00000000        0x0 ../device/tty/ttyRead.o
+ .bss           0x00000000        0x0 ../device/tty/ttyRead.o
+ .text          0x00000000        0x0 ../device/tty/ttyClose.o
+ .data          0x00000000        0x0 ../device/tty/ttyClose.o
+ .bss           0x00000000        0x0 ../device/tty/ttyClose.o
+ .text          0x00000000        0x0 ../device/tty/ttyGetc.o
+ .data          0x00000000        0x0 ../device/tty/ttyGetc.o
+ .bss           0x00000000        0x0 ../device/tty/ttyGetc.o
+ .text          0x00000000        0x0 ../device/tty/ttyInit.o
+ .data          0x00000000        0x0 ../device/tty/ttyInit.o
+ .text          0x00000000        0x0 ../device/tty/ttyPutc.o
+ .data          0x00000000        0x0 ../device/tty/ttyPutc.o
+ .bss           0x00000000        0x0 ../device/tty/ttyPutc.o
+ .text          0x00000000        0x0 ../device/tty/ttyWrite.o
+ .data          0x00000000        0x0 ../device/tty/ttyWrite.o
+ .bss           0x00000000        0x0 ../device/tty/ttyWrite.o
+ .text          0x00000000        0x0 ../apps/future.o
+ .data          0x00000000        0x0 ../apps/future.o
+ .text.future_free
+                0x00000000       0xc0 ../apps/future.o
+ .text          0x00000000        0x0 ../apps/date.o
+ .text.set_datetime
+                0x00000000       0x48 ../apps/date.o
+ .text          0x00000000        0x0 ../apps/rdate.o
+ .data          0x00000000        0x0 ../apps/rdate.o
+ .bss           0x00000000        0x0 ../apps/rdate.o
+ .rodata        0x00000000       0x1c ../apps/rdate.o
+ .text.getRdate
+                0x00000000      0x1e0 ../apps/rdate.o
+ .text.rdate    0x00000000       0x4c ../apps/rdate.o
+ .debug_info    0x00000000      0x835 ../apps/rdate.o
+ .debug_abbrev  0x00000000      0x133 ../apps/rdate.o
+ .debug_loc     0x00000000       0x58 ../apps/rdate.o
+ .debug_aranges
+                0x00000000       0x28 ../apps/rdate.o
+ .debug_ranges  0x00000000       0x18 ../apps/rdate.o
+ .debug_line    0x00000000      0x10b ../apps/rdate.o
+ .debug_str     0x00000000      0x36e ../apps/rdate.o
+ .comment       0x00000000       0x31 ../apps/rdate.o
+ .ARM.attributes
+                0x00000000       0x30 ../apps/rdate.o
+ .debug_frame   0x00000000       0x40 ../apps/rdate.o
+ .text          0x00000000        0x0 ../apps/future_cons.o
+ .data          0x00000000        0x0 ../apps/future_cons.o
+ .bss           0x00000000        0x0 ../apps/future_cons.o
+ .text          0x00000000        0x0 ../apps/future_prod.o
+ .data          0x00000000        0x0 ../apps/future_prod.o
+ .bss           0x00000000        0x0 ../apps/future_prod.o
+ .text          0x00000000        0x0 ../mailbox/mailboxAlloc.o
+ .data          0x00000000        0x0 ../mailbox/mailboxAlloc.o
+ .bss           0x00000000        0x4 ../mailbox/mailboxAlloc.o
+ .text.mailboxAlloc
+                0x00000000      0x234 ../mailbox/mailboxAlloc.o
+ .debug_info    0x00000000      0x18a ../mailbox/mailboxAlloc.o
+ .debug_abbrev  0x00000000       0xd7 ../mailbox/mailboxAlloc.o
+ .debug_loc     0x00000000       0x2c ../mailbox/mailboxAlloc.o
+ .debug_aranges
+                0x00000000       0x20 ../mailbox/mailboxAlloc.o
+ .debug_ranges  0x00000000       0x10 ../mailbox/mailboxAlloc.o
+ .debug_line    0x00000000       0xa7 ../mailbox/mailboxAlloc.o
+ .debug_str     0x00000000      0x129 ../mailbox/mailboxAlloc.o
+ .comment       0x00000000       0x31 ../mailbox/mailboxAlloc.o
+ .ARM.attributes
+                0x00000000       0x30 ../mailbox/mailboxAlloc.o
+ .debug_frame   0x00000000       0x28 ../mailbox/mailboxAlloc.o
+ .text          0x00000000        0x0 ../mailbox/mailboxCount.o
+ .data          0x00000000        0x0 ../mailbox/mailboxCount.o
+ .bss           0x00000000        0x0 ../mailbox/mailboxCount.o
+ .text.mailboxCount
+                0x00000000       0x9c ../mailbox/mailboxCount.o
+ .debug_info    0x00000000      0x1cb ../mailbox/mailboxCount.o
+ .debug_abbrev  0x00000000       0xe4 ../mailbox/mailboxCount.o
+ .debug_loc     0x00000000       0x2c ../mailbox/mailboxCount.o
+ .debug_aranges
+                0x00000000       0x20 ../mailbox/mailboxCount.o
+ .debug_ranges  0x00000000       0x10 ../mailbox/mailboxCount.o
+ .debug_line    0x00000000       0xc2 ../mailbox/mailboxCount.o
+ .debug_str     0x00000000      0x144 ../mailbox/mailboxCount.o
+ .comment       0x00000000       0x31 ../mailbox/mailboxCount.o
+ .ARM.attributes
+                0x00000000       0x30 ../mailbox/mailboxCount.o
+ .debug_frame   0x00000000       0x28 ../mailbox/mailboxCount.o
+ .text          0x00000000        0x0 ../mailbox/mailboxFree.o
+ .data          0x00000000        0x0 ../mailbox/mailboxFree.o
+ .bss           0x00000000        0x0 ../mailbox/mailboxFree.o
+ .text.mailboxFree
+                0x00000000      0x134 ../mailbox/mailboxFree.o
+ .debug_info    0x00000000      0x16d ../mailbox/mailboxFree.o
+ .debug_abbrev  0x00000000       0xc8 ../mailbox/mailboxFree.o
+ .debug_loc     0x00000000       0x2c ../mailbox/mailboxFree.o
+ .debug_aranges
+                0x00000000       0x20 ../mailbox/mailboxFree.o
+ .debug_ranges  0x00000000       0x10 ../mailbox/mailboxFree.o
+ .debug_line    0x00000000       0x8d ../mailbox/mailboxFree.o
+ .debug_str     0x00000000      0x120 ../mailbox/mailboxFree.o
+ .comment       0x00000000       0x31 ../mailbox/mailboxFree.o
+ .ARM.attributes
+                0x00000000       0x30 ../mailbox/mailboxFree.o
+ .debug_frame   0x00000000       0x28 ../mailbox/mailboxFree.o
+ .text          0x00000000        0x0 ../mailbox/mailboxInit.o
+ .data          0x00000000        0x0 ../mailbox/mailboxInit.o
+ .text          0x00000000        0x0 ../mailbox/mailboxReceive.o
+ .data          0x00000000        0x0 ../mailbox/mailboxReceive.o
+ .bss           0x00000000        0x0 ../mailbox/mailboxReceive.o
+ .text.mailboxReceive
+                0x00000000      0x114 ../mailbox/mailboxReceive.o
+ .debug_info    0x00000000      0x1cb ../mailbox/mailboxReceive.o
+ .debug_abbrev  0x00000000       0xe4 ../mailbox/mailboxReceive.o
+ .debug_loc     0x00000000       0x2c ../mailbox/mailboxReceive.o
+ .debug_aranges
+                0x00000000       0x20 ../mailbox/mailboxReceive.o
+ .debug_ranges  0x00000000       0x10 ../mailbox/mailboxReceive.o
+ .debug_line    0x00000000       0xc9 ../mailbox/mailboxReceive.o
+ .debug_str     0x00000000      0x150 ../mailbox/mailboxReceive.o
+ .comment       0x00000000       0x31 ../mailbox/mailboxReceive.o
+ .ARM.attributes
+                0x00000000       0x30 ../mailbox/mailboxReceive.o
+ .debug_frame   0x00000000       0x28 ../mailbox/mailboxReceive.o
+ .text          0x00000000        0x0 ../mailbox/mailboxSend.o
+ .data          0x00000000        0x0 ../mailbox/mailboxSend.o
+ .bss           0x00000000        0x0 ../mailbox/mailboxSend.o
+ .text.mailboxSend
+                0x00000000      0x10c ../mailbox/mailboxSend.o
+ .debug_info    0x00000000      0x1cb ../mailbox/mailboxSend.o
+ .debug_abbrev  0x00000000       0xf3 ../mailbox/mailboxSend.o
+ .debug_loc     0x00000000       0x2c ../mailbox/mailboxSend.o
+ .debug_aranges
+                0x00000000       0x20 ../mailbox/mailboxSend.o
+ .debug_ranges  0x00000000       0x10 ../mailbox/mailboxSend.o
+ .debug_line    0x00000000       0xc6 ../mailbox/mailboxSend.o
+ .debug_str     0x00000000      0x14a ../mailbox/mailboxSend.o
+ .comment       0x00000000       0x31 ../mailbox/mailboxSend.o
+ .ARM.attributes
+                0x00000000       0x30 ../mailbox/mailboxSend.o
+ .debug_frame   0x00000000       0x2c ../mailbox/mailboxSend.o
+ .text          0x00000000        0x0 ../shell/shell.o
+ .data          0x00000000        0x0 ../shell/shell.o
+ .bss           0x00000000        0x0 ../shell/shell.o
+ .text          0x00000000        0x0 ../shell/lexan.o
+ .data          0x00000000        0x0 ../shell/lexan.o
+ .bss           0x00000000        0x0 ../shell/lexan.o
+ .text          0x00000000        0x0 ../shell/xsh_clear.o
+ .data          0x00000000        0x0 ../shell/xsh_clear.o
+ .bss           0x00000000        0x0 ../shell/xsh_clear.o
+ .text          0x00000000        0x0 ../shell/xsh_date.o
+ .data          0x00000000        0x0 ../shell/xsh_date.o
+ .bss           0x00000000        0x0 ../shell/xsh_date.o
+ .text          0x00000000        0x0 ../shell/xsh_exit.o
+ .data          0x00000000        0x0 ../shell/xsh_exit.o
+ .bss           0x00000000        0x0 ../shell/xsh_exit.o
+ .text          0x00000000        0x0 ../shell/xsh_help.o
+ .data          0x00000000        0x0 ../shell/xsh_help.o
+ .bss           0x00000000        0x0 ../shell/xsh_help.o
+ .text          0x00000000        0x0 ../shell/xsh_reset.o
+ .data          0x00000000        0x0 ../shell/xsh_reset.o
+ .bss           0x00000000        0x0 ../shell/xsh_reset.o
+ .text          0x00000000        0x0 ../shell/xsh_prodcons.o
+ .data          0x00000000        0x0 ../shell/xsh_prodcons.o
+ .bss           0x00000000        0x4 ../shell/xsh_prodcons.o
+ .text          0x00000000        0x0 ../shell/xsh_sleep.o
+ .data          0x00000000        0x0 ../shell/xsh_sleep.o
+ .bss           0x00000000        0x0 ../shell/xsh_sleep.o
+ .text          0x00000000        0x0 ../shell/xsh_kill.o
+ .data          0x00000000        0x0 ../shell/xsh_kill.o
+ .bss           0x00000000        0x0 ../shell/xsh_kill.o
+ .text          0x00000000        0x0 ../shell/xsh_ps.o
+ .data          0x00000000        0x0 ../shell/xsh_ps.o
+ .bss           0x00000000        0x0 ../shell/xsh_ps.o
+ .text          0x00000000        0x0 ../shell/xsh_memdump.o
+ .data          0x00000000        0x0 ../shell/xsh_memdump.o
+ .bss           0x00000000        0x0 ../shell/xsh_memdump.o
+ .text          0x00000000        0x0 ../shell/xsh_memstat.o
+ .data          0x00000000        0x0 ../shell/xsh_memstat.o
+ .bss           0x00000000        0x0 ../shell/xsh_memstat.o
+ .rodata        0x00000000      0x164 ../shell/xsh_memstat.o
+ .text.usage    0x00000000       0x94 ../shell/xsh_memstat.o
+ .text          0x00000000        0x0 ../shell/xsh_dumptlb.o
+ .data          0x00000000        0x0 ../shell/xsh_dumptlb.o
+ .bss           0x00000000        0x0 ../shell/xsh_dumptlb.o
+ .text.xsh_dumptlb
+                0x00000000       0x1c ../shell/xsh_dumptlb.o
+ .debug_info    0x00000000       0xbb ../shell/xsh_dumptlb.o
+ .debug_abbrev  0x00000000       0x6d ../shell/xsh_dumptlb.o
+ .debug_loc     0x00000000       0x20 ../shell/xsh_dumptlb.o
+ .debug_aranges
+                0x00000000       0x20 ../shell/xsh_dumptlb.o
+ .debug_ranges  0x00000000       0x10 ../shell/xsh_dumptlb.o
+ .debug_line    0x00000000       0x62 ../shell/xsh_dumptlb.o
+ .debug_str     0x00000000       0xda ../shell/xsh_dumptlb.o
+ .comment       0x00000000       0x31 ../shell/xsh_dumptlb.o
+ .ARM.attributes
+                0x00000000       0x30 ../shell/xsh_dumptlb.o
+ .debug_frame   0x00000000       0x24 ../shell/xsh_dumptlb.o
+ .text          0x00000000        0x0 ../shell/xsh_user.o
+ .data          0x00000000        0x0 ../shell/xsh_user.o
+ .bss           0x00000000        0x4 ../shell/xsh_user.o
+ .rodata        0x00000000       0x88 ../shell/xsh_user.o
+ .text.xsh_user
+                0x00000000      0x27c ../shell/xsh_user.o
+ .debug_info    0x00000000      0x10e ../shell/xsh_user.o
+ .debug_abbrev  0x00000000       0x8c ../shell/xsh_user.o
+ .debug_loc     0x00000000       0x2d ../shell/xsh_user.o
+ .debug_aranges
+                0x00000000       0x20 ../shell/xsh_user.o
+ .debug_ranges  0x00000000       0x10 ../shell/xsh_user.o
+ .debug_line    0x00000000       0x97 ../shell/xsh_user.o
+ .debug_str     0x00000000       0xf7 ../shell/xsh_user.o
+ .comment       0x00000000       0x31 ../shell/xsh_user.o
+ .ARM.attributes
+                0x00000000       0x30 ../shell/xsh_user.o
+ .debug_frame   0x00000000       0x2c ../shell/xsh_user.o
+ .text          0x00000000        0x0 ../shell/xsh_uartstat.o
+ .data          0x00000000        0x0 ../shell/xsh_uartstat.o
+ .bss           0x00000000        0x0 ../shell/xsh_uartstat.o
+ .text          0x00000000        0x0 ../shell/xsh_gpiostat.o
+ .data          0x00000000        0x0 ../shell/xsh_gpiostat.o
+ .bss           0x00000000        0x0 ../shell/xsh_gpiostat.o
+ .text          0x00000000        0x0 ../shell/xsh_led.o
+ .data          0x00000000        0x0 ../shell/xsh_led.o
+ .bss           0x00000000        0x0 ../shell/xsh_led.o
+ .text          0x00000000        0x0 ../shell/xsh_arp.o
+ .data          0x00000000        0x0 ../shell/xsh_arp.o
+ .bss           0x00000000        0x0 ../shell/xsh_arp.o
+ .rodata        0x00000000       0xfc ../shell/xsh_arp.o
+ .text.xsh_arp  0x00000000      0x2dc ../shell/xsh_arp.o
+ .debug_info    0x00000000      0x670 ../shell/xsh_arp.o
+ .debug_abbrev  0x00000000      0x119 ../shell/xsh_arp.o
+ .debug_loc     0x00000000       0x2d ../shell/xsh_arp.o
+ .debug_aranges
+                0x00000000       0x20 ../shell/xsh_arp.o
+ .debug_ranges  0x00000000       0x10 ../shell/xsh_arp.o
+ .debug_line    0x00000000      0x110 ../shell/xsh_arp.o
+ .debug_str     0x00000000      0x290 ../shell/xsh_arp.o
+ .comment       0x00000000       0x31 ../shell/xsh_arp.o
+ .ARM.attributes
+                0x00000000       0x30 ../shell/xsh_arp.o
+ .debug_frame   0x00000000       0x28 ../shell/xsh_arp.o
+ .text          0x00000000        0x0 ../shell/xsh_ethstat.o
+ .data          0x00000000        0x0 ../shell/xsh_ethstat.o
+ .bss           0x00000000        0x0 ../shell/xsh_ethstat.o
+ .rodata        0x00000000      0x194 ../shell/xsh_ethstat.o
+ .text.xsh_ethstat
+                0x00000000      0x2e0 ../shell/xsh_ethstat.o
+ .debug_info    0x00000000      0x2bd ../shell/xsh_ethstat.o
+ .debug_abbrev  0x00000000       0xf4 ../shell/xsh_ethstat.o
+ .debug_loc     0x00000000       0x2c ../shell/xsh_ethstat.o
+ .debug_aranges
+                0x00000000       0x20 ../shell/xsh_ethstat.o
+ .debug_ranges  0x00000000       0x10 ../shell/xsh_ethstat.o
+ .debug_line    0x00000000       0xf0 ../shell/xsh_ethstat.o
+ .debug_str     0x00000000      0x1b7 ../shell/xsh_ethstat.o
+ .comment       0x00000000       0x31 ../shell/xsh_ethstat.o
+ .ARM.attributes
+                0x00000000       0x30 ../shell/xsh_ethstat.o
+ .debug_frame   0x00000000       0x28 ../shell/xsh_ethstat.o
+ .text          0x00000000        0x0 ../shell/xsh_nc.o
+ .data          0x00000000        0x0 ../shell/xsh_nc.o
+ .bss           0x00000000        0x0 ../shell/xsh_nc.o
+ .rodata        0x00000000      0x2d8 ../shell/xsh_nc.o
+ .text.argError
+                0x00000000       0x70 ../shell/xsh_nc.o
+ .text.connError
+                0x00000000       0x60 ../shell/xsh_nc.o
+ .text.xsh_nc   0x00000000      0x93c ../shell/xsh_nc.o
+ .text.usage    0x00000000       0xbc ../shell/xsh_nc.o
+ .text.ncRecv   0x00000000       0xa0 ../shell/xsh_nc.o
+ .text.ncSend   0x00000000      0x140 ../shell/xsh_nc.o
+ .debug_info    0x00000000      0x4a1 ../shell/xsh_nc.o
+ .debug_abbrev  0x00000000      0x145 ../shell/xsh_nc.o
+ .debug_loc     0x00000000      0x10b ../shell/xsh_nc.o
+ .debug_aranges
+                0x00000000       0x48 ../shell/xsh_nc.o
+ .debug_ranges  0x00000000       0x38 ../shell/xsh_nc.o
+ .debug_line    0x00000000      0x216 ../shell/xsh_nc.o
+ .debug_str     0x00000000      0x221 ../shell/xsh_nc.o
+ .comment       0x00000000       0x31 ../shell/xsh_nc.o
+ .ARM.attributes
+                0x00000000       0x30 ../shell/xsh_nc.o
+ .debug_frame   0x00000000       0xa8 ../shell/xsh_nc.o
+ .text          0x00000000        0x0 ../shell/xsh_netdown.o
+ .data          0x00000000        0x0 ../shell/xsh_netdown.o
+ .bss           0x00000000        0x0 ../shell/xsh_netdown.o
+ .rodata        0x00000000      0x134 ../shell/xsh_netdown.o
+ .text.xsh_netdown
+                0x00000000      0x22c ../shell/xsh_netdown.o
+ .debug_info    0x00000000      0x298 ../shell/xsh_netdown.o
+ .debug_abbrev  0x00000000       0xe5 ../shell/xsh_netdown.o
+ .debug_loc     0x00000000       0x2c ../shell/xsh_netdown.o
+ .debug_aranges
+                0x00000000       0x20 ../shell/xsh_netdown.o
+ .debug_ranges  0x00000000       0x10 ../shell/xsh_netdown.o
+ .debug_line    0x00000000       0xe5 ../shell/xsh_netdown.o
+ .debug_str     0x00000000      0x1ac ../shell/xsh_netdown.o
+ .comment       0x00000000       0x31 ../shell/xsh_netdown.o
+ .ARM.attributes
+                0x00000000       0x30 ../shell/xsh_netdown.o
+ .debug_frame   0x00000000       0x28 ../shell/xsh_netdown.o
+ .text          0x00000000        0x0 ../shell/xsh_netemu.o
+ .data          0x00000000        0x0 ../shell/xsh_netemu.o
+ .bss           0x00000000        0x0 ../shell/xsh_netemu.o
+ .rodata        0x00000000       0x10 ../shell/xsh_netemu.o
+ .text.xsh_netemu
+                0x00000000       0x3c ../shell/xsh_netemu.o
+ .debug_info    0x00000000       0xbb ../shell/xsh_netemu.o
+ .debug_abbrev  0x00000000       0x6d ../shell/xsh_netemu.o
+ .debug_loc     0x00000000       0x2c ../shell/xsh_netemu.o
+ .debug_aranges
+                0x00000000       0x20 ../shell/xsh_netemu.o
+ .debug_ranges  0x00000000       0x10 ../shell/xsh_netemu.o
+ .debug_line    0x00000000       0x5f ../shell/xsh_netemu.o
+ .debug_str     0x00000000       0xd8 ../shell/xsh_netemu.o
+ .comment       0x00000000       0x31 ../shell/xsh_netemu.o
+ .ARM.attributes
+                0x00000000       0x30 ../shell/xsh_netemu.o
+ .debug_frame   0x00000000       0x28 ../shell/xsh_netemu.o
+ .text          0x00000000        0x0 ../shell/xsh_netstat.o
+ .data          0x00000000        0x0 ../shell/xsh_netstat.o
+ .bss           0x00000000        0x0 ../shell/xsh_netstat.o
+ .rodata        0x00000000      0x16c ../shell/xsh_netstat.o
+ .text.xsh_netstat
+                0x00000000      0x228 ../shell/xsh_netstat.o
+ .text.netStat  0x00000000      0x1ac ../shell/xsh_netstat.o
+ .debug_info    0x00000000      0x5fe ../shell/xsh_netstat.o
+ .debug_abbrev  0x00000000      0x131 ../shell/xsh_netstat.o
+ .debug_loc     0x00000000       0x59 ../shell/xsh_netstat.o
+ .debug_aranges
+                0x00000000       0x28 ../shell/xsh_netstat.o
+ .debug_ranges  0x00000000       0x18 ../shell/xsh_netstat.o
+ .debug_line    0x00000000      0x129 ../shell/xsh_netstat.o
+ .debug_str     0x00000000      0x27d ../shell/xsh_netstat.o
+ .comment       0x00000000       0x31 ../shell/xsh_netstat.o
+ .ARM.attributes
+                0x00000000       0x30 ../shell/xsh_netstat.o
+ .debug_frame   0x00000000       0x40 ../shell/xsh_netstat.o
+ .text          0x00000000        0x0 ../shell/xsh_netup.o
+ .data          0x00000000        0x0 ../shell/xsh_netup.o
+ .bss           0x00000000        0x0 ../shell/xsh_netup.o
+ .rodata        0x00000000      0x380 ../shell/xsh_netup.o
+ .text.xsh_netup
+                0x00000000      0x4b0 ../shell/xsh_netup.o
+ .text.usage    0x00000000       0xac ../shell/xsh_netup.o
+ .debug_info    0x00000000      0x7ba ../shell/xsh_netup.o
+ .debug_abbrev  0x00000000      0x152 ../shell/xsh_netup.o
+ .debug_loc     0x00000000       0x66 ../shell/xsh_netup.o
+ .debug_aranges
+                0x00000000       0x28 ../shell/xsh_netup.o
+ .debug_ranges  0x00000000       0x18 ../shell/xsh_netup.o
+ .debug_line    0x00000000      0x156 ../shell/xsh_netup.o
+ .debug_str     0x00000000      0x36f ../shell/xsh_netup.o
+ .comment       0x00000000       0x31 ../shell/xsh_netup.o
+ .ARM.attributes
+                0x00000000       0x30 ../shell/xsh_netup.o
+ .debug_frame   0x00000000       0x48 ../shell/xsh_netup.o
+ .text          0x00000000        0x0 ../shell/xsh_ping.o
+ .data          0x00000000        0x0 ../shell/xsh_ping.o
+ .bss           0x00000000        0x0 ../shell/xsh_ping.o
+ .rodata        0x00000000      0x308 ../shell/xsh_ping.o
+ .text.xsh_ping
+                0x00000000      0x85c ../shell/xsh_ping.o
+ .text.echoQueueAlloc
+                0x00000000       0xe8 ../shell/xsh_ping.o
+ .text.echoQueueDealloc
+                0x00000000      0x134 ../shell/xsh_ping.o
+ .text.echoQueueGet
+                0x00000000      0x16c ../shell/xsh_ping.o
+ .text.echoPrintPkt
+                0x00000000      0x18c ../shell/xsh_ping.o
+ .text.echoTripTime
+                0x00000000      0x1e8 ../shell/xsh_ping.o
+ .debug_info    0x00000000      0x9a9 ../shell/xsh_ping.o
+ .debug_abbrev  0x00000000      0x17c ../shell/xsh_ping.o
+ .debug_loc     0x00000000      0x10a ../shell/xsh_ping.o
+ .debug_aranges
+                0x00000000       0x48 ../shell/xsh_ping.o
+ .debug_ranges  0x00000000       0x38 ../shell/xsh_ping.o
+ .debug_line    0x00000000      0x260 ../shell/xsh_ping.o
+ .debug_str     0x00000000      0x3a5 ../shell/xsh_ping.o
+ .comment       0x00000000       0x31 ../shell/xsh_ping.o
+ .ARM.attributes
+                0x00000000       0x30 ../shell/xsh_ping.o
+ .debug_frame   0x00000000       0xa8 ../shell/xsh_ping.o
+ .text          0x00000000        0x0 ../shell/xsh_rdate.o
+ .data          0x00000000        0x0 ../shell/xsh_rdate.o
+ .bss           0x00000000        0x0 ../shell/xsh_rdate.o
+ .rodata        0x00000000      0x164 ../shell/xsh_rdate.o
+ .text.xsh_rdate
+                0x00000000      0x1d0 ../shell/xsh_rdate.o
+ .debug_info    0x00000000      0x28a ../shell/xsh_rdate.o
+ .debug_abbrev  0x00000000       0xd6 ../shell/xsh_rdate.o
+ .debug_loc     0x00000000       0x2c ../shell/xsh_rdate.o
+ .debug_aranges
+                0x00000000       0x20 ../shell/xsh_rdate.o
+ .debug_ranges  0x00000000       0x10 ../shell/xsh_rdate.o
+ .debug_line    0x00000000       0xe0 ../shell/xsh_rdate.o
+ .debug_str     0x00000000      0x1a1 ../shell/xsh_rdate.o
+ .comment       0x00000000       0x31 ../shell/xsh_rdate.o
+ .ARM.attributes
+                0x00000000       0x30 ../shell/xsh_rdate.o
+ .debug_frame   0x00000000       0x28 ../shell/xsh_rdate.o
+ .text          0x00000000        0x0 ../shell/xsh_route.o
+ .data          0x00000000        0x0 ../shell/xsh_route.o
+ .bss           0x00000000        0x0 ../shell/xsh_route.o
+ .rodata        0x00000000      0x2b4 ../shell/xsh_route.o
+ .text.xsh_route
+                0x00000000      0x784 ../shell/xsh_route.o
+ .debug_info    0x00000000      0x680 ../shell/xsh_route.o
+ .debug_abbrev  0x00000000      0x119 ../shell/xsh_route.o
+ .debug_loc     0x00000000       0x2d ../shell/xsh_route.o
+ .debug_aranges
+                0x00000000       0x20 ../shell/xsh_route.o
+ .debug_ranges  0x00000000       0x10 ../shell/xsh_route.o
+ .debug_line    0x00000000      0x162 ../shell/xsh_route.o
+ .debug_str     0x00000000      0x27d ../shell/xsh_route.o
+ .comment       0x00000000       0x31 ../shell/xsh_route.o
+ .ARM.attributes
+                0x00000000       0x30 ../shell/xsh_route.o
+ .debug_frame   0x00000000       0x28 ../shell/xsh_route.o
+ .text          0x00000000        0x0 ../shell/xsh_snoop.o
+ .data          0x00000000        0x0 ../shell/xsh_snoop.o
+ .bss           0x00000000        0x0 ../shell/xsh_snoop.o
+ .rodata        0x00000000      0x6c8 ../shell/xsh_snoop.o
+ .text.usage    0x00000000      0x1b0 ../shell/xsh_snoop.o
+ .text.error    0x00000000       0x68 ../shell/xsh_snoop.o
+ .text.snoop    0x00000000       0xc4 ../shell/xsh_snoop.o
+ .text.xsh_snoop
+                0x00000000      0xbd8 ../shell/xsh_snoop.o
+ .debug_info    0x00000000      0x6b8 ../shell/xsh_snoop.o
+ .debug_abbrev  0x00000000      0x135 ../shell/xsh_snoop.o
+ .debug_loc     0x00000000       0xb1 ../shell/xsh_snoop.o
+ .debug_aranges
+                0x00000000       0x38 ../shell/xsh_snoop.o
+ .debug_ranges  0x00000000       0x28 ../shell/xsh_snoop.o
+ .debug_line    0x00000000      0x21c ../shell/xsh_snoop.o
+ .debug_str     0x00000000      0x2bb ../shell/xsh_snoop.o
+ .comment       0x00000000       0x31 ../shell/xsh_snoop.o
+ .ARM.attributes
+                0x00000000       0x30 ../shell/xsh_snoop.o
+ .debug_frame   0x00000000       0x74 ../shell/xsh_snoop.o
+ .text          0x00000000        0x0 ../shell/xsh_tcpstat.o
+ .data          0x00000000        0x0 ../shell/xsh_tcpstat.o
+ .bss           0x00000000        0x0 ../shell/xsh_tcpstat.o
+ .rodata        0x00000000       0xb8 ../shell/xsh_tcpstat.o
+ .text.xsh_tcpstat
+                0x00000000      0x178 ../shell/xsh_tcpstat.o
+ .debug_info    0x00000000      0x296 ../shell/xsh_tcpstat.o
+ .debug_abbrev  0x00000000       0xe5 ../shell/xsh_tcpstat.o
+ .debug_loc     0x00000000       0x2c ../shell/xsh_tcpstat.o
+ .debug_aranges
+                0x00000000       0x20 ../shell/xsh_tcpstat.o
+ .debug_ranges  0x00000000       0x10 ../shell/xsh_tcpstat.o
+ .debug_line    0x00000000       0xdd ../shell/xsh_tcpstat.o
+ .debug_str     0x00000000      0x1a5 ../shell/xsh_tcpstat.o
+ .comment       0x00000000       0x31 ../shell/xsh_tcpstat.o
+ .ARM.attributes
+                0x00000000       0x30 ../shell/xsh_tcpstat.o
+ .debug_frame   0x00000000       0x28 ../shell/xsh_tcpstat.o
+ .text          0x00000000        0x0 ../shell/xsh_telnet.o
+ .data          0x00000000        0x0 ../shell/xsh_telnet.o
+ .bss           0x00000000        0x0 ../shell/xsh_telnet.o
+ .rodata        0x00000000      0x274 ../shell/xsh_telnet.o
+ .text.xsh_telnet
+                0x00000000      0x8ac ../shell/xsh_telnet.o
+ .text.usage    0x00000000       0x88 ../shell/xsh_telnet.o
+ .text.telnetRecv
+                0x00000000      0x4dc ../shell/xsh_telnet.o
+ .text.telnetSend
+                0x00000000      0x144 ../shell/xsh_telnet.o
+ .text.echoNegotiation
+                0x00000000       0xf4 ../shell/xsh_telnet.o
+ .text.sendOption
+                0x00000000       0x58 ../shell/xsh_telnet.o
+ .debug_info    0x00000000      0x9bb ../shell/xsh_telnet.o
+ .debug_abbrev  0x00000000      0x1e4 ../shell/xsh_telnet.o
+ .debug_loc     0x00000000      0x109 ../shell/xsh_telnet.o
+ .debug_aranges
+                0x00000000       0x48 ../shell/xsh_telnet.o
+ .debug_ranges  0x00000000       0x38 ../shell/xsh_telnet.o
+ .debug_line    0x00000000      0x28b ../shell/xsh_telnet.o
+ .debug_str     0x00000000      0x417 ../shell/xsh_telnet.o
+ .comment       0x00000000       0x31 ../shell/xsh_telnet.o
+ .ARM.attributes
+                0x00000000       0x30 ../shell/xsh_telnet.o
+ .debug_frame   0x00000000       0xa0 ../shell/xsh_telnet.o
+ .text          0x00000000        0x0 ../shell/xsh_telnetserver.o
+ .data          0x00000000        0x0 ../shell/xsh_telnetserver.o
+ .bss           0x00000000        0x0 ../shell/xsh_telnetserver.o
+ .rodata        0x00000000      0x1e4 ../shell/xsh_telnetserver.o
+ .text.argErr   0x00000000       0xbc ../shell/xsh_telnetserver.o
+ .text.xsh_telnetserver
+                0x00000000      0x57c ../shell/xsh_telnetserver.o
+ .debug_info    0x00000000      0x728 ../shell/xsh_telnetserver.o
+ .debug_abbrev  0x00000000      0x142 ../shell/xsh_telnetserver.o
+ .debug_loc     0x00000000       0x58 ../shell/xsh_telnetserver.o
+ .debug_aranges
+                0x00000000       0x28 ../shell/xsh_telnetserver.o
+ .debug_ranges  0x00000000       0x18 ../shell/xsh_telnetserver.o
+ .debug_line    0x00000000      0x163 ../shell/xsh_telnetserver.o
+ .debug_str     0x00000000      0x342 ../shell/xsh_telnetserver.o
+ .comment       0x00000000       0x31 ../shell/xsh_telnetserver.o
+ .ARM.attributes
+                0x00000000       0x30 ../shell/xsh_telnetserver.o
+ .debug_frame   0x00000000       0x40 ../shell/xsh_telnetserver.o
+ .text          0x00000000        0x0 ../shell/xsh_udpstat.o
+ .data          0x00000000        0x0 ../shell/xsh_udpstat.o
+ .bss           0x00000000        0x0 ../shell/xsh_udpstat.o
+ .rodata        0x00000000      0x10c ../shell/xsh_udpstat.o
+ .text.xsh_udpstat
+                0x00000000      0x178 ../shell/xsh_udpstat.o
+ .text.udpStat  0x00000000       0xec ../shell/xsh_udpstat.o
+ .debug_info    0x00000000      0x62b ../shell/xsh_udpstat.o
+ .debug_abbrev  0x00000000      0x139 ../shell/xsh_udpstat.o
+ .debug_loc     0x00000000       0x58 ../shell/xsh_udpstat.o
+ .debug_aranges
+                0x00000000       0x28 ../shell/xsh_udpstat.o
+ .debug_ranges  0x00000000       0x18 ../shell/xsh_udpstat.o
+ .debug_line    0x00000000      0x118 ../shell/xsh_udpstat.o
+ .debug_str     0x00000000      0x28f ../shell/xsh_udpstat.o
+ .comment       0x00000000       0x31 ../shell/xsh_udpstat.o
+ .ARM.attributes
+                0x00000000       0x30 ../shell/xsh_udpstat.o
+ .debug_frame   0x00000000       0x40 ../shell/xsh_udpstat.o
+ .text          0x00000000        0x0 ../shell/xsh_vlanstat.o
+ .data          0x00000000        0x0 ../shell/xsh_vlanstat.o
+ .bss           0x00000000        0x0 ../shell/xsh_vlanstat.o
+ .rodata        0x00000000       0xbc ../shell/xsh_vlanstat.o
+ .text.xsh_vlanstat
+                0x00000000      0x16c ../shell/xsh_vlanstat.o
+ .debug_info    0x00000000      0x28a ../shell/xsh_vlanstat.o
+ .debug_abbrev  0x00000000       0xd6 ../shell/xsh_vlanstat.o
+ .debug_loc     0x00000000       0x2c ../shell/xsh_vlanstat.o
+ .debug_aranges
+                0x00000000       0x20 ../shell/xsh_vlanstat.o
+ .debug_ranges  0x00000000       0x10 ../shell/xsh_vlanstat.o
+ .debug_line    0x00000000       0xda ../shell/xsh_vlanstat.o
+ .debug_str     0x00000000      0x1a7 ../shell/xsh_vlanstat.o
+ .comment       0x00000000       0x31 ../shell/xsh_vlanstat.o
+ .ARM.attributes
+                0x00000000       0x30 ../shell/xsh_vlanstat.o
+ .debug_frame   0x00000000       0x28 ../shell/xsh_vlanstat.o
+ .text          0x00000000        0x0 ../shell/xsh_voip.o
+ .data          0x00000000        0x0 ../shell/xsh_voip.o
+ .bss           0x00000000        0x0 ../shell/xsh_voip.o
+ .rodata        0x00000000      0x374 ../shell/xsh_voip.o
+ .text.xsh_voip
+                0x00000000      0x8f0 ../shell/xsh_voip.o
+ .text.serial_loop
+                0x00000000       0x9c ../shell/xsh_voip.o
+ .text.basic_send
+                0x00000000       0xac ../shell/xsh_voip.o
+ .text.basic_receive
+                0x00000000       0xac ../shell/xsh_voip.o
+ .text.seq_send
+                0x00000000       0xa8 ../shell/xsh_voip.o
+ .text.seq_receive
+                0x00000000      0x1f0 ../shell/xsh_voip.o
+ .debug_info    0x00000000      0xacc ../shell/xsh_voip.o
+ .debug_abbrev  0x00000000      0x18b ../shell/xsh_voip.o
+ .debug_loc     0x00000000      0x133 ../shell/xsh_voip.o
+ .debug_aranges
+                0x00000000       0x48 ../shell/xsh_voip.o
+ .debug_ranges  0x00000000       0x38 ../shell/xsh_voip.o
+ .debug_line    0x00000000      0x221 ../shell/xsh_voip.o
+ .debug_str     0x00000000      0x406 ../shell/xsh_voip.o
+ .comment       0x00000000       0x31 ../shell/xsh_voip.o
+ .ARM.attributes
+                0x00000000       0x30 ../shell/xsh_voip.o
+ .debug_frame   0x00000000       0xb8 ../shell/xsh_voip.o
+ .text          0x00000000        0x0 ../shell/xsh_xweb.o
+ .data          0x00000000        0x0 ../shell/xsh_xweb.o
+ .bss           0x00000000        0x0 ../shell/xsh_xweb.o
+ .rodata        0x00000000      0x1c4 ../shell/xsh_xweb.o
+ .text.xsh_xweb
+                0x00000000      0x13c ../shell/xsh_xweb.o
+ .debug_info    0x00000000      0x7d7 ../shell/xsh_xweb.o
+ .debug_abbrev  0x00000000      0x133 ../shell/xsh_xweb.o
+ .debug_loc     0x00000000       0x2c ../shell/xsh_xweb.o
+ .debug_aranges
+                0x00000000       0x20 ../shell/xsh_xweb.o
+ .debug_ranges  0x00000000       0x10 ../shell/xsh_xweb.o
+ .debug_line    0x00000000       0xff ../shell/xsh_xweb.o
+ .debug_str     0x00000000      0x362 ../shell/xsh_xweb.o
+ .comment       0x00000000       0x31 ../shell/xsh_xweb.o
+ .ARM.attributes
+                0x00000000       0x30 ../shell/xsh_xweb.o
+ .debug_frame   0x00000000       0x28 ../shell/xsh_xweb.o
+ .text          0x00000000        0x0 ../shell/xsh_tar.o
+ .data          0x00000000        0x0 ../shell/xsh_tar.o
+ .bss           0x00000000        0x0 ../shell/xsh_tar.o
+ .rodata        0x00000000       0xdc ../shell/xsh_tar.o
+ .text.tarHelp  0x00000000       0x70 ../shell/xsh_tar.o
+ .text          0x00000000        0x0 ../shell/xsh_flashstat.o
+ .data          0x00000000        0x0 ../shell/xsh_flashstat.o
+ .bss           0x00000000        0x0 ../shell/xsh_flashstat.o
+ .rodata        0x00000000       0xd0 ../shell/xsh_flashstat.o
+ .text.xsh_flashstat
+                0x00000000      0x1a0 ../shell/xsh_flashstat.o
+ .text.flashStat
+                0x00000000       0x18 ../shell/xsh_flashstat.o
+ .debug_info    0x00000000      0x2c9 ../shell/xsh_flashstat.o
+ .debug_abbrev  0x00000000      0x10c ../shell/xsh_flashstat.o
+ .debug_loc     0x00000000       0x4c ../shell/xsh_flashstat.o
+ .debug_aranges
+                0x00000000       0x28 ../shell/xsh_flashstat.o
+ .debug_ranges  0x00000000       0x18 ../shell/xsh_flashstat.o
+ .debug_line    0x00000000      0x100 ../shell/xsh_flashstat.o
+ .debug_str     0x00000000      0x1ba ../shell/xsh_flashstat.o
+ .comment       0x00000000       0x31 ../shell/xsh_flashstat.o
+ .ARM.attributes
+                0x00000000       0x30 ../shell/xsh_flashstat.o
+ .debug_frame   0x00000000       0x3c ../shell/xsh_flashstat.o
+ .text          0x00000000        0x0 ../shell/xsh_nvram.o
+ .data          0x00000000        0x0 ../shell/xsh_nvram.o
+ .bss           0x00000000        0x0 ../shell/xsh_nvram.o
+ .rodata        0x00000000      0x380 ../shell/xsh_nvram.o
+ .text.xsh_nvram
+                0x00000000      0x298 ../shell/xsh_nvram.o
+ .text.xsh_nvramHelp
+                0x00000000       0xac ../shell/xsh_nvram.o
+ .text.xsh_nvramList
+                0x00000000       0xd4 ../shell/xsh_nvram.o
+ .text.xsh_nvramSet
+                0x00000000       0xa4 ../shell/xsh_nvram.o
+ .debug_info    0x00000000      0x43d ../shell/xsh_nvram.o
+ .debug_abbrev  0x00000000      0x12d ../shell/xsh_nvram.o
+ .debug_loc     0x00000000       0xb0 ../shell/xsh_nvram.o
+ .debug_aranges
+                0x00000000       0x38 ../shell/xsh_nvram.o
+ .debug_ranges  0x00000000       0x28 ../shell/xsh_nvram.o
+ .debug_line    0x00000000      0x181 ../shell/xsh_nvram.o
+ .debug_str     0x00000000      0x252 ../shell/xsh_nvram.o
+ .comment       0x00000000       0x31 ../shell/xsh_nvram.o
+ .ARM.attributes
+                0x00000000       0x30 ../shell/xsh_nvram.o
+ .debug_frame   0x00000000       0x70 ../shell/xsh_nvram.o
+ .text          0x00000000        0x0 ../shell/xsh_test.o
+ .data          0x00000000        0x0 ../shell/xsh_test.o
+ .bss           0x00000000        0x0 ../shell/xsh_test.o
+ .text          0x00000000        0x0 ../shell/xsh_testsuite.o
+ .data          0x00000000        0x0 ../shell/xsh_testsuite.o
+ .bss           0x00000000        0x0 ../shell/xsh_testsuite.o
+ .text          0x00000000        0x0 ../system/conf.o
+ .data          0x00000000        0x0 ../system/conf.o
+ .bss           0x00000000        0x0 ../system/conf.o
+ .text          0x00000000        0x0 ../system/main.o
+ .data          0x00000000        0x0 ../system/main.o
+ .bss           0x00000000        0x0 ../system/main.o
+ .text          0x00000000        0x0 ../lib/libxc.a(atoi.o)
+ .data          0x00000000        0x0 ../lib/libxc.a(atoi.o)
+ .bss           0x00000000        0x0 ../lib/libxc.a(atoi.o)
+ .text          0x00000000        0x0 ../lib/libxc.a(atol.o)
+ .data          0x00000000        0x0 ../lib/libxc.a(atol.o)
+ .bss           0x00000000        0x0 ../lib/libxc.a(atol.o)
+ .text          0x00000000        0x0 ../lib/libxc.a(bzero.o)
+ .data          0x00000000        0x0 ../lib/libxc.a(bzero.o)
+ .bss           0x00000000        0x0 ../lib/libxc.a(bzero.o)
+ .text          0x00000000        0x0 ../lib/libxc.a(ctype_.o)
+ .data          0x00000000        0x0 ../lib/libxc.a(ctype_.o)
+ .bss           0x00000000        0x0 ../lib/libxc.a(ctype_.o)
+ .text          0x00000000        0x0 ../lib/libxc.a(doprnt.o)
+ .data          0x00000000        0x0 ../lib/libxc.a(doprnt.o)
+ .bss           0x00000000        0x0 ../lib/libxc.a(doprnt.o)
+ .text          0x00000000        0x0 ../lib/libxc.a(fprintf.o)
+ .data          0x00000000        0x0 ../lib/libxc.a(fprintf.o)
+ .bss           0x00000000        0x0 ../lib/libxc.a(fprintf.o)
+ .text          0x00000000        0x0 ../lib/libxc.a(getchar.o)
+ .data          0x00000000        0x0 ../lib/libxc.a(getchar.o)
+ .bss           0x00000000        0x0 ../lib/libxc.a(getchar.o)
+ .text.getchar  0x00000000       0x30 ../lib/libxc.a(getchar.o)
+ .debug_info    0x00000000      0x274 ../lib/libxc.a(getchar.o)
+ .debug_abbrev  0x00000000       0xec ../lib/libxc.a(getchar.o)
+ .debug_loc     0x00000000       0x20 ../lib/libxc.a(getchar.o)
+ .debug_aranges
+                0x00000000       0x20 ../lib/libxc.a(getchar.o)
+ .debug_ranges  0x00000000       0x10 ../lib/libxc.a(getchar.o)
+ .debug_line    0x00000000       0xc6 ../lib/libxc.a(getchar.o)
+ .debug_str     0x00000000      0x17e ../lib/libxc.a(getchar.o)
+ .comment       0x00000000       0x31 ../lib/libxc.a(getchar.o)
+ .ARM.attributes
+                0x00000000       0x30 ../lib/libxc.a(getchar.o)
+ .debug_frame   0x00000000       0x28 ../lib/libxc.a(getchar.o)
+ .text          0x00000000        0x0 ../lib/libxc.a(memcpy.o)
+ .data          0x00000000        0x0 ../lib/libxc.a(memcpy.o)
+ .bss           0x00000000        0x0 ../lib/libxc.a(memcpy.o)
+ .text.memcpy   0x00000000       0x20 ../lib/libxc.a(memcpy.o)
+ .debug_info    0x00000000       0xb2 ../lib/libxc.a(memcpy.o)
+ .debug_abbrev  0x00000000       0x7b ../lib/libxc.a(memcpy.o)
+ .debug_loc     0x00000000       0x45 ../lib/libxc.a(memcpy.o)
+ .debug_aranges
+                0x00000000       0x20 ../lib/libxc.a(memcpy.o)
+ .debug_ranges  0x00000000       0x10 ../lib/libxc.a(memcpy.o)
+ .debug_line    0x00000000       0x4b ../lib/libxc.a(memcpy.o)
+ .debug_str     0x00000000       0x4f ../lib/libxc.a(memcpy.o)
+ .comment       0x00000000       0x31 ../lib/libxc.a(memcpy.o)
+ .ARM.attributes
+                0x00000000       0x30 ../lib/libxc.a(memcpy.o)
+ .debug_frame   0x00000000       0x20 ../lib/libxc.a(memcpy.o)
+ .text          0x00000000        0x0 ../lib/libxc.a(printf.o)
+ .data          0x00000000        0x0 ../lib/libxc.a(printf.o)
+ .bss           0x00000000        0x0 ../lib/libxc.a(printf.o)
+ .text          0x00000000        0x0 ../lib/libxc.a(rand.o)
+ .data          0x00000000        0x4 ../lib/libxc.a(rand.o)
+ .bss           0x00000000        0x0 ../lib/libxc.a(rand.o)
+ .text.srand    0x00000000       0x10 ../lib/libxc.a(rand.o)
+ .text.rand     0x00000000       0x30 ../lib/libxc.a(rand.o)
+ .debug_info    0x00000000       0x80 ../lib/libxc.a(rand.o)
+ .debug_abbrev  0x00000000       0x73 ../lib/libxc.a(rand.o)
+ .debug_aranges
+                0x00000000       0x28 ../lib/libxc.a(rand.o)
+ .debug_ranges  0x00000000       0x18 ../lib/libxc.a(rand.o)
+ .debug_line    0x00000000       0x48 ../lib/libxc.a(rand.o)
+ .debug_str     0x00000000       0x64 ../lib/libxc.a(rand.o)
+ .comment       0x00000000       0x31 ../lib/libxc.a(rand.o)
+ .ARM.attributes
+                0x00000000       0x30 ../lib/libxc.a(rand.o)
+ .debug_frame   0x00000000       0x30 ../lib/libxc.a(rand.o)
+ .text          0x00000000        0x0 ../lib/libxc.a(sprintf.o)
+ .data          0x00000000        0x0 ../lib/libxc.a(sprintf.o)
+ .bss           0x00000000        0x0 ../lib/libxc.a(sprintf.o)
+ .text.sprntf   0x00000000       0x14 ../lib/libxc.a(sprintf.o)
+ .text.sprintf  0x00000000       0x48 ../lib/libxc.a(sprintf.o)
+ .debug_info    0x00000000      0x173 ../lib/libxc.a(sprintf.o)
+ .debug_abbrev  0x00000000      0x125 ../lib/libxc.a(sprintf.o)
+ .debug_loc     0x00000000       0x6b ../lib/libxc.a(sprintf.o)
+ .debug_aranges
+                0x00000000       0x28 ../lib/libxc.a(sprintf.o)
+ .debug_ranges  0x00000000       0x18 ../lib/libxc.a(sprintf.o)
+ .debug_line    0x00000000       0x7b ../lib/libxc.a(sprintf.o)
+ .debug_str     0x00000000       0x7c ../lib/libxc.a(sprintf.o)
+ .comment       0x00000000       0x31 ../lib/libxc.a(sprintf.o)
+ .ARM.attributes
+                0x00000000       0x30 ../lib/libxc.a(sprintf.o)
+ .debug_frame   0x00000000       0x48 ../lib/libxc.a(sprintf.o)
+ .text          0x00000000        0x0 ../lib/libxc.a(strncmp.o)
+ .data          0x00000000        0x0 ../lib/libxc.a(strncmp.o)
+ .bss           0x00000000        0x0 ../lib/libxc.a(strncmp.o)
+ .text          0x00000000        0x0 ../lib/libxc.a(strncpy.o)
+ .data          0x00000000        0x0 ../lib/libxc.a(strncpy.o)
+ .bss           0x00000000        0x0 ../lib/libxc.a(strncpy.o)
+ .text          0x00000000        0x0 ../lib/libxc.a(malloc.o)
+ .data          0x00000000        0x0 ../lib/libxc.a(malloc.o)
+ .bss           0x00000000        0x0 ../lib/libxc.a(malloc.o)
+ .text          0x00000000        0x0 ../lib/libxc.a(fgetc.o)
+ .data          0x00000000        0x0 ../lib/libxc.a(fgetc.o)
+ .bss           0x00000000        0x0 ../lib/libxc.a(fgetc.o)
+ .text.fgetc    0x00000000       0x18 ../lib/libxc.a(fgetc.o)
+ .debug_info    0x00000000       0x93 ../lib/libxc.a(fgetc.o)
+ .debug_abbrev  0x00000000       0x8c ../lib/libxc.a(fgetc.o)
+ .debug_loc     0x00000000       0x54 ../lib/libxc.a(fgetc.o)
+ .debug_aranges
+                0x00000000       0x20 ../lib/libxc.a(fgetc.o)
+ .debug_ranges  0x00000000       0x10 ../lib/libxc.a(fgetc.o)
+ .debug_line    0x00000000       0x3a ../lib/libxc.a(fgetc.o)
+ .debug_str     0x00000000       0x54 ../lib/libxc.a(fgetc.o)
+ .comment       0x00000000       0x31 ../lib/libxc.a(fgetc.o)
+ .ARM.attributes
+                0x00000000       0x30 ../lib/libxc.a(fgetc.o)
+ .debug_frame   0x00000000       0x28 ../lib/libxc.a(fgetc.o)
+ .text          0x00000000      0x114 /nfs/nfs5/home/research/hardware/arm2/arm-2012.09/bin/../lib/gcc/arm-none-eabi/4.7.2/libgcc.a(_udivsi3.o)
+ .data          0x00000000        0x0 /nfs/nfs5/home/research/hardware/arm2/arm-2012.09/bin/../lib/gcc/arm-none-eabi/4.7.2/libgcc.a(_udivsi3.o)
+ .bss           0x00000000        0x0 /nfs/nfs5/home/research/hardware/arm2/arm-2012.09/bin/../lib/gcc/arm-none-eabi/4.7.2/libgcc.a(_udivsi3.o)
+ .debug_frame   0x00000000       0x20 /nfs/nfs5/home/research/hardware/arm2/arm-2012.09/bin/../lib/gcc/arm-none-eabi/4.7.2/libgcc.a(_udivsi3.o)
+ .ARM.attributes
+                0x00000000       0x18 /nfs/nfs5/home/research/hardware/arm2/arm-2012.09/bin/../lib/gcc/arm-none-eabi/4.7.2/libgcc.a(_udivsi3.o)
+ .data          0x00000000        0x0 /nfs/nfs5/home/research/hardware/arm2/arm-2012.09/bin/../lib/gcc/arm-none-eabi/4.7.2/libgcc.a(_divsi3.o)
+ .bss           0x00000000        0x0 /nfs/nfs5/home/research/hardware/arm2/arm-2012.09/bin/../lib/gcc/arm-none-eabi/4.7.2/libgcc.a(_divsi3.o)
+ .data          0x00000000        0x0 /nfs/nfs5/home/research/hardware/arm2/arm-2012.09/bin/../lib/gcc/arm-none-eabi/4.7.2/libgcc.a(_dvmd_tls.o)
+ .bss           0x00000000        0x0 /nfs/nfs5/home/research/hardware/arm2/arm-2012.09/bin/../lib/gcc/arm-none-eabi/4.7.2/libgcc.a(_dvmd_tls.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+                0x00010000                . = 0x10000
+                0x00010000                . = ALIGN (0x4)
+
+.text           0x00010000     0xc072
+ *(.text .text.*)
+ .text          0x00010000      0x1f8 ../loader/platforms/raspberry-pi/start.o
+                0x00010000                _start
+                0x00010044                Reset_Handler
+ *fill*         0x000101f8        0x8 
+ .text          0x00010200       0x30 ../system/platforms/raspberry-pi/ctxsw.o
+                0x00010200                ctxsw
+ .text          0x00010230       0x10 ../system/platforms/raspberry-pi/pause.o
+                0x00010230                pause
+ .text          0x00010240       0x10 ../system/platforms/raspberry-pi/halt.o
+                0x00010240                halt
+ .text.clkupdate
+                0x00010250       0xac ../system/platforms/raspberry-pi/clkupdate.o
+                0x00010250                clkupdate
+ .text.create   0x000102fc      0x3b4 ../system/platforms/raspberry-pi/create.o
+                0x000102fc                create
+ .text.thrnew   0x000106b0       0xc8 ../system/platforms/raspberry-pi/create.o
+ .text.SWI_Routine
+                0x00010778        0x4 ../system/platforms/raspberry-pi/handlers.o
+                0x00010778                SWI_Routine
+ .text.UNDEF_Routine
+                0x0001077c        0x4 ../system/platforms/raspberry-pi/handlers.o
+                0x0001077c                UNDEF_Routine
+ .text.FIQ_Routine
+                0x00010780        0x4 ../system/platforms/raspberry-pi/handlers.o
+                0x00010780                FIQ_Routine
+ .text.PAbt_Routine
+                0x00010784       0x18 ../system/platforms/raspberry-pi/handlers.o
+                0x00010784                PAbt_Routine
+ .text.DAbt_Routine
+                0x0001079c       0x18 ../system/platforms/raspberry-pi/handlers.o
+                0x0001079c                DAbt_Routine
+ .text.vic_interrupts_disabled
+                0x000107b4       0x28 ../system/platforms/raspberry-pi/interrupt.o
+ .text.vic_enable_interrupts
+                0x000107dc       0x30 ../system/platforms/raspberry-pi/interrupt.o
+ .text.vic_disable_interrupts
+                0x0001080c       0x30 ../system/platforms/raspberry-pi/interrupt.o
+ .text.enable   0x0001083c       0x2c ../system/platforms/raspberry-pi/interrupt.o
+                0x0001083c                enable
+ .text.disable  0x00010868       0x3c ../system/platforms/raspberry-pi/interrupt.o
+                0x00010868                disable
+ .text.restore  0x000108a4       0x4c ../system/platforms/raspberry-pi/interrupt.o
+                0x000108a4                restore
+ .text.enable_irq
+                0x000108f0       0x44 ../system/platforms/raspberry-pi/interrupt.o
+                0x000108f0                enable_irq
+ .text.disable_irq
+                0x00010934       0x44 ../system/platforms/raspberry-pi/interrupt.o
+                0x00010934                disable_irq
+ .text.register_irq
+                0x00010978       0x28 ../system/platforms/raspberry-pi/interrupt.o
+                0x00010978                register_irq
+ .text.platforminit
+                0x000109a0      0x2a4 ../system/platforms/raspberry-pi/platforminit.o
+                0x000109a0                platforminit
+ .text._startup
+                0x00010c44       0x10 ../system/platforms/raspberry-pi/stubs.o
+                0x00010c44                _startup
+ .text.vic_interrupts_disabled
+                0x00010c54       0x28 ../system/platforms/raspberry-pi/vic.o
+ .text.vic_enable_interrupts
+                0x00010c7c       0x30 ../system/platforms/raspberry-pi/vic.o
+ .text.vic_disable_interrupts
+                0x00010cac       0x30 ../system/platforms/raspberry-pi/vic.o
+ .text.vic_init
+                0x00010cdc       0x64 ../system/platforms/raspberry-pi/vic.o
+                0x00010cdc                vic_init
+ .text.vic_get_irqmask
+                0x00010d40       0x58 ../system/platforms/raspberry-pi/vic.o
+                0x00010d40                vic_get_irqmask
+ .text.vic_set_irqmask
+                0x00010d98       0x7c ../system/platforms/raspberry-pi/vic.o
+                0x00010d98                vic_set_irqmask
+ .text.vic_enable_irq
+                0x00010e14       0x54 ../system/platforms/raspberry-pi/vic.o
+                0x00010e14                vic_enable_irq
+ .text.vic_disable_irq
+                0x00010e68       0x54 ../system/platforms/raspberry-pi/vic.o
+                0x00010e68                vic_disable_irq
+ .text.vic_register_irq
+                0x00010ebc       0x40 ../system/platforms/raspberry-pi/vic.o
+                0x00010ebc                vic_register_irq
+ .text.vic_irq_handler
+                0x00010efc      0x108 ../system/platforms/raspberry-pi/vic.o
+                0x00010efc                vic_irq_handler
+ .text.nulluser
+                0x00011004      0x1cc ../system/initialize.o
+                0x00011004                nulluser
+ .text.sysinit  0x000111d0      0x478 ../system/initialize.o
+ .text.enqueue  0x00011648      0x180 ../system/queue.o
+                0x00011648                enqueue
+ .text.dequeue  0x000117c8      0x1ac ../system/queue.o
+                0x000117c8                dequeue
+ .text.kill     0x00011974      0x200 ../system/kill.o
+                0x00011974                kill
+ .text.ready    0x00011b74       0xd8 ../system/ready.o
+                0x00011b74                ready
+ .text.resched  0x00011c4c      0x248 ../system/resched.o
+                0x00011c4c                resched
+ .text.resume   0x00011e94       0xec ../system/resume.o
+                0x00011e94                resume
+ .text.getfirst
+                0x00011f80       0xc0 ../system/getitem.o
+                0x00011f80                getfirst
+ .text.getitem  0x00012040      0x124 ../system/getitem.o
+                0x00012040                getitem
+ .text.queinit  0x00012164      0x170 ../system/queinit.o
+                0x00012164                queinit
+ .text.insert   0x000122d4      0x224 ../system/insert.o
+                0x000122d4                insert
+ .text.gettid   0x000124f8       0x14 ../system/gettid.o
+                0x000124f8                gettid
+ .text.xdone    0x0001250c       0x48 ../system/xdone.o
+                0x0001250c                xdone
+ .text.userret  0x00012554       0x1c ../system/userret.o
+                0x00012554                userret
+ .text.clkinit  0x00012570       0x98 ../system/clkinit.o
+                0x00012570                clkinit
+ .text.clkhandler
+                0x00012608      0x14c ../system/clkhandler.o
+                0x00012608                clkhandler
+ .text.insertd  0x00012754      0x2a4 ../system/insertd.o
+                0x00012754                insertd
+ .text.sleep    0x000129f8      0x108 ../system/sleep.o
+                0x000129f8                sleep
+ .text.unsleep  0x00012b00      0x1b0 ../system/unsleep.o
+                0x00012b00                unsleep
+ .text.wakeup   0x00012cb0       0xbc ../system/wakeup.o
+                0x00012cb0                wakeup
+ .text.semcreate
+                0x00012d6c       0xa4 ../system/semcreate.o
+                0x00012d6c                semcreate
+ .text.semalloc
+                0x00012e10       0xf0 ../system/semcreate.o
+ .text.semfree  0x00012f00      0x114 ../system/semfree.o
+                0x00012f00                semfree
+ .text.semcount
+                0x00013014       0x7c ../system/semcount.o
+                0x00013014                semcount
+ .text.signal   0x00013090       0xe8 ../system/signal.o
+                0x00013090                signal
+ .text.signaln  0x00013178      0x118 ../system/signaln.o
+                0x00013178                signaln
+ .text.wait     0x00013290      0x124 ../system/wait.o
+                0x00013290                wait
+ .text.memget   0x000133b4      0x144 ../system/memget.o
+                0x000133b4                memget
+ .text.memfree  0x000134f8      0x1bc ../system/memfree.o
+                0x000134f8                memfree
+ .text.stkget   0x000136b4      0x174 ../system/stkget.o
+                0x000136b4                stkget
+ .text.send     0x00013828      0x150 ../system/send.o
+                0x00013828                send
+ .text.receive  0x00013978       0x94 ../system/receive.o
+                0x00013978                receive
+ .text.recvclr  0x00013a0c       0x94 ../system/recvclr.o
+                0x00013a0c                recvclr
+ .text.control  0x00013aa0       0x90 ../system/control.o
+                0x00013aa0                control
+ .text.open     0x00013b30       0x8c ../system/open.o
+                0x00013b30                open
+ .text.ioerr    0x00013bbc        0xc ../system/ioerr.o
+                0x00013bbc                ioerr
+ .text.ionull   0x00013bc8        0xc ../system/ionull.o
+                0x00013bc8                ionull
+ .text.read     0x00013bd4       0x88 ../system/read.o
+                0x00013bd4                read
+ .text.putc     0x00013c5c       0x88 ../system/putc.o
+                0x00013c5c                putc
+ .text.getdev   0x00013ce4       0x94 ../system/getdev.o
+                0x00013ce4                getdev
+ .text.loopbackGetc
+                0x00013d78       0xc4 ../device/loopback/loopbackGetc.o
+                0x00013d78                loopbackGetc
+ .text.loopbackClose
+                0x00013e3c       0xb0 ../device/loopback/loopbackClose.o
+                0x00013e3c                loopbackClose
+ .text.loopbackOpen
+                0x00013eec       0xdc ../device/loopback/loopbackOpen.o
+                0x00013eec                loopbackOpen
+ .text.loopbackPutc
+                0x00013fc8      0x118 ../device/loopback/loopbackPutc.o
+                0x00013fc8                loopbackPutc
+ .text.loopbackWrite
+                0x000140e0       0xd0 ../device/loopback/loopbackWrite.o
+                0x000140e0                loopbackWrite
+ .text.loopbackRead
+                0x000141b0       0xc0 ../device/loopback/loopbackRead.o
+                0x000141b0                loopbackRead
+ .text.loopbackControl
+                0x00014270       0xf0 ../device/loopback/loopbackControl.o
+                0x00014270                loopbackControl
+ .text.loopbackInit
+                0x00014360       0x60 ../device/loopback/loopbackInit.o
+                0x00014360                loopbackInit
+ .text.uartInit
+                0x000143c0      0x210 ../device/uart-pl011/uartInit.o
+                0x000143c0                uartInit
+ .text.uartInterrupt
+                0x000145d0      0x3a4 ../device/uart-pl011/uartInterrupt.o
+                0x000145d0                uartInterrupt
+ .text.uartPutc
+                0x00014974       0x3c ../device/uart-pl011/uartPutc.o
+                0x00014974                uartPutc
+ .text.uartRead
+                0x000149b0      0x204 ../device/uart-pl011/uartRead.o
+                0x000149b0                uartRead
+ .text.uartWrite
+                0x00014bb4      0x250 ../device/uart-pl011/uartWrite.o
+                0x00014bb4                uartWrite
+ .text.uartGetc
+                0x00014e04       0x3c ../device/uart-pl011/uartGetc.o
+                0x00014e04                uartGetc
+ .text.kputc    0x00014e40       0xc0 ../device/uart-pl011/kprintf.o
+                0x00014e40                kputc
+ .text.kgetc    0x00014f00       0x6c ../device/uart-pl011/kprintf.o
+                0x00014f00                kgetc
+ .text.kprintf  0x00014f6c       0x48 ../device/uart-pl011/kprintf.o
+                0x00014f6c                kprintf
+ .text.ttyControl
+                0x00014fb4      0x1e8 ../device/tty/ttyControl.o
+                0x00014fb4                ttyControl
+ .text.ttyOpen  0x0001519c      0x170 ../device/tty/ttyOpen.o
+                0x0001519c                ttyOpen
+ .text.ttyRead  0x0001530c      0x588 ../device/tty/ttyRead.o
+                0x0001530c                ttyRead
+ .text.ttyEcho  0x00015894       0x9c ../device/tty/ttyRead.o
+ .text.ttyClose
+                0x00015930       0x80 ../device/tty/ttyClose.o
+                0x00015930                ttyClose
+ .text.ttyGetc  0x000159b0       0x54 ../device/tty/ttyGetc.o
+                0x000159b0                ttyGetc
+ .text.ttyInit  0x00015a04       0x60 ../device/tty/ttyInit.o
+                0x00015a04                ttyInit
+ .text.ttyPutc  0x00015a64      0x128 ../device/tty/ttyPutc.o
+                0x00015a64                ttyPutc
+ .text.ttyWrite
+                0x00015b8c       0x9c ../device/tty/ttyWrite.o
+                0x00015b8c                ttyWrite
+ .text.future_alloc
+                0x00015c28       0x84 ../apps/future.o
+                0x00015c28                future_alloc
+ .text.future_get
+                0x00015cac      0x160 ../apps/future.o
+                0x00015cac                future_get
+ .text.future_set
+                0x00015e0c       0xe4 ../apps/future.o
+                0x00015e0c                future_set
+ .text.futmalloc
+                0x00015ef0       0xc8 ../apps/future.o
+ .text.get_datetime
+                0x00015fb8       0x24 ../apps/date.o
+                0x00015fb8                get_datetime
+ .text.printDate
+                0x00015fdc       0x24 ../apps/date.o
+                0x00015fdc                printDate
+ .text.printDateTZ
+                0x00016000      0x174 ../apps/date.o
+                0x00016000                printDateTZ
+ .text.convertDate
+                0x00016174      0x764 ../apps/date.o
+                0x00016174                convertDate
+ .text.future_cons
+                0x000168d8       0x98 ../apps/future_cons.o
+                0x000168d8                future_cons
+ .text.future_prod
+                0x00016970       0x58 ../apps/future_prod.o
+                0x00016970                future_prod
+ .text.mailboxInit
+                0x000169c8       0x90 ../mailbox/mailboxInit.o
+                0x000169c8                mailboxInit
+ .text.shell    0x00016a58      0xbf4 ../shell/shell.o
+                0x00016a58                shell
+ .text.lexan    0x0001764c      0x48c ../shell/lexan.o
+                0x0001764c                lexan
+ .text.xsh_clear
+                0x00017ad8      0x174 ../shell/xsh_clear.o
+                0x00017ad8                xsh_clear
+ .text.xsh_date
+                0x00017c4c      0x228 ../shell/xsh_date.o
+                0x00017c4c                xsh_date
+ .text.xsh_exit
+                0x00017e74      0x18c ../shell/xsh_exit.o
+                0x00017e74                xsh_exit
+ .text.xsh_help
+                0x00018000      0x340 ../shell/xsh_help.o
+                0x00018000                xsh_help
+ .text.xsh_reset
+                0x00018340      0x188 ../shell/xsh_reset.o
+                0x00018340                xsh_reset
+ .text.xsh_prodcons
+                0x000184c8      0x394 ../shell/xsh_prodcons.o
+                0x000184c8                xsh_prodcons
+ .text.xsh_sleep
+                0x0001885c      0x2c8 ../shell/xsh_sleep.o
+                0x0001885c                xsh_sleep
+ .text.xsh_kill
+                0x00018b24      0x380 ../shell/xsh_kill.o
+                0x00018b24                xsh_kill
+ .text.xsh_ps   0x00018ea4      0x318 ../shell/xsh_ps.o
+                0x00018ea4                xsh_ps
+ .text.xsh_memdump
+                0x000191bc       0x1c ../shell/xsh_memdump.o
+                0x000191bc                xsh_memdump
+ .text.xsh_memstat
+                0x000191d8       0x1c ../shell/xsh_memstat.o
+                0x000191d8                xsh_memstat
+ .text.xsh_uartstat
+                0x000191f4       0x1c ../shell/xsh_uartstat.o
+                0x000191f4                xsh_uartstat
+ .text.xsh_gpiostat
+                0x00019210      0x2ac ../shell/xsh_gpiostat.o
+                0x00019210                xsh_gpiostat
+ .text.xsh_led  0x000194bc      0x53c ../shell/xsh_led.o
+                0x000194bc                xsh_led
+ .text.xsh_tar  0x000199f8       0x1c ../shell/xsh_tar.o
+                0x000199f8                xsh_tar
+ .text.xsh_test
+                0x00019a14       0x1c ../shell/xsh_test.o
+                0x00019a14                xsh_test
+ .text.xsh_testsuite
+                0x00019a30       0x1c ../shell/xsh_testsuite.o
+                0x00019a30                xsh_testsuite
+ .text.main     0x00019a4c       0x80 ../system/main.o
+                0x00019a4c                main
+ .text.atoi     0x00019acc       0x88 ../lib/libxc.a(atoi.o)
+                0x00019acc                atoi
+ .text.atol     0x00019b54       0x88 ../lib/libxc.a(atol.o)
+                0x00019b54                atol
+ .text.bzero    0x00019bdc       0x20 ../lib/libxc.a(bzero.o)
+                0x00019bdc                bzero
+ .text._prtl10  0x00019bfc       0x98 ../lib/libxc.a(doprnt.o)
+ .text._doprnt  0x00019c94      0x5d4 ../lib/libxc.a(doprnt.o)
+                0x00019c94                _doprnt
+ .text.fprintf  0x0001a268       0x34 ../lib/libxc.a(fprintf.o)
+                0x0001a268                fprintf
+ .text.printf   0x0001a29c       0x50 ../lib/libxc.a(printf.o)
+                0x0001a29c                printf
+ .text.strncmp  0x0001a2ec       0x48 ../lib/libxc.a(strncmp.o)
+                0x0001a2ec                strncmp
+ .text.strncpy  0x0001a334       0x58 ../lib/libxc.a(strncpy.o)
+                0x0001a334                strncpy
+ .text.malloc   0x0001a38c       0x38 ../lib/libxc.a(malloc.o)
+                0x0001a38c                malloc
+ .text          0x0001a3c4      0x148 /nfs/nfs5/home/research/hardware/arm2/arm-2012.09/bin/../lib/gcc/arm-none-eabi/4.7.2/libgcc.a(_divsi3.o)
+                0x0001a3c4                __aeabi_idiv
+                0x0001a3c4                __divsi3
+                0x0001a4ec                __aeabi_idivmod
+ .text          0x0001a50c        0x4 /nfs/nfs5/home/research/hardware/arm2/arm-2012.09/bin/../lib/gcc/arm-none-eabi/4.7.2/libgcc.a(_dvmd_tls.o)
+                0x0001a50c                __aeabi_ldiv0
+                0x0001a50c                __aeabi_idiv0
+ *(.rodata .rodata.*)
+ .rodata        0x0001a510       0x35 ../loader/platforms/raspberry-pi/start.o
+ *fill*         0x0001a545        0x3 
+ .rodata        0x0001a548       0x10 ../system/platforms/raspberry-pi/handlers.o
+ .rodata        0x0001a558       0x28 ../system/platforms/raspberry-pi/platforminit.o
+ .rodata        0x0001a580      0x3f0 ../system/initialize.o
+ .rodata        0x0001a970       0xac ../system/queue.o
+ .rodata        0x0001aa1c       0x34 ../system/queinit.o
+ .rodata        0x0001aa50       0x2c ../system/xdone.o
+ .rodata        0x0001aa7c       0x28 ../system/clkinit.o
+ .rodata        0x0001aaa4       0x20 ../device/tty/ttyOpen.o
+ .rodata        0x0001aac4       0xfc ../apps/date.o
+ .rodata        0x0001abc0       0x38 ../apps/future_cons.o
+ .rodata        0x0001abf8       0x1c ../apps/future_prod.o
+ .rodata        0x0001ac14      0x450 ../shell/shell.o
+                0x0001ada4                commandtab
+                0x0001ae7c                ncommand
+ .rodata        0x0001b064       0xbc ../shell/xsh_clear.o
+ .rodata        0x0001b120       0xc4 ../shell/xsh_date.o
+ .rodata        0x0001b1e4       0xc4 ../shell/xsh_exit.o
+ .rodata        0x0001b2a8      0x218 ../shell/xsh_help.o
+ .rodata        0x0001b4c0       0xc0 ../shell/xsh_reset.o
+ .rodata        0x0001b580      0x1d4 ../shell/xsh_prodcons.o
+ .rodata        0x0001b754       0xfc ../shell/xsh_sleep.o
+ .rodata        0x0001b850      0x148 ../shell/xsh_kill.o
+ .rodata        0x0001b998      0x1fc ../shell/xsh_ps.o
+ .rodata        0x0001bb94      0x150 ../shell/xsh_gpiostat.o
+ .rodata        0x0001bce4      0x188 ../shell/xsh_led.o
+ .rodata        0x0001be6c      0x154 ../system/conf.o
+                0x0001be94                devtab
+ .rodata        0x0001bfc0        0x8 ../system/main.o
+ .rodata        0x0001bfc8       0x81 ../lib/libxc.a(ctype_.o)
+                0x0001bfc8                _ctype_
+ .rodata.str1.1
+                0x0001c049       0x29 ../lib/libxc.a(doprnt.o)
+ *(.glue_7 .glue_7t)
+ .glue_7        0x00000000        0x0 linker stubs
+ .glue_7t       0x00000000        0x0 linker stubs
+                0x0001c072                _etext = .
+
+.vfp11_veneer   0x0001c074        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x0001c074        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.iplt           0x0001c074        0x0
+ .iplt          0x00000000        0x0 ../loader/platforms/raspberry-pi/start.o
+
+.rel.dyn        0x0001c074        0x0
+ .rel.iplt      0x00000000        0x0 ../loader/platforms/raspberry-pi/start.o
+
+.data           0x0001c074       0xbc
+                0x0001c074                _data = .
+ *(.data .data.*)
+ .data          0x0001c074        0x4 ../system/queinit.o
+ .data          0x0001c078       0xb8 ../apps/date.o
+                0x0001c078                days_in_month
+                0x0001c084                month_names
+                0x0001c0b4                weekday_names
+                0x0001c0d0                tz_names
+                0x0001c130                _edata = .
+
+.igot.plt       0x0001c130        0x0
+ .igot.plt      0x00000000        0x0 ../loader/platforms/raspberry-pi/start.o
+
+.bss            0x0001c130     0x556c
+                0x0001c130                _bss = .
+ *(.bss .bss.*)
+ .bss           0x0001c130        0x1 ../system/platforms/raspberry-pi/clkupdate.o
+ *fill*         0x0001c131        0x3 
+ .bss           0x0001c134        0x4 ../system/platforms/raspberry-pi/create.o
+ .bss           0x0001c138      0x100 ../system/platforms/raspberry-pi/vic.o
+ .bss           0x0001c238     0x2fec ../system/initialize.o
+                0x0001c238                thrtab
+                0x0001e628                semtab
+                0x0001ead8                futtab
+                0x0001f118                readylist
+                0x0001f11c                memlist
+                0x0001f124                bfptab
+                0x0001f1e4                thrcount
+                0x0001f1e8                thrcurrent
+                0x0001f1ec                memheap
+                0x0001f1f0                cpuid
+                0x0001f1f4                platform
+ .bss           0x0001f224      0xe40 ../system/queue.o
+                0x0001f224                quetab
+ .bss           0x00020064        0x4 ../system/resched.o
+                0x00020064                resdefer
+ .bss           0x00020068        0xc ../system/clkinit.o
+                0x00020068                clkticks
+                0x0002006c                clktime
+                0x00020070                sleepq
+ .bss           0x00020074        0x4 ../system/semcreate.o
+ .bss           0x00020078      0x410 ../device/loopback/loopbackInit.o
+                0x00020078                looptab
+ .bss           0x00020488      0x83c ../device/uart-pl011/uartInit.o
+                0x00020488                uarttab
+ .bss           0x00020cc4      0x828 ../device/tty/ttyInit.o
+                0x00020cc4                ttytab
+ .bss           0x000214ec        0x4 ../apps/future.o
+ .bss           0x000214f0        0x4 ../apps/date.o
+ .bss           0x000214f4      0x1a8 ../mailbox/mailboxInit.o
+                0x000214f4                mboxtab
+                0x00021698                mboxtabsem
+ *(COMMON)
+                0x0002169c                . = ALIGN (0x4)
+                0x0002169c                _bss_end = .
+                0x0002169c                _end = .
+LOAD ../loader/platforms/raspberry-pi/start.o
+LOAD ../system/platforms/raspberry-pi/ctxsw.o
+LOAD ../system/platforms/raspberry-pi/pause.o
+LOAD ../system/platforms/raspberry-pi/halt.o
+LOAD ../system/platforms/raspberry-pi/clkupdate.o
+LOAD ../system/platforms/raspberry-pi/create.o
+LOAD ../system/platforms/raspberry-pi/handlers.o
+LOAD ../system/platforms/raspberry-pi/interrupt.o
+LOAD ../system/platforms/raspberry-pi/platforminit.o
+LOAD ../system/platforms/raspberry-pi/stubs.o
+LOAD ../system/platforms/raspberry-pi/vic.o
+LOAD ../system/initialize.o
+LOAD ../system/queue.o
+LOAD ../system/kill.o
+LOAD ../system/ready.o
+LOAD ../system/resched.o
+LOAD ../system/resume.o
+LOAD ../system/suspend.o
+LOAD ../system/chprio.o
+LOAD ../system/getprio.o
+LOAD ../system/getitem.o
+LOAD ../system/queinit.o
+LOAD ../system/insert.o
+LOAD ../system/gettid.o
+LOAD ../system/xdone.o
+LOAD ../system/yield.o
+LOAD ../system/userret.o
+LOAD ../system/clkinit.o
+LOAD ../system/clkhandler.o
+LOAD ../system/insertd.o
+LOAD ../system/sleep.o
+LOAD ../system/unsleep.o
+LOAD ../system/wakeup.o
+LOAD ../system/semcreate.o
+LOAD ../system/semfree.o
+LOAD ../system/semcount.o
+LOAD ../system/signal.o
+LOAD ../system/signaln.o
+LOAD ../system/wait.o
+LOAD ../system/memget.o
+LOAD ../system/memfree.o
+LOAD ../system/stkget.o
+LOAD ../system/bfpalloc.o
+LOAD ../system/bfpfree.o
+LOAD ../system/bufget.o
+LOAD ../system/buffree.o
+LOAD ../system/send.o
+LOAD ../system/receive.o
+LOAD ../system/recvclr.o
+LOAD ../system/recvtime.o
+LOAD ../system/close.o
+LOAD ../system/control.o
+LOAD ../system/getc.o
+LOAD ../system/open.o
+LOAD ../system/ioerr.o
+LOAD ../system/ionull.o
+LOAD ../system/read.o
+LOAD ../system/putc.o
+LOAD ../system/seek.o
+LOAD ../system/write.o
+LOAD ../system/getdev.o
+LOAD ../system/debug.o
+LOAD ../system/tar.o
+LOAD ../device/loopback/loopbackGetc.o
+LOAD ../device/loopback/loopbackClose.o
+LOAD ../device/loopback/loopbackOpen.o
+LOAD ../device/loopback/loopbackPutc.o
+LOAD ../device/loopback/loopbackWrite.o
+LOAD ../device/loopback/loopbackRead.o
+LOAD ../device/loopback/loopbackControl.o
+LOAD ../device/loopback/loopbackInit.o
+LOAD ../device/uart-pl011/uartInit.o
+LOAD ../device/uart-pl011/uartInterrupt.o
+LOAD ../device/uart-pl011/uartPutc.o
+LOAD ../device/uart-pl011/uartRead.o
+LOAD ../device/uart-pl011/uartWrite.o
+LOAD ../device/uart-pl011/uartGetc.o
+LOAD ../device/uart-pl011/uartControl.o
+LOAD ../device/uart-pl011/uartStat.o
+LOAD ../device/uart-pl011/kprintf.o
+LOAD ../device/tty/ttyControl.o
+LOAD ../device/tty/ttyOpen.o
+LOAD ../device/tty/ttyRead.o
+LOAD ../device/tty/ttyClose.o
+LOAD ../device/tty/ttyGetc.o
+LOAD ../device/tty/ttyInit.o
+LOAD ../device/tty/ttyPutc.o
+LOAD ../device/tty/ttyWrite.o
+LOAD ../apps/future.o
+LOAD ../apps/date.o
+LOAD ../apps/rdate.o
+LOAD ../apps/future_cons.o
+LOAD ../apps/future_prod.o
+LOAD ../mailbox/mailboxAlloc.o
+LOAD ../mailbox/mailboxCount.o
+LOAD ../mailbox/mailboxFree.o
+LOAD ../mailbox/mailboxInit.o
+LOAD ../mailbox/mailboxReceive.o
+LOAD ../mailbox/mailboxSend.o
+LOAD ../shell/shell.o
+LOAD ../shell/lexan.o
+LOAD ../shell/xsh_clear.o
+LOAD ../shell/xsh_date.o
+LOAD ../shell/xsh_exit.o
+LOAD ../shell/xsh_help.o
+LOAD ../shell/xsh_reset.o
+LOAD ../shell/xsh_prodcons.o
+LOAD ../shell/xsh_sleep.o
+LOAD ../shell/xsh_kill.o
+LOAD ../shell/xsh_ps.o
+LOAD ../shell/xsh_memdump.o
+LOAD ../shell/xsh_memstat.o
+LOAD ../shell/xsh_dumptlb.o
+LOAD ../shell/xsh_user.o
+LOAD ../shell/xsh_uartstat.o
+LOAD ../shell/xsh_gpiostat.o
+LOAD ../shell/xsh_led.o
+LOAD ../shell/xsh_arp.o
+LOAD ../shell/xsh_ethstat.o
+LOAD ../shell/xsh_nc.o
+LOAD ../shell/xsh_netdown.o
+LOAD ../shell/xsh_netemu.o
+LOAD ../shell/xsh_netstat.o
+LOAD ../shell/xsh_netup.o
+LOAD ../shell/xsh_ping.o
+LOAD ../shell/xsh_rdate.o
+LOAD ../shell/xsh_route.o
+LOAD ../shell/xsh_snoop.o
+LOAD ../shell/xsh_tcpstat.o
+LOAD ../shell/xsh_telnet.o
+LOAD ../shell/xsh_telnetserver.o
+LOAD ../shell/xsh_udpstat.o
+LOAD ../shell/xsh_vlanstat.o
+LOAD ../shell/xsh_voip.o
+LOAD ../shell/xsh_xweb.o
+LOAD ../shell/xsh_tar.o
+LOAD ../shell/xsh_flashstat.o
+LOAD ../shell/xsh_nvram.o
+LOAD ../shell/xsh_test.o
+LOAD ../shell/xsh_testsuite.o
+LOAD ../system/conf.o
+LOAD ../system/main.o
+LOAD ../lib/libxc.a
+LOAD ../lib/libdsp.a
+LOAD /nfs/nfs5/home/research/hardware/arm2/arm-2012.09/bin/../lib/gcc/arm-none-eabi/4.7.2/libgcc.a
+OUTPUT(xinu.elf elf32-littlearm)
+
+.ARM.attributes
+                0x00000000       0x2b
+ .ARM.attributes
+                0x00000000       0x14 ../loader/platforms/raspberry-pi/start.o
+ .ARM.attributes
+                0x00000014       0x14 ../system/platforms/raspberry-pi/ctxsw.o
+ .ARM.attributes
+                0x00000028       0x14 ../system/platforms/raspberry-pi/pause.o
+ .ARM.attributes
+                0x0000003c       0x14 ../system/platforms/raspberry-pi/halt.o
+ .ARM.attributes
+                0x00000050       0x30 ../system/platforms/raspberry-pi/clkupdate.o
+ .ARM.attributes
+                0x00000080       0x30 ../system/platforms/raspberry-pi/create.o
+ .ARM.attributes
+                0x000000b0       0x30 ../system/platforms/raspberry-pi/handlers.o
+ .ARM.attributes
+                0x000000e0       0x30 ../system/platforms/raspberry-pi/interrupt.o
+ .ARM.attributes
+                0x00000110       0x30 ../system/platforms/raspberry-pi/platforminit.o
+ .ARM.attributes
+                0x00000140       0x30 ../system/platforms/raspberry-pi/stubs.o
+ .ARM.attributes
+                0x00000170       0x30 ../system/platforms/raspberry-pi/vic.o
+ .ARM.attributes
+                0x000001a0       0x30 ../system/initialize.o
+ .ARM.attributes
+                0x000001d0       0x30 ../system/queue.o
+ .ARM.attributes
+                0x00000200       0x30 ../system/kill.o
+ .ARM.attributes
+                0x00000230       0x30 ../system/ready.o
+ .ARM.attributes
+                0x00000260       0x30 ../system/resched.o
+ .ARM.attributes
+                0x00000290       0x30 ../system/resume.o
+ .ARM.attributes
+                0x000002c0       0x30 ../system/getitem.o
+ .ARM.attributes
+                0x000002f0       0x30 ../system/queinit.o
+ .ARM.attributes
+                0x00000320       0x30 ../system/insert.o
+ .ARM.attributes
+                0x00000350       0x30 ../system/gettid.o
+ .ARM.attributes
+                0x00000380       0x30 ../system/xdone.o
+ .ARM.attributes
+                0x000003b0       0x30 ../system/userret.o
+ .ARM.attributes
+                0x000003e0       0x30 ../system/clkinit.o
+ .ARM.attributes
+                0x00000410       0x30 ../system/clkhandler.o
+ .ARM.attributes
+                0x00000440       0x30 ../system/insertd.o
+ .ARM.attributes
+                0x00000470       0x30 ../system/sleep.o
+ .ARM.attributes
+                0x000004a0       0x30 ../system/unsleep.o
+ .ARM.attributes
+                0x000004d0       0x30 ../system/wakeup.o
+ .ARM.attributes
+                0x00000500       0x30 ../system/semcreate.o
+ .ARM.attributes
+                0x00000530       0x30 ../system/semfree.o
+ .ARM.attributes
+                0x00000560       0x30 ../system/semcount.o
+ .ARM.attributes
+                0x00000590       0x30 ../system/signal.o
+ .ARM.attributes
+                0x000005c0       0x30 ../system/signaln.o
+ .ARM.attributes
+                0x000005f0       0x30 ../system/wait.o
+ .ARM.attributes
+                0x00000620       0x30 ../system/memget.o
+ .ARM.attributes
+                0x00000650       0x30 ../system/memfree.o
+ .ARM.attributes
+                0x00000680       0x30 ../system/stkget.o
+ .ARM.attributes
+                0x000006b0       0x30 ../system/send.o
+ .ARM.attributes
+                0x000006e0       0x30 ../system/receive.o
+ .ARM.attributes
+                0x00000710       0x30 ../system/recvclr.o
+ .ARM.attributes
+                0x00000740       0x30 ../system/control.o
+ .ARM.attributes
+                0x00000770       0x30 ../system/open.o
+ .ARM.attributes
+                0x000007a0       0x30 ../system/ioerr.o
+ .ARM.attributes
+                0x000007d0       0x30 ../system/ionull.o
+ .ARM.attributes
+                0x00000800       0x30 ../system/read.o
+ .ARM.attributes
+                0x00000830       0x30 ../system/putc.o
+ .ARM.attributes
+                0x00000860       0x30 ../system/getdev.o
+ .ARM.attributes
+                0x00000890       0x30 ../device/loopback/loopbackGetc.o
+ .ARM.attributes
+                0x000008c0       0x30 ../device/loopback/loopbackClose.o
+ .ARM.attributes
+                0x000008f0       0x30 ../device/loopback/loopbackOpen.o
+ .ARM.attributes
+                0x00000920       0x30 ../device/loopback/loopbackPutc.o
+ .ARM.attributes
+                0x00000950       0x30 ../device/loopback/loopbackWrite.o
+ .ARM.attributes
+                0x00000980       0x30 ../device/loopback/loopbackRead.o
+ .ARM.attributes
+                0x000009b0       0x30 ../device/loopback/loopbackControl.o
+ .ARM.attributes
+                0x000009e0       0x30 ../device/loopback/loopbackInit.o
+ .ARM.attributes
+                0x00000a10       0x30 ../device/uart-pl011/uartInit.o
+ .ARM.attributes
+                0x00000a40       0x30 ../device/uart-pl011/uartInterrupt.o
+ .ARM.attributes
+                0x00000a70       0x30 ../device/uart-pl011/uartPutc.o
+ .ARM.attributes
+                0x00000aa0       0x30 ../device/uart-pl011/uartRead.o
+ .ARM.attributes
+                0x00000ad0       0x30 ../device/uart-pl011/uartWrite.o
+ .ARM.attributes
+                0x00000b00       0x30 ../device/uart-pl011/uartGetc.o
+ .ARM.attributes
+                0x00000b30       0x30 ../device/uart-pl011/kprintf.o
+ .ARM.attributes
+                0x00000b60       0x30 ../device/tty/ttyControl.o
+ .ARM.attributes
+                0x00000b90       0x30 ../device/tty/ttyOpen.o
+ .ARM.attributes
+                0x00000bc0       0x30 ../device/tty/ttyRead.o
+ .ARM.attributes
+                0x00000bf0       0x30 ../device/tty/ttyClose.o
+ .ARM.attributes
+                0x00000c20       0x30 ../device/tty/ttyGetc.o
+ .ARM.attributes
+                0x00000c50       0x30 ../device/tty/ttyInit.o
+ .ARM.attributes
+                0x00000c80       0x30 ../device/tty/ttyPutc.o
+ .ARM.attributes
+                0x00000cb0       0x30 ../device/tty/ttyWrite.o
+ .ARM.attributes
+                0x00000ce0       0x30 ../apps/future.o
+ .ARM.attributes
+                0x00000d10       0x30 ../apps/date.o
+ .ARM.attributes
+                0x00000d40       0x30 ../apps/future_cons.o
+ .ARM.attributes
+                0x00000d70       0x30 ../apps/future_prod.o
+ .ARM.attributes
+                0x00000da0       0x30 ../mailbox/mailboxInit.o
+ .ARM.attributes
+                0x00000dd0       0x30 ../shell/shell.o
+ .ARM.attributes
+                0x00000e00       0x30 ../shell/lexan.o
+ .ARM.attributes
+                0x00000e30       0x30 ../shell/xsh_clear.o
+ .ARM.attributes
+                0x00000e60       0x30 ../shell/xsh_date.o
+ .ARM.attributes
+                0x00000e90       0x30 ../shell/xsh_exit.o
+ .ARM.attributes
+                0x00000ec0       0x30 ../shell/xsh_help.o
+ .ARM.attributes
+                0x00000ef0       0x30 ../shell/xsh_reset.o
+ .ARM.attributes
+                0x00000f20       0x30 ../shell/xsh_prodcons.o
+ .ARM.attributes
+                0x00000f50       0x30 ../shell/xsh_sleep.o
+ .ARM.attributes
+                0x00000f80       0x30 ../shell/xsh_kill.o
+ .ARM.attributes
+                0x00000fb0       0x30 ../shell/xsh_ps.o
+ .ARM.attributes
+                0x00000fe0       0x30 ../shell/xsh_memdump.o
+ .ARM.attributes
+                0x00001010       0x30 ../shell/xsh_memstat.o
+ .ARM.attributes
+                0x00001040       0x30 ../shell/xsh_uartstat.o
+ .ARM.attributes
+                0x00001070       0x30 ../shell/xsh_gpiostat.o
+ .ARM.attributes
+                0x000010a0       0x30 ../shell/xsh_led.o
+ .ARM.attributes
+                0x000010d0       0x30 ../shell/xsh_tar.o
+ .ARM.attributes
+                0x00001100       0x30 ../shell/xsh_test.o
+ .ARM.attributes
+                0x00001130       0x30 ../shell/xsh_testsuite.o
+ .ARM.attributes
+                0x00001160       0x30 ../system/conf.o
+ .ARM.attributes
+                0x00001190       0x30 ../system/main.o
+ .ARM.attributes
+                0x000011c0       0x30 ../lib/libxc.a(atoi.o)
+ .ARM.attributes
+                0x000011f0       0x30 ../lib/libxc.a(atol.o)
+ .ARM.attributes
+                0x00001220       0x30 ../lib/libxc.a(bzero.o)
+ .ARM.attributes
+                0x00001250       0x30 ../lib/libxc.a(ctype_.o)
+ .ARM.attributes
+                0x00001280       0x30 ../lib/libxc.a(doprnt.o)
+ .ARM.attributes
+                0x000012b0       0x30 ../lib/libxc.a(fprintf.o)
+ .ARM.attributes
+                0x000012e0       0x30 ../lib/libxc.a(printf.o)
+ .ARM.attributes
+                0x00001310       0x30 ../lib/libxc.a(strncmp.o)
+ .ARM.attributes
+                0x00001340       0x30 ../lib/libxc.a(strncpy.o)
+ .ARM.attributes
+                0x00001370       0x30 ../lib/libxc.a(malloc.o)
+ .ARM.attributes
+                0x000013a0       0x18 /nfs/nfs5/home/research/hardware/arm2/arm-2012.09/bin/../lib/gcc/arm-none-eabi/4.7.2/libgcc.a(_divsi3.o)
+ .ARM.attributes
+                0x000013b8       0x18 /nfs/nfs5/home/research/hardware/arm2/arm-2012.09/bin/../lib/gcc/arm-none-eabi/4.7.2/libgcc.a(_dvmd_tls.o)
+
+.comment        0x00000000       0x30
+ .comment       0x00000000       0x30 ../system/platforms/raspberry-pi/clkupdate.o
+                                 0x31 (size before relaxing)
+ .comment       0x00000000       0x31 ../system/platforms/raspberry-pi/create.o
+ .comment       0x00000000       0x31 ../system/platforms/raspberry-pi/handlers.o
+ .comment       0x00000000       0x31 ../system/platforms/raspberry-pi/interrupt.o
+ .comment       0x00000000       0x31 ../system/platforms/raspberry-pi/platforminit.o
+ .comment       0x00000000       0x31 ../system/platforms/raspberry-pi/stubs.o
+ .comment       0x00000000       0x31 ../system/platforms/raspberry-pi/vic.o
+ .comment       0x00000000       0x31 ../system/initialize.o
+ .comment       0x00000000       0x31 ../system/queue.o
+ .comment       0x00000000       0x31 ../system/kill.o
+ .comment       0x00000000       0x31 ../system/ready.o
+ .comment       0x00000000       0x31 ../system/resched.o
+ .comment       0x00000000       0x31 ../system/resume.o
+ .comment       0x00000000       0x31 ../system/getitem.o
+ .comment       0x00000000       0x31 ../system/queinit.o
+ .comment       0x00000000       0x31 ../system/insert.o
+ .comment       0x00000000       0x31 ../system/gettid.o
+ .comment       0x00000000       0x31 ../system/xdone.o
+ .comment       0x00000000       0x31 ../system/userret.o
+ .comment       0x00000000       0x31 ../system/clkinit.o
+ .comment       0x00000000       0x31 ../system/clkhandler.o
+ .comment       0x00000000       0x31 ../system/insertd.o
+ .comment       0x00000000       0x31 ../system/sleep.o
+ .comment       0x00000000       0x31 ../system/unsleep.o
+ .comment       0x00000000       0x31 ../system/wakeup.o
+ .comment       0x00000000       0x31 ../system/semcreate.o
+ .comment       0x00000000       0x31 ../system/semfree.o
+ .comment       0x00000000       0x31 ../system/semcount.o
+ .comment       0x00000000       0x31 ../system/signal.o
+ .comment       0x00000000       0x31 ../system/signaln.o
+ .comment       0x00000000       0x31 ../system/wait.o
+ .comment       0x00000000       0x31 ../system/memget.o
+ .comment       0x00000000       0x31 ../system/memfree.o
+ .comment       0x00000000       0x31 ../system/stkget.o
+ .comment       0x00000000       0x31 ../system/send.o
+ .comment       0x00000000       0x31 ../system/receive.o
+ .comment       0x00000000       0x31 ../system/recvclr.o
+ .comment       0x00000000       0x31 ../system/control.o
+ .comment       0x00000000       0x31 ../system/open.o
+ .comment       0x00000000       0x31 ../system/ioerr.o
+ .comment       0x00000000       0x31 ../system/ionull.o
+ .comment       0x00000000       0x31 ../system/read.o
+ .comment       0x00000000       0x31 ../system/putc.o
+ .comment       0x00000000       0x31 ../system/getdev.o
+ .comment       0x00000000       0x31 ../device/loopback/loopbackGetc.o
+ .comment       0x00000000       0x31 ../device/loopback/loopbackClose.o
+ .comment       0x00000000       0x31 ../device/loopback/loopbackOpen.o
+ .comment       0x00000000       0x31 ../device/loopback/loopbackPutc.o
+ .comment       0x00000000       0x31 ../device/loopback/loopbackWrite.o
+ .comment       0x00000000       0x31 ../device/loopback/loopbackRead.o
+ .comment       0x00000000       0x31 ../device/loopback/loopbackControl.o
+ .comment       0x00000000       0x31 ../device/loopback/loopbackInit.o
+ .comment       0x00000000       0x31 ../device/uart-pl011/uartInit.o
+ .comment       0x00000000       0x31 ../device/uart-pl011/uartInterrupt.o
+ .comment       0x00000000       0x31 ../device/uart-pl011/uartPutc.o
+ .comment       0x00000000       0x31 ../device/uart-pl011/uartRead.o
+ .comment       0x00000000       0x31 ../device/uart-pl011/uartWrite.o
+ .comment       0x00000000       0x31 ../device/uart-pl011/uartGetc.o
+ .comment       0x00000000       0x31 ../device/uart-pl011/kprintf.o
+ .comment       0x00000000       0x31 ../device/tty/ttyControl.o
+ .comment       0x00000000       0x31 ../device/tty/ttyOpen.o
+ .comment       0x00000000       0x31 ../device/tty/ttyRead.o
+ .comment       0x00000000       0x31 ../device/tty/ttyClose.o
+ .comment       0x00000000       0x31 ../device/tty/ttyGetc.o
+ .comment       0x00000000       0x31 ../device/tty/ttyInit.o
+ .comment       0x00000000       0x31 ../device/tty/ttyPutc.o
+ .comment       0x00000000       0x31 ../device/tty/ttyWrite.o
+ .comment       0x00000000       0x31 ../apps/future.o
+ .comment       0x00000000       0x31 ../apps/date.o
+ .comment       0x00000000       0x31 ../apps/future_cons.o
+ .comment       0x00000000       0x31 ../apps/future_prod.o
+ .comment       0x00000000       0x31 ../mailbox/mailboxInit.o
+ .comment       0x00000000       0x31 ../shell/shell.o
+ .comment       0x00000000       0x31 ../shell/lexan.o
+ .comment       0x00000000       0x31 ../shell/xsh_clear.o
+ .comment       0x00000000       0x31 ../shell/xsh_date.o
+ .comment       0x00000000       0x31 ../shell/xsh_exit.o
+ .comment       0x00000000       0x31 ../shell/xsh_help.o
+ .comment       0x00000000       0x31 ../shell/xsh_reset.o
+ .comment       0x00000000       0x31 ../shell/xsh_prodcons.o
+ .comment       0x00000000       0x31 ../shell/xsh_sleep.o
+ .comment       0x00000000       0x31 ../shell/xsh_kill.o
+ .comment       0x00000000       0x31 ../shell/xsh_ps.o
+ .comment       0x00000000       0x31 ../shell/xsh_memdump.o
+ .comment       0x00000000       0x31 ../shell/xsh_memstat.o
+ .comment       0x00000000       0x31 ../shell/xsh_uartstat.o
+ .comment       0x00000000       0x31 ../shell/xsh_gpiostat.o
+ .comment       0x00000000       0x31 ../shell/xsh_led.o
+ .comment       0x00000000       0x31 ../shell/xsh_tar.o
+ .comment       0x00000000       0x31 ../shell/xsh_test.o
+ .comment       0x00000000       0x31 ../shell/xsh_testsuite.o
+ .comment       0x00000000       0x31 ../system/conf.o
+ .comment       0x00000000       0x31 ../system/main.o
+ .comment       0x00000000       0x31 ../lib/libxc.a(atoi.o)
+ .comment       0x00000000       0x31 ../lib/libxc.a(atol.o)
+ .comment       0x00000000       0x31 ../lib/libxc.a(bzero.o)
+ .comment       0x00000000       0x31 ../lib/libxc.a(ctype_.o)
+ .comment       0x00000000       0x31 ../lib/libxc.a(doprnt.o)
+ .comment       0x00000000       0x31 ../lib/libxc.a(fprintf.o)
+ .comment       0x00000000       0x31 ../lib/libxc.a(printf.o)
+ .comment       0x00000000       0x31 ../lib/libxc.a(strncmp.o)
+ .comment       0x00000000       0x31 ../lib/libxc.a(strncpy.o)
+ .comment       0x00000000       0x31 ../lib/libxc.a(malloc.o)
+
+.debug_line     0x00000000     0x4ede
+ .debug_line    0x00000000       0xd4 ../loader/platforms/raspberry-pi/start.o
+ .debug_line    0x000000d4       0x61 ../system/platforms/raspberry-pi/ctxsw.o
+ .debug_line    0x00000135       0x59 ../system/platforms/raspberry-pi/pause.o
+ .debug_line    0x0000018e       0x59 ../system/platforms/raspberry-pi/halt.o
+ .debug_line    0x000001e7       0x85 ../system/platforms/raspberry-pi/clkupdate.o
+ .debug_line    0x0000026c      0x17e ../system/platforms/raspberry-pi/create.o
+ .debug_line    0x000003ea       0x9c ../system/platforms/raspberry-pi/handlers.o
+ .debug_line    0x00000486      0x139 ../system/platforms/raspberry-pi/interrupt.o
+ .debug_line    0x000005bf      0x103 ../system/platforms/raspberry-pi/platforminit.o
+ .debug_line    0x000006c2       0x5a ../system/platforms/raspberry-pi/stubs.o
+ .debug_line    0x0000071c      0x1ad ../system/platforms/raspberry-pi/vic.o
+ .debug_line    0x000008c9      0x1e5 ../system/initialize.o
+ .debug_line    0x00000aae      0x10e ../system/queue.o
+ .debug_line    0x00000bbc       0xed ../system/kill.o
+ .debug_line    0x00000ca9       0xd8 ../system/ready.o
+ .debug_line    0x00000d81       0xe9 ../system/resched.o
+ .debug_line    0x00000e6a       0xd4 ../system/resume.o
+ .debug_line    0x00000f3e       0xb1 ../system/getitem.o
+ .debug_line    0x00000fef       0x78 ../system/queinit.o
+ .debug_line    0x00001067       0xea ../system/insert.o
+ .debug_line    0x00001151       0x67 ../system/gettid.o
+ .debug_line    0x000011b8       0x67 ../system/xdone.o
+ .debug_line    0x0000121f       0x45 ../system/userret.o
+ .debug_line    0x00001264       0x7c ../system/clkinit.o
+ .debug_line    0x000012e0       0x96 ../system/clkhandler.o
+ .debug_line    0x00001376       0xf9 ../system/insertd.o
+ .debug_line    0x0000146f       0xe0 ../system/sleep.o
+ .debug_line    0x0000154f       0xeb ../system/unsleep.o
+ .debug_line    0x0000163a       0x91 ../system/wakeup.o
+ .debug_line    0x000016cb       0xde ../system/semcreate.o
+ .debug_line    0x000017a9       0xcb ../system/semfree.o
+ .debug_line    0x00001874       0x82 ../system/semcount.o
+ .debug_line    0x000018f6       0xc1 ../system/signal.o
+ .debug_line    0x000019b7       0xcc ../system/signaln.o
+ .debug_line    0x00001a83       0xdc ../system/wait.o
+ .debug_line    0x00001b5f       0xc3 ../system/memget.o
+ .debug_line    0x00001c22       0xe3 ../system/memfree.o
+ .debug_line    0x00001d05       0xc3 ../system/stkget.o
+ .debug_line    0x00001dc8       0xdc ../system/send.o
+ .debug_line    0x00001ea4       0xc8 ../system/receive.o
+ .debug_line    0x00001f6c       0xc7 ../system/recvclr.o
+ .debug_line    0x00002033       0x71 ../system/control.o
+ .debug_line    0x000020a4       0x89 ../system/open.o
+ .debug_line    0x0000212d       0x5a ../system/ioerr.o
+ .debug_line    0x00002187       0x5b ../system/ionull.o
+ .debug_line    0x000021e2       0x6d ../system/read.o
+ .debug_line    0x0000224f       0x6d ../system/putc.o
+ .debug_line    0x000022bc       0x72 ../system/getdev.o
+ .debug_line    0x0000232e       0xd5 ../device/loopback/loopbackGetc.o
+ .debug_line    0x00002403       0xd7 ../device/loopback/loopbackClose.o
+ .debug_line    0x000024da       0xd9 ../device/loopback/loopbackOpen.o
+ .debug_line    0x000025b3       0xd8 ../device/loopback/loopbackPutc.o
+ .debug_line    0x0000268b       0xa6 ../device/loopback/loopbackWrite.o
+ .debug_line    0x00002731       0xa9 ../device/loopback/loopbackRead.o
+ .debug_line    0x000027da       0xa1 ../device/loopback/loopbackControl.o
+ .debug_line    0x0000287b       0x96 ../device/loopback/loopbackInit.o
+ .debug_line    0x00002911       0xeb ../device/uart-pl011/uartInit.o
+ .debug_line    0x000029fc      0x128 ../device/uart-pl011/uartInterrupt.o
+ .debug_line    0x00002b24       0x72 ../device/uart-pl011/uartPutc.o
+ .debug_line    0x00002b96       0xeb ../device/uart-pl011/uartRead.o
+ .debug_line    0x00002c81      0x101 ../device/uart-pl011/uartWrite.o
+ .debug_line    0x00002d82       0x74 ../device/uart-pl011/uartGetc.o
+ .debug_line    0x00002df6      0x120 ../device/uart-pl011/kprintf.o
+ .debug_line    0x00002f16       0x8d ../device/tty/ttyControl.o
+ .debug_line    0x00002fa3       0xe5 ../device/tty/ttyOpen.o
+ .debug_line    0x00003088      0x136 ../device/tty/ttyRead.o
+ .debug_line    0x000031be       0xb5 ../device/tty/ttyClose.o
+ .debug_line    0x00003273       0x6e ../device/tty/ttyGetc.o
+ .debug_line    0x000032e1       0x76 ../device/tty/ttyInit.o
+ .debug_line    0x00003357       0x86 ../device/tty/ttyPutc.o
+ .debug_line    0x000033dd       0x7c ../device/tty/ttyWrite.o
+ .debug_line    0x00003459      0x166 ../apps/future.o
+ .debug_line    0x000035bf      0x182 ../apps/date.o
+ .debug_line    0x00003741       0xd1 ../apps/future_cons.o
+ .debug_line    0x00003812       0x61 ../apps/future_prod.o
+ .debug_line    0x00003873       0x92 ../mailbox/mailboxInit.o
+ .debug_line    0x00003905      0x1d0 ../shell/shell.o
+ .debug_line    0x00003ad5       0xe6 ../shell/lexan.o
+ .debug_line    0x00003bbb       0xd8 ../shell/xsh_clear.o
+ .debug_line    0x00003c93       0xdf ../shell/xsh_date.o
+ .debug_line    0x00003d72       0xd9 ../shell/xsh_exit.o
+ .debug_line    0x00003e4b      0x115 ../shell/xsh_help.o
+ .debug_line    0x00003f60       0xe3 ../shell/xsh_reset.o
+ .debug_line    0x00004043       0xff ../shell/xsh_prodcons.o
+ .debug_line    0x00004142       0xe7 ../shell/xsh_sleep.o
+ .debug_line    0x00004229       0xef ../shell/xsh_kill.o
+ .debug_line    0x00004318       0xf9 ../shell/xsh_ps.o
+ .debug_line    0x00004411       0x62 ../shell/xsh_memdump.o
+ .debug_line    0x00004473       0x7c ../shell/xsh_memstat.o
+ .debug_line    0x000044ef       0x63 ../shell/xsh_uartstat.o
+ .debug_line    0x00004552      0x104 ../shell/xsh_gpiostat.o
+ .debug_line    0x00004656      0x10c ../shell/xsh_led.o
+ .debug_line    0x00004762       0x75 ../shell/xsh_tar.o
+ .debug_line    0x000047d7       0x5c ../shell/xsh_test.o
+ .debug_line    0x00004833       0x63 ../shell/xsh_testsuite.o
+ .debug_line    0x00004896       0x52 ../system/conf.o
+ .debug_line    0x000048e8       0x4b ../system/main.o
+ .debug_line    0x00004933       0x59 ../lib/libxc.a(atoi.o)
+ .debug_line    0x0000498c       0x5b ../lib/libxc.a(atol.o)
+ .debug_line    0x000049e7       0x48 ../lib/libxc.a(bzero.o)
+ .debug_line    0x00004a2f       0x29 ../lib/libxc.a(ctype_.o)
+ .debug_line    0x00004a58      0x237 ../lib/libxc.a(doprnt.o)
+ .debug_line    0x00004c8f       0x67 ../lib/libxc.a(fprintf.o)
+ .debug_line    0x00004cf6       0xe1 ../lib/libxc.a(printf.o)
+ .debug_line    0x00004dd7       0x4a ../lib/libxc.a(strncmp.o)
+ .debug_line    0x00004e21       0x55 ../lib/libxc.a(strncpy.o)
+ .debug_line    0x00004e76       0x68 ../lib/libxc.a(malloc.o)
+
+.debug_info     0x00000000     0xf8a6
+ .debug_info    0x00000000       0x88 ../loader/platforms/raspberry-pi/start.o
+ .debug_info    0x00000088       0x88 ../system/platforms/raspberry-pi/ctxsw.o
+ .debug_info    0x00000110       0x88 ../system/platforms/raspberry-pi/pause.o
+ .debug_info    0x00000198       0x87 ../system/platforms/raspberry-pi/halt.o
+ .debug_info    0x0000021f       0xb9 ../system/platforms/raspberry-pi/clkupdate.o
+ .debug_info    0x000002d8      0x392 ../system/platforms/raspberry-pi/create.o
+ .debug_info    0x0000066a       0xc0 ../system/platforms/raspberry-pi/handlers.o
+ .debug_info    0x0000072a      0x277 ../system/platforms/raspberry-pi/interrupt.o
+ .debug_info    0x000009a1      0x325 ../system/platforms/raspberry-pi/platforminit.o
+ .debug_info    0x00000cc6       0x7f ../system/platforms/raspberry-pi/stubs.o
+ .debug_info    0x00000d45      0x2bf ../system/platforms/raspberry-pi/vic.o
+ .debug_info    0x00001004      0x76c ../system/initialize.o
+ .debug_info    0x00001770      0x31e ../system/queue.o
+ .debug_info    0x00001a8e      0x2ea ../system/kill.o
+ .debug_info    0x00001d78      0x291 ../system/ready.o
+ .debug_info    0x00002009      0x2f2 ../system/resched.o
+ .debug_info    0x000022fb      0x291 ../system/resume.o
+ .debug_info    0x0000258c      0x17b ../system/getitem.o
+ .debug_info    0x00002707       0xfc ../system/queinit.o
+ .debug_info    0x00002803      0x2e8 ../system/insert.o
+ .debug_info    0x00002aeb       0x9a ../system/gettid.o
+ .debug_info    0x00002b85       0xd4 ../system/xdone.o
+ .debug_info    0x00002c59       0x7f ../system/userret.o
+ .debug_info    0x00002cd8      0x156 ../system/clkinit.o
+ .debug_info    0x00002e2e      0x1a1 ../system/clkhandler.o
+ .debug_info    0x00002fcf      0x2e8 ../system/insertd.o
+ .debug_info    0x000032b7      0x2a2 ../system/sleep.o
+ .debug_info    0x00003559      0x2e0 ../system/unsleep.o
+ .debug_info    0x00003839      0x105 ../system/wakeup.o
+ .debug_info    0x0000393e      0x194 ../system/semcreate.o
+ .debug_info    0x00003ad2      0x1d7 ../system/semfree.o
+ .debug_info    0x00003ca9       0xf8 ../system/semcount.o
+ .debug_info    0x00003da1      0x16f ../system/signal.o
+ .debug_info    0x00003f10      0x17d ../system/signaln.o
+ .debug_info    0x0000408d      0x2fd ../system/wait.o
+ .debug_info    0x0000438a      0x159 ../system/memget.o
+ .debug_info    0x000044e3      0x21d ../system/memfree.o
+ .debug_info    0x00004700      0x171 ../system/stkget.o
+ .debug_info    0x00004871      0x291 ../system/send.o
+ .debug_info    0x00004b02      0x285 ../system/receive.o
+ .debug_info    0x00004d87      0x285 ../system/recvclr.o
+ .debug_info    0x0000500c      0x2ac ../system/control.o
+ .debug_info    0x000052b8      0x2c3 ../system/open.o
+ .debug_info    0x0000557b       0x78 ../system/ioerr.o
+ .debug_info    0x000055f3       0x78 ../system/ionull.o
+ .debug_info    0x0000566b      0x29e ../system/read.o
+ .debug_info    0x00005909      0x28f ../system/putc.o
+ .debug_info    0x00005b98      0x287 ../system/getdev.o
+ .debug_info    0x00005e1f      0x363 ../device/loopback/loopbackGetc.o
+ .debug_info    0x00006182      0x357 ../device/loopback/loopbackClose.o
+ .debug_info    0x000064d9      0x357 ../device/loopback/loopbackOpen.o
+ .debug_info    0x00006830      0x370 ../device/loopback/loopbackPutc.o
+ .debug_info    0x00006ba0      0x330 ../device/loopback/loopbackWrite.o
+ .debug_info    0x00006ed0      0x330 ../device/loopback/loopbackRead.o
+ .debug_info    0x00007200      0x33d ../device/loopback/loopbackControl.o
+ .debug_info    0x0000753d      0x304 ../device/loopback/loopbackInit.o
+ .debug_info    0x00007841      0x51a ../device/uart-pl011/uartInit.o
+ .debug_info    0x00007d5b      0x54d ../device/uart-pl011/uartInterrupt.o
+ .debug_info    0x000082a8      0x267 ../device/uart-pl011/uartPutc.o
+ .debug_info    0x0000850f      0x485 ../device/uart-pl011/uartRead.o
+ .debug_info    0x00008994      0x59e ../device/uart-pl011/uartWrite.o
+ .debug_info    0x00008f32      0x267 ../device/uart-pl011/uartGetc.o
+ .debug_info    0x00009199      0x61a ../device/uart-pl011/kprintf.o
+ .debug_info    0x000097b3      0x36c ../device/tty/ttyControl.o
+ .debug_info    0x00009b1f      0x41e ../device/tty/ttyOpen.o
+ .debug_info    0x00009f3d      0x3cb ../device/tty/ttyRead.o
+ .debug_info    0x0000a308      0x383 ../device/tty/ttyClose.o
+ .debug_info    0x0000a68b      0x275 ../device/tty/ttyGetc.o
+ .debug_info    0x0000a900      0x330 ../device/tty/ttyInit.o
+ .debug_info    0x0000ac30      0x341 ../device/tty/ttyPutc.o
+ .debug_info    0x0000af71      0x2a9 ../device/tty/ttyWrite.o
+ .debug_info    0x0000b21a      0x453 ../apps/future.o
+ .debug_info    0x0000b66d      0x2d7 ../apps/date.o
+ .debug_info    0x0000b944      0x286 ../apps/future_cons.o
+ .debug_info    0x0000bbca       0xc6 ../apps/future_prod.o
+ .debug_info    0x0000bc90      0x162 ../mailbox/mailboxInit.o
+ .debug_info    0x0000bdf2      0x643 ../shell/shell.o
+ .debug_info    0x0000c435       0xf1 ../shell/lexan.o
+ .debug_info    0x0000c526      0x28a ../shell/xsh_clear.o
+ .debug_info    0x0000c7b0      0x28a ../shell/xsh_date.o
+ .debug_info    0x0000ca3a      0x28a ../shell/xsh_exit.o
+ .debug_info    0x0000ccc4      0x335 ../shell/xsh_help.o
+ .debug_info    0x0000cff9      0x2e8 ../shell/xsh_reset.o
+ .debug_info    0x0000d2e1      0x2f4 ../shell/xsh_prodcons.o
+ .debug_info    0x0000d5d5      0x298 ../shell/xsh_sleep.o
+ .debug_info    0x0000d86d      0x298 ../shell/xsh_kill.o
+ .debug_info    0x0000db05      0x2c8 ../shell/xsh_ps.o
+ .debug_info    0x0000ddcd       0xbb ../shell/xsh_memdump.o
+ .debug_info    0x0000de88       0xe3 ../shell/xsh_memstat.o
+ .debug_info    0x0000df6b       0xbb ../shell/xsh_uartstat.o
+ .debug_info    0x0000e026      0x302 ../shell/xsh_gpiostat.o
+ .debug_info    0x0000e328      0x2e2 ../shell/xsh_led.o
+ .debug_info    0x0000e60a       0xe0 ../shell/xsh_tar.o
+ .debug_info    0x0000e6ea       0xa6 ../shell/xsh_test.o
+ .debug_info    0x0000e790       0xbb ../shell/xsh_testsuite.o
+ .debug_info    0x0000e84b      0x246 ../system/conf.o
+ .debug_info    0x0000ea91       0xbc ../system/main.o
+ .debug_info    0x0000eb4d       0x84 ../lib/libxc.a(atoi.o)
+ .debug_info    0x0000ebd1       0x8b ../lib/libxc.a(atol.o)
+ .debug_info    0x0000ec5c       0x90 ../lib/libxc.a(bzero.o)
+ .debug_info    0x0000ecec       0x53 ../lib/libxc.a(ctype_.o)
+ .debug_info    0x0000ed3f      0x501 ../lib/libxc.a(doprnt.o)
+ .debug_info    0x0000f240      0x124 ../lib/libxc.a(fprintf.o)
+ .debug_info    0x0000f364      0x317 ../lib/libxc.a(printf.o)
+ .debug_info    0x0000f67b       0x86 ../lib/libxc.a(strncmp.o)
+ .debug_info    0x0000f701       0xa9 ../lib/libxc.a(strncpy.o)
+ .debug_info    0x0000f7aa       0xfc ../lib/libxc.a(malloc.o)
+
+.debug_abbrev   0x00000000     0x59e1
+ .debug_abbrev  0x00000000       0x14 ../loader/platforms/raspberry-pi/start.o
+ .debug_abbrev  0x00000014       0x14 ../system/platforms/raspberry-pi/ctxsw.o
+ .debug_abbrev  0x00000028       0x14 ../system/platforms/raspberry-pi/pause.o
+ .debug_abbrev  0x0000003c       0x14 ../system/platforms/raspberry-pi/halt.o
+ .debug_abbrev  0x00000050       0x6f ../system/platforms/raspberry-pi/clkupdate.o
+ .debug_abbrev  0x000000bf      0x131 ../system/platforms/raspberry-pi/create.o
+ .debug_abbrev  0x000001f0       0x81 ../system/platforms/raspberry-pi/handlers.o
+ .debug_abbrev  0x00000271      0x13d ../system/platforms/raspberry-pi/interrupt.o
+ .debug_abbrev  0x000003ae       0xee ../system/platforms/raspberry-pi/platforminit.o
+ .debug_abbrev  0x0000049c       0x44 ../system/platforms/raspberry-pi/stubs.o
+ .debug_abbrev  0x000004e0      0x137 ../system/platforms/raspberry-pi/vic.o
+ .debug_abbrev  0x00000617      0x133 ../system/initialize.o
+ .debug_abbrev  0x0000074a      0x12a ../system/queue.o
+ .debug_abbrev  0x00000874       0xf4 ../system/kill.o
+ .debug_abbrev  0x00000968       0xf4 ../system/ready.o
+ .debug_abbrev  0x00000a5c       0xe7 ../system/resched.o
+ .debug_abbrev  0x00000b43       0xf4 ../system/resume.o
+ .debug_abbrev  0x00000c37       0xdb ../system/getitem.o
+ .debug_abbrev  0x00000d12       0xbf ../system/queinit.o
+ .debug_abbrev  0x00000dd1       0xe5 ../system/insert.o
+ .debug_abbrev  0x00000eb6       0x64 ../system/gettid.o
+ .debug_abbrev  0x00000f1a       0x76 ../system/xdone.o
+ .debug_abbrev  0x00000f90       0x44 ../system/userret.o
+ .debug_abbrev  0x00000fd4       0xaa ../system/clkinit.o
+ .debug_abbrev  0x0000107e       0xad ../system/clkhandler.o
+ .debug_abbrev  0x0000112b       0xe5 ../system/insertd.o
+ .debug_abbrev  0x00001210       0xf4 ../system/sleep.o
+ .debug_abbrev  0x00001304       0xf4 ../system/unsleep.o
+ .debug_abbrev  0x000013f8       0xb3 ../system/wakeup.o
+ .debug_abbrev  0x000014ab       0xe6 ../system/semcreate.o
+ .debug_abbrev  0x00001591       0xe4 ../system/semfree.o
+ .debug_abbrev  0x00001675       0xa1 ../system/semcount.o
+ .debug_abbrev  0x00001716       0xd5 ../system/signal.o
+ .debug_abbrev  0x000017eb       0xe4 ../system/signaln.o
+ .debug_abbrev  0x000018cf       0xf4 ../system/wait.o
+ .debug_abbrev  0x000019c3       0xce ../system/memget.o
+ .debug_abbrev  0x00001a91       0xe0 ../system/memfree.o
+ .debug_abbrev  0x00001b71       0xce ../system/stkget.o
+ .debug_abbrev  0x00001c3f       0xf4 ../system/send.o
+ .debug_abbrev  0x00001d33       0xe5 ../system/receive.o
+ .debug_abbrev  0x00001e18       0xe5 ../system/recvclr.o
+ .debug_abbrev  0x00001efd       0xf4 ../system/control.o
+ .debug_abbrev  0x00001ff1      0x110 ../system/open.o
+ .debug_abbrev  0x00002101       0x53 ../system/ioerr.o
+ .debug_abbrev  0x00002154       0x53 ../system/ionull.o
+ .debug_abbrev  0x000021a7       0xf4 ../system/read.o
+ .debug_abbrev  0x0000229b      0x103 ../system/putc.o
+ .debug_abbrev  0x0000239e       0xf4 ../system/getdev.o
+ .debug_abbrev  0x00002492      0x121 ../device/loopback/loopbackGetc.o
+ .debug_abbrev  0x000025b3      0x121 ../device/loopback/loopbackClose.o
+ .debug_abbrev  0x000026d4      0x121 ../device/loopback/loopbackOpen.o
+ .debug_abbrev  0x000027f5      0x130 ../device/loopback/loopbackPutc.o
+ .debug_abbrev  0x00002925      0x123 ../device/loopback/loopbackWrite.o
+ .debug_abbrev  0x00002a48      0x123 ../device/loopback/loopbackRead.o
+ .debug_abbrev  0x00002b6b      0x114 ../device/loopback/loopbackControl.o
+ .debug_abbrev  0x00002c7f      0x109 ../device/loopback/loopbackInit.o
+ .debug_abbrev  0x00002d88      0x110 ../device/uart-pl011/uartInit.o
+ .debug_abbrev  0x00002e98      0x10a ../device/uart-pl011/uartInterrupt.o
+ .debug_abbrev  0x00002fa2       0xcc ../device/uart-pl011/uartPutc.o
+ .debug_abbrev  0x0000306e      0x137 ../device/uart-pl011/uartRead.o
+ .debug_abbrev  0x000031a5      0x137 ../device/uart-pl011/uartWrite.o
+ .debug_abbrev  0x000032dc       0xcc ../device/uart-pl011/uartGetc.o
+ .debug_abbrev  0x000033a8      0x15a ../device/uart-pl011/kprintf.o
+ .debug_abbrev  0x00003502      0x114 ../device/tty/ttyControl.o
+ .debug_abbrev  0x00003616      0x174 ../device/tty/ttyOpen.o
+ .debug_abbrev  0x0000378a      0x142 ../device/tty/ttyRead.o
+ .debug_abbrev  0x000038cc      0x121 ../device/tty/ttyClose.o
+ .debug_abbrev  0x000039ed       0xdb ../device/tty/ttyGetc.o
+ .debug_abbrev  0x00003ac8      0x109 ../device/tty/ttyInit.o
+ .debug_abbrev  0x00003bd1      0x123 ../device/tty/ttyPutc.o
+ .debug_abbrev  0x00003cf4       0xec ../device/tty/ttyWrite.o
+ .debug_abbrev  0x00003de0      0x131 ../apps/future.o
+ .debug_abbrev  0x00003f11      0x13a ../apps/date.o
+ .debug_abbrev  0x0000404b       0xe3 ../apps/future_cons.o
+ .debug_abbrev  0x0000412e       0x90 ../apps/future_prod.o
+ .debug_abbrev  0x000041be       0xbd ../mailbox/mailboxInit.o
+ .debug_abbrev  0x0000427b      0x12a ../shell/shell.o
+ .debug_abbrev  0x000043a5       0x9a ../shell/lexan.o
+ .debug_abbrev  0x0000443f       0xd6 ../shell/xsh_clear.o
+ .debug_abbrev  0x00004515       0xd6 ../shell/xsh_date.o
+ .debug_abbrev  0x000045eb       0xd6 ../shell/xsh_exit.o
+ .debug_abbrev  0x000046c1      0x10d ../shell/xsh_help.o
+ .debug_abbrev  0x000047ce       0xec ../shell/xsh_reset.o
+ .debug_abbrev  0x000048ba      0x11f ../shell/xsh_prodcons.o
+ .debug_abbrev  0x000049d9       0xe5 ../shell/xsh_sleep.o
+ .debug_abbrev  0x00004abe       0xe5 ../shell/xsh_kill.o
+ .debug_abbrev  0x00004ba3       0xf4 ../shell/xsh_ps.o
+ .debug_abbrev  0x00004c97       0x6d ../shell/xsh_memdump.o
+ .debug_abbrev  0x00004d04       0x85 ../shell/xsh_memstat.o
+ .debug_abbrev  0x00004d89       0x6d ../shell/xsh_uartstat.o
+ .debug_abbrev  0x00004df6       0xfb ../shell/xsh_gpiostat.o
+ .debug_abbrev  0x00004ef1       0xec ../shell/xsh_led.o
+ .debug_abbrev  0x00004fdd       0x85 ../shell/xsh_tar.o
+ .debug_abbrev  0x00005062       0x6d ../shell/xsh_test.o
+ .debug_abbrev  0x000050cf       0x6d ../shell/xsh_testsuite.o
+ .debug_abbrev  0x0000513c       0xb8 ../system/conf.o
+ .debug_abbrev  0x000051f4       0x6f ../system/main.o
+ .debug_abbrev  0x00005263       0x6f ../lib/libxc.a(atoi.o)
+ .debug_abbrev  0x000052d2       0x6f ../lib/libxc.a(atol.o)
+ .debug_abbrev  0x00005341       0x83 ../lib/libxc.a(bzero.o)
+ .debug_abbrev  0x000053c4       0x45 ../lib/libxc.a(ctype_.o)
+ .debug_abbrev  0x00005409      0x1c3 ../lib/libxc.a(doprnt.o)
+ .debug_abbrev  0x000055cc      0x102 ../lib/libxc.a(fprintf.o)
+ .debug_abbrev  0x000056ce      0x14d ../lib/libxc.a(printf.o)
+ .debug_abbrev  0x0000581b       0x60 ../lib/libxc.a(strncmp.o)
+ .debug_abbrev  0x0000587b       0x94 ../lib/libxc.a(strncpy.o)
+ .debug_abbrev  0x0000590f       0xd2 ../lib/libxc.a(malloc.o)
+
+.debug_aranges  0x00000000      0xeb0
+ .debug_aranges
+                0x00000000       0x20 ../loader/platforms/raspberry-pi/start.o
+ .debug_aranges
+                0x00000020       0x20 ../system/platforms/raspberry-pi/ctxsw.o
+ .debug_aranges
+                0x00000040       0x20 ../system/platforms/raspberry-pi/pause.o
+ .debug_aranges
+                0x00000060       0x20 ../system/platforms/raspberry-pi/halt.o
+ .debug_aranges
+                0x00000080       0x20 ../system/platforms/raspberry-pi/clkupdate.o
+ .debug_aranges
+                0x000000a0       0x28 ../system/platforms/raspberry-pi/create.o
+ .debug_aranges
+                0x000000c8       0x40 ../system/platforms/raspberry-pi/handlers.o
+ .debug_aranges
+                0x00000108       0x68 ../system/platforms/raspberry-pi/interrupt.o
+ .debug_aranges
+                0x00000170       0x20 ../system/platforms/raspberry-pi/platforminit.o
+ .debug_aranges
+                0x00000190       0x20 ../system/platforms/raspberry-pi/stubs.o
+ .debug_aranges
+                0x000001b0       0x70 ../system/platforms/raspberry-pi/vic.o
+ .debug_aranges
+                0x00000220       0x28 ../system/initialize.o
+ .debug_aranges
+                0x00000248       0x28 ../system/queue.o
+ .debug_aranges
+                0x00000270       0x20 ../system/kill.o
+ .debug_aranges
+                0x00000290       0x20 ../system/ready.o
+ .debug_aranges
+                0x000002b0       0x20 ../system/resched.o
+ .debug_aranges
+                0x000002d0       0x20 ../system/resume.o
+ .debug_aranges
+                0x000002f0       0x30 ../system/getitem.o
+ .debug_aranges
+                0x00000320       0x20 ../system/queinit.o
+ .debug_aranges
+                0x00000340       0x20 ../system/insert.o
+ .debug_aranges
+                0x00000360       0x20 ../system/gettid.o
+ .debug_aranges
+                0x00000380       0x20 ../system/xdone.o
+ .debug_aranges
+                0x000003a0       0x20 ../system/userret.o
+ .debug_aranges
+                0x000003c0       0x20 ../system/clkinit.o
+ .debug_aranges
+                0x000003e0       0x20 ../system/clkhandler.o
+ .debug_aranges
+                0x00000400       0x20 ../system/insertd.o
+ .debug_aranges
+                0x00000420       0x20 ../system/sleep.o
+ .debug_aranges
+                0x00000440       0x20 ../system/unsleep.o
+ .debug_aranges
+                0x00000460       0x28 ../system/wakeup.o
+ .debug_aranges
+                0x00000488       0x28 ../system/semcreate.o
+ .debug_aranges
+                0x000004b0       0x20 ../system/semfree.o
+ .debug_aranges
+                0x000004d0       0x20 ../system/semcount.o
+ .debug_aranges
+                0x000004f0       0x20 ../system/signal.o
+ .debug_aranges
+                0x00000510       0x20 ../system/signaln.o
+ .debug_aranges
+                0x00000530       0x20 ../system/wait.o
+ .debug_aranges
+                0x00000550       0x20 ../system/memget.o
+ .debug_aranges
+                0x00000570       0x20 ../system/memfree.o
+ .debug_aranges
+                0x00000590       0x20 ../system/stkget.o
+ .debug_aranges
+                0x000005b0       0x20 ../system/send.o
+ .debug_aranges
+                0x000005d0       0x20 ../system/receive.o
+ .debug_aranges
+                0x000005f0       0x20 ../system/recvclr.o
+ .debug_aranges
+                0x00000610       0x20 ../system/control.o
+ .debug_aranges
+                0x00000630       0x20 ../system/open.o
+ .debug_aranges
+                0x00000650       0x20 ../system/ioerr.o
+ .debug_aranges
+                0x00000670       0x20 ../system/ionull.o
+ .debug_aranges
+                0x00000690       0x20 ../system/read.o
+ .debug_aranges
+                0x000006b0       0x20 ../system/putc.o
+ .debug_aranges
+                0x000006d0       0x20 ../system/getdev.o
+ .debug_aranges
+                0x000006f0       0x20 ../device/loopback/loopbackGetc.o
+ .debug_aranges
+                0x00000710       0x20 ../device/loopback/loopbackClose.o
+ .debug_aranges
+                0x00000730       0x20 ../device/loopback/loopbackOpen.o
+ .debug_aranges
+                0x00000750       0x20 ../device/loopback/loopbackPutc.o
+ .debug_aranges
+                0x00000770       0x20 ../device/loopback/loopbackWrite.o
+ .debug_aranges
+                0x00000790       0x20 ../device/loopback/loopbackRead.o
+ .debug_aranges
+                0x000007b0       0x20 ../device/loopback/loopbackControl.o
+ .debug_aranges
+                0x000007d0       0x20 ../device/loopback/loopbackInit.o
+ .debug_aranges
+                0x000007f0       0x20 ../device/uart-pl011/uartInit.o
+ .debug_aranges
+                0x00000810       0x20 ../device/uart-pl011/uartInterrupt.o
+ .debug_aranges
+                0x00000830       0x20 ../device/uart-pl011/uartPutc.o
+ .debug_aranges
+                0x00000850       0x20 ../device/uart-pl011/uartRead.o
+ .debug_aranges
+                0x00000870       0x20 ../device/uart-pl011/uartWrite.o
+ .debug_aranges
+                0x00000890       0x20 ../device/uart-pl011/uartGetc.o
+ .debug_aranges
+                0x000008b0       0x30 ../device/uart-pl011/kprintf.o
+ .debug_aranges
+                0x000008e0       0x20 ../device/tty/ttyControl.o
+ .debug_aranges
+                0x00000900       0x20 ../device/tty/ttyOpen.o
+ .debug_aranges
+                0x00000920       0x28 ../device/tty/ttyRead.o
+ .debug_aranges
+                0x00000948       0x20 ../device/tty/ttyClose.o
+ .debug_aranges
+                0x00000968       0x20 ../device/tty/ttyGetc.o
+ .debug_aranges
+                0x00000988       0x20 ../device/tty/ttyInit.o
+ .debug_aranges
+                0x000009a8       0x20 ../device/tty/ttyPutc.o
+ .debug_aranges
+                0x000009c8       0x20 ../device/tty/ttyWrite.o
+ .debug_aranges
+                0x000009e8       0x40 ../apps/future.o
+ .debug_aranges
+                0x00000a28       0x40 ../apps/date.o
+ .debug_aranges
+                0x00000a68       0x20 ../apps/future_cons.o
+ .debug_aranges
+                0x00000a88       0x20 ../apps/future_prod.o
+ .debug_aranges
+                0x00000aa8       0x20 ../mailbox/mailboxInit.o
+ .debug_aranges
+                0x00000ac8       0x20 ../shell/shell.o
+ .debug_aranges
+                0x00000ae8       0x20 ../shell/lexan.o
+ .debug_aranges
+                0x00000b08       0x20 ../shell/xsh_clear.o
+ .debug_aranges
+                0x00000b28       0x20 ../shell/xsh_date.o
+ .debug_aranges
+                0x00000b48       0x20 ../shell/xsh_exit.o
+ .debug_aranges
+                0x00000b68       0x20 ../shell/xsh_help.o
+ .debug_aranges
+                0x00000b88       0x20 ../shell/xsh_reset.o
+ .debug_aranges
+                0x00000ba8       0x20 ../shell/xsh_prodcons.o
+ .debug_aranges
+                0x00000bc8       0x20 ../shell/xsh_sleep.o
+ .debug_aranges
+                0x00000be8       0x20 ../shell/xsh_kill.o
+ .debug_aranges
+                0x00000c08       0x20 ../shell/xsh_ps.o
+ .debug_aranges
+                0x00000c28       0x20 ../shell/xsh_memdump.o
+ .debug_aranges
+                0x00000c48       0x28 ../shell/xsh_memstat.o
+ .debug_aranges
+                0x00000c70       0x20 ../shell/xsh_uartstat.o
+ .debug_aranges
+                0x00000c90       0x20 ../shell/xsh_gpiostat.o
+ .debug_aranges
+                0x00000cb0       0x20 ../shell/xsh_led.o
+ .debug_aranges
+                0x00000cd0       0x28 ../shell/xsh_tar.o
+ .debug_aranges
+                0x00000cf8       0x20 ../shell/xsh_test.o
+ .debug_aranges
+                0x00000d18       0x20 ../shell/xsh_testsuite.o
+ .debug_aranges
+                0x00000d38       0x18 ../system/conf.o
+ .debug_aranges
+                0x00000d50       0x20 ../system/main.o
+ .debug_aranges
+                0x00000d70       0x20 ../lib/libxc.a(atoi.o)
+ .debug_aranges
+                0x00000d90       0x20 ../lib/libxc.a(atol.o)
+ .debug_aranges
+                0x00000db0       0x20 ../lib/libxc.a(bzero.o)
+ .debug_aranges
+                0x00000dd0       0x18 ../lib/libxc.a(ctype_.o)
+ .debug_aranges
+                0x00000de8       0x28 ../lib/libxc.a(doprnt.o)
+ .debug_aranges
+                0x00000e10       0x20 ../lib/libxc.a(fprintf.o)
+ .debug_aranges
+                0x00000e30       0x20 ../lib/libxc.a(printf.o)
+ .debug_aranges
+                0x00000e50       0x20 ../lib/libxc.a(strncmp.o)
+ .debug_aranges
+                0x00000e70       0x20 ../lib/libxc.a(strncpy.o)
+ .debug_aranges
+                0x00000e90       0x20 ../lib/libxc.a(malloc.o)
+
+.debug_loc      0x00000000     0x2129
+ .debug_loc     0x00000000       0x2c ../system/platforms/raspberry-pi/clkupdate.o
+ .debug_loc     0x0000002c       0x4d ../system/platforms/raspberry-pi/create.o
+ .debug_loc     0x00000079       0x40 ../system/platforms/raspberry-pi/handlers.o
+ .debug_loc     0x000000b9      0x18c ../system/platforms/raspberry-pi/interrupt.o
+ .debug_loc     0x00000245       0x2c ../system/platforms/raspberry-pi/platforminit.o
+ .debug_loc     0x00000271       0x20 ../system/platforms/raspberry-pi/stubs.o
+ .debug_loc     0x00000291      0x1a8 ../system/platforms/raspberry-pi/vic.o
+ .debug_loc     0x00000439       0x58 ../system/initialize.o
+ .debug_loc     0x00000491       0x4c ../system/queue.o
+ .debug_loc     0x000004dd       0x2c ../system/kill.o
+ .debug_loc     0x00000509       0x2c ../system/ready.o
+ .debug_loc     0x00000535       0x2c ../system/resched.o
+ .debug_loc     0x00000561       0x2c ../system/resume.o
+ .debug_loc     0x0000058d       0x78 ../system/getitem.o
+ .debug_loc     0x00000605       0x2c ../system/queinit.o
+ .debug_loc     0x00000631       0x20 ../system/insert.o
+ .debug_loc     0x00000651       0x2c ../system/xdone.o
+ .debug_loc     0x0000067d       0x20 ../system/userret.o
+ .debug_loc     0x0000069d       0x2c ../system/clkinit.o
+ .debug_loc     0x000006c9       0x20 ../system/clkhandler.o
+ .debug_loc     0x000006e9       0x20 ../system/insertd.o
+ .debug_loc     0x00000709       0x2c ../system/sleep.o
+ .debug_loc     0x00000735       0x2c ../system/unsleep.o
+ .debug_loc     0x00000761       0x20 ../system/wakeup.o
+ .debug_loc     0x00000781       0x4c ../system/semcreate.o
+ .debug_loc     0x000007cd       0x2c ../system/semfree.o
+ .debug_loc     0x000007f9       0x20 ../system/semcount.o
+ .debug_loc     0x00000819       0x2c ../system/signal.o
+ .debug_loc     0x00000845       0x2c ../system/signaln.o
+ .debug_loc     0x00000871       0x2c ../system/wait.o
+ .debug_loc     0x0000089d       0x2c ../system/memget.o
+ .debug_loc     0x000008c9       0x2c ../system/memfree.o
+ .debug_loc     0x000008f5       0x2d ../system/stkget.o
+ .debug_loc     0x00000922       0x2c ../system/send.o
+ .debug_loc     0x0000094e       0x2c ../system/receive.o
+ .debug_loc     0x0000097a       0x2c ../system/recvclr.o
+ .debug_loc     0x000009a6       0x2c ../system/control.o
+ .debug_loc     0x000009d2       0x38 ../system/open.o
+ .debug_loc     0x00000a0a       0x2c ../system/read.o
+ .debug_loc     0x00000a36       0x2c ../system/putc.o
+ .debug_loc     0x00000a62       0x2c ../system/getdev.o
+ .debug_loc     0x00000a8e       0x2c ../device/loopback/loopbackGetc.o
+ .debug_loc     0x00000aba       0x2c ../device/loopback/loopbackClose.o
+ .debug_loc     0x00000ae6       0x2c ../device/loopback/loopbackOpen.o
+ .debug_loc     0x00000b12       0x2c ../device/loopback/loopbackPutc.o
+ .debug_loc     0x00000b3e       0x2c ../device/loopback/loopbackWrite.o
+ .debug_loc     0x00000b6a       0x2c ../device/loopback/loopbackRead.o
+ .debug_loc     0x00000b96       0x20 ../device/loopback/loopbackControl.o
+ .debug_loc     0x00000bb6       0x20 ../device/loopback/loopbackInit.o
+ .debug_loc     0x00000bd6       0x2c ../device/uart-pl011/uartInit.o
+ .debug_loc     0x00000c02       0x2c ../device/uart-pl011/uartInterrupt.o
+ .debug_loc     0x00000c2e       0x2c ../device/uart-pl011/uartPutc.o
+ .debug_loc     0x00000c5a       0x2d ../device/uart-pl011/uartRead.o
+ .debug_loc     0x00000c87       0x2d ../device/uart-pl011/uartWrite.o
+ .debug_loc     0x00000cb4       0x2c ../device/uart-pl011/uartGetc.o
+ .debug_loc     0x00000ce0       0x78 ../device/uart-pl011/kprintf.o
+ .debug_loc     0x00000d58       0x20 ../device/tty/ttyControl.o
+ .debug_loc     0x00000d78       0x2c ../device/tty/ttyOpen.o
+ .debug_loc     0x00000da4       0x58 ../device/tty/ttyRead.o
+ .debug_loc     0x00000dfc       0x2c ../device/tty/ttyClose.o
+ .debug_loc     0x00000e28       0x2c ../device/tty/ttyGetc.o
+ .debug_loc     0x00000e54       0x2c ../device/tty/ttyInit.o
+ .debug_loc     0x00000e80       0x2c ../device/tty/ttyPutc.o
+ .debug_loc     0x00000eac       0x2c ../device/tty/ttyWrite.o
+ .debug_loc     0x00000ed8       0xd0 ../apps/future.o
+ .debug_loc     0x00000fa8       0x99 ../apps/date.o
+ .debug_loc     0x00001041       0x2c ../apps/future_cons.o
+ .debug_loc     0x0000106d       0x2c ../apps/future_prod.o
+ .debug_loc     0x00001099       0x2c ../mailbox/mailboxInit.o
+ .debug_loc     0x000010c5       0x2d ../shell/shell.o
+ .debug_loc     0x000010f2       0x20 ../shell/lexan.o
+ .debug_loc     0x00001112       0x2c ../shell/xsh_clear.o
+ .debug_loc     0x0000113e       0x2c ../shell/xsh_date.o
+ .debug_loc     0x0000116a       0x2c ../shell/xsh_exit.o
+ .debug_loc     0x00001196       0x2c ../shell/xsh_help.o
+ .debug_loc     0x000011c2       0x2c ../shell/xsh_reset.o
+ .debug_loc     0x000011ee       0x2c ../shell/xsh_prodcons.o
+ .debug_loc     0x0000121a       0x2c ../shell/xsh_sleep.o
+ .debug_loc     0x00001246       0x2c ../shell/xsh_kill.o
+ .debug_loc     0x00001272       0x2d ../shell/xsh_ps.o
+ .debug_loc     0x0000129f       0x20 ../shell/xsh_memdump.o
+ .debug_loc     0x000012bf       0x4c ../shell/xsh_memstat.o
+ .debug_loc     0x0000130b       0x20 ../shell/xsh_uartstat.o
+ .debug_loc     0x0000132b       0x2c ../shell/xsh_gpiostat.o
+ .debug_loc     0x00001357       0x2c ../shell/xsh_led.o
+ .debug_loc     0x00001383       0x4c ../shell/xsh_tar.o
+ .debug_loc     0x000013cf       0x20 ../shell/xsh_test.o
+ .debug_loc     0x000013ef       0x20 ../shell/xsh_testsuite.o
+ .debug_loc     0x0000140f       0x2c ../system/main.o
+ .debug_loc     0x0000143b       0x87 ../lib/libxc.a(atoi.o)
+ .debug_loc     0x000014c2       0x87 ../lib/libxc.a(atol.o)
+ .debug_loc     0x00001549       0x63 ../lib/libxc.a(bzero.o)
+ .debug_loc     0x000015ac      0x9a6 ../lib/libxc.a(doprnt.o)
+ .debug_loc     0x00001f52       0x58 ../lib/libxc.a(fprintf.o)
+ .debug_loc     0x00001faa       0x2c ../lib/libxc.a(printf.o)
+ .debug_loc     0x00001fd6       0x71 ../lib/libxc.a(strncmp.o)
+ .debug_loc     0x00002047       0x86 ../lib/libxc.a(strncpy.o)
+ .debug_loc     0x000020cd       0x5c ../lib/libxc.a(malloc.o)
+
+.debug_ranges   0x00000000      0x8c8
+ .debug_ranges  0x00000000       0x10 ../system/platforms/raspberry-pi/clkupdate.o
+ .debug_ranges  0x00000010       0x18 ../system/platforms/raspberry-pi/create.o
+ .debug_ranges  0x00000028       0x30 ../system/platforms/raspberry-pi/handlers.o
+ .debug_ranges  0x00000058       0x58 ../system/platforms/raspberry-pi/interrupt.o
+ .debug_ranges  0x000000b0       0x10 ../system/platforms/raspberry-pi/platforminit.o
+ .debug_ranges  0x000000c0       0x10 ../system/platforms/raspberry-pi/stubs.o
+ .debug_ranges  0x000000d0       0x60 ../system/platforms/raspberry-pi/vic.o
+ .debug_ranges  0x00000130       0x18 ../system/initialize.o
+ .debug_ranges  0x00000148       0x18 ../system/queue.o
+ .debug_ranges  0x00000160       0x10 ../system/kill.o
+ .debug_ranges  0x00000170       0x10 ../system/ready.o
+ .debug_ranges  0x00000180       0x10 ../system/resched.o
+ .debug_ranges  0x00000190       0x10 ../system/resume.o
+ .debug_ranges  0x000001a0       0x20 ../system/getitem.o
+ .debug_ranges  0x000001c0       0x10 ../system/queinit.o
+ .debug_ranges  0x000001d0       0x10 ../system/insert.o
+ .debug_ranges  0x000001e0       0x10 ../system/gettid.o
+ .debug_ranges  0x000001f0       0x10 ../system/xdone.o
+ .debug_ranges  0x00000200       0x10 ../system/userret.o
+ .debug_ranges  0x00000210       0x10 ../system/clkinit.o
+ .debug_ranges  0x00000220       0x10 ../system/clkhandler.o
+ .debug_ranges  0x00000230       0x10 ../system/insertd.o
+ .debug_ranges  0x00000240       0x10 ../system/sleep.o
+ .debug_ranges  0x00000250       0x10 ../system/unsleep.o
+ .debug_ranges  0x00000260       0x18 ../system/wakeup.o
+ .debug_ranges  0x00000278       0x18 ../system/semcreate.o
+ .debug_ranges  0x00000290       0x10 ../system/semfree.o
+ .debug_ranges  0x000002a0       0x10 ../system/semcount.o
+ .debug_ranges  0x000002b0       0x10 ../system/signal.o
+ .debug_ranges  0x000002c0       0x10 ../system/signaln.o
+ .debug_ranges  0x000002d0       0x10 ../system/wait.o
+ .debug_ranges  0x000002e0       0x10 ../system/memget.o
+ .debug_ranges  0x000002f0       0x10 ../system/memfree.o
+ .debug_ranges  0x00000300       0x10 ../system/stkget.o
+ .debug_ranges  0x00000310       0x10 ../system/send.o
+ .debug_ranges  0x00000320       0x10 ../system/receive.o
+ .debug_ranges  0x00000330       0x10 ../system/recvclr.o
+ .debug_ranges  0x00000340       0x10 ../system/control.o
+ .debug_ranges  0x00000350       0x10 ../system/open.o
+ .debug_ranges  0x00000360       0x10 ../system/ioerr.o
+ .debug_ranges  0x00000370       0x10 ../system/ionull.o
+ .debug_ranges  0x00000380       0x10 ../system/read.o
+ .debug_ranges  0x00000390       0x10 ../system/putc.o
+ .debug_ranges  0x000003a0       0x10 ../system/getdev.o
+ .debug_ranges  0x000003b0       0x10 ../device/loopback/loopbackGetc.o
+ .debug_ranges  0x000003c0       0x10 ../device/loopback/loopbackClose.o
+ .debug_ranges  0x000003d0       0x10 ../device/loopback/loopbackOpen.o
+ .debug_ranges  0x000003e0       0x10 ../device/loopback/loopbackPutc.o
+ .debug_ranges  0x000003f0       0x10 ../device/loopback/loopbackWrite.o
+ .debug_ranges  0x00000400       0x10 ../device/loopback/loopbackRead.o
+ .debug_ranges  0x00000410       0x10 ../device/loopback/loopbackControl.o
+ .debug_ranges  0x00000420       0x10 ../device/loopback/loopbackInit.o
+ .debug_ranges  0x00000430       0x10 ../device/uart-pl011/uartInit.o
+ .debug_ranges  0x00000440       0x10 ../device/uart-pl011/uartInterrupt.o
+ .debug_ranges  0x00000450       0x10 ../device/uart-pl011/uartPutc.o
+ .debug_ranges  0x00000460       0x10 ../device/uart-pl011/uartRead.o
+ .debug_ranges  0x00000470       0x10 ../device/uart-pl011/uartWrite.o
+ .debug_ranges  0x00000480       0x10 ../device/uart-pl011/uartGetc.o
+ .debug_ranges  0x00000490       0x20 ../device/uart-pl011/kprintf.o
+ .debug_ranges  0x000004b0       0x10 ../device/tty/ttyControl.o
+ .debug_ranges  0x000004c0       0x10 ../device/tty/ttyOpen.o
+ .debug_ranges  0x000004d0       0x18 ../device/tty/ttyRead.o
+ .debug_ranges  0x000004e8       0x10 ../device/tty/ttyClose.o
+ .debug_ranges  0x000004f8       0x10 ../device/tty/ttyGetc.o
+ .debug_ranges  0x00000508       0x10 ../device/tty/ttyInit.o
+ .debug_ranges  0x00000518       0x10 ../device/tty/ttyPutc.o
+ .debug_ranges  0x00000528       0x10 ../device/tty/ttyWrite.o
+ .debug_ranges  0x00000538       0x30 ../apps/future.o
+ .debug_ranges  0x00000568       0x30 ../apps/date.o
+ .debug_ranges  0x00000598       0x10 ../apps/future_cons.o
+ .debug_ranges  0x000005a8       0x10 ../apps/future_prod.o
+ .debug_ranges  0x000005b8       0x10 ../mailbox/mailboxInit.o
+ .debug_ranges  0x000005c8       0x10 ../shell/shell.o
+ .debug_ranges  0x000005d8       0x10 ../shell/lexan.o
+ .debug_ranges  0x000005e8       0x10 ../shell/xsh_clear.o
+ .debug_ranges  0x000005f8       0x10 ../shell/xsh_date.o
+ .debug_ranges  0x00000608       0x10 ../shell/xsh_exit.o
+ .debug_ranges  0x00000618       0x10 ../shell/xsh_help.o
+ .debug_ranges  0x00000628       0x10 ../shell/xsh_reset.o
+ .debug_ranges  0x00000638       0x10 ../shell/xsh_prodcons.o
+ .debug_ranges  0x00000648       0x10 ../shell/xsh_sleep.o
+ .debug_ranges  0x00000658       0x10 ../shell/xsh_kill.o
+ .debug_ranges  0x00000668       0x10 ../shell/xsh_ps.o
+ .debug_ranges  0x00000678       0x10 ../shell/xsh_memdump.o
+ .debug_ranges  0x00000688       0x18 ../shell/xsh_memstat.o
+ .debug_ranges  0x000006a0       0x10 ../shell/xsh_uartstat.o
+ .debug_ranges  0x000006b0       0x10 ../shell/xsh_gpiostat.o
+ .debug_ranges  0x000006c0       0x10 ../shell/xsh_led.o
+ .debug_ranges  0x000006d0       0x18 ../shell/xsh_tar.o
+ .debug_ranges  0x000006e8       0x10 ../shell/xsh_test.o
+ .debug_ranges  0x000006f8       0x10 ../shell/xsh_testsuite.o
+ .debug_ranges  0x00000708       0x10 ../system/main.o
+ .debug_ranges  0x00000718       0x10 ../lib/libxc.a(atoi.o)
+ .debug_ranges  0x00000728       0x10 ../lib/libxc.a(atol.o)
+ .debug_ranges  0x00000738       0x10 ../lib/libxc.a(bzero.o)
+ .debug_ranges  0x00000748      0x130 ../lib/libxc.a(doprnt.o)
+ .debug_ranges  0x00000878       0x10 ../lib/libxc.a(fprintf.o)
+ .debug_ranges  0x00000888       0x10 ../lib/libxc.a(printf.o)
+ .debug_ranges  0x00000898       0x10 ../lib/libxc.a(strncmp.o)
+ .debug_ranges  0x000008a8       0x10 ../lib/libxc.a(strncpy.o)
+ .debug_ranges  0x000008b8       0x10 ../lib/libxc.a(malloc.o)
+
+.debug_str      0x00000000     0x15b0
+ .debug_str     0x00000000       0xe6 ../system/platforms/raspberry-pi/clkupdate.o
+                                 0xf8 (size before relaxing)
+ .debug_str     0x000000e6      0x142 ../system/platforms/raspberry-pi/create.o
+                                0x20c (size before relaxing)
+ .debug_str     0x00000228       0x74 ../system/platforms/raspberry-pi/handlers.o
+                                 0xb6 (size before relaxing)
+ .debug_str     0x0000029c       0xa5 ../system/platforms/raspberry-pi/interrupt.o
+                                0x17f (size before relaxing)
+ .debug_str     0x00000341       0xc0 ../system/platforms/raspberry-pi/platforminit.o
+                                0x196 (size before relaxing)
+ .debug_str     0x00000401       0x32 ../system/platforms/raspberry-pi/stubs.o
+                                 0xd5 (size before relaxing)
+ .debug_str     0x00000433       0xb9 ../system/platforms/raspberry-pi/vic.o
+                                0x1bd (size before relaxing)
+ .debug_str     0x000004ec       0xfb ../system/initialize.o
+                                0x309 (size before relaxing)
+ .debug_str     0x000005e7       0x35 ../system/queue.o
+                                0x1a5 (size before relaxing)
+ .debug_str     0x0000061c       0x19 ../system/kill.o
+                                0x1b3 (size before relaxing)
+ .debug_str     0x00000635       0x1e ../system/ready.o
+                                0x19a (size before relaxing)
+ .debug_str     0x00000653       0x2c ../system/resched.o
+                                0x1c6 (size before relaxing)
+ .debug_str     0x0000067f       0x1a ../system/resume.o
+                                0x18c (size before relaxing)
+ .debug_str     0x00000699       0x2d ../system/getitem.o
+                                 0xef (size before relaxing)
+ .debug_str     0x000006c6       0x24 ../system/queinit.o
+                                 0xdc (size before relaxing)
+ .debug_str     0x000006ea       0x1a ../system/insert.o
+                                0x198 (size before relaxing)
+ .debug_str     0x00000704       0x1a ../system/gettid.o
+                                 0xd0 (size before relaxing)
+ .debug_str     0x0000071e       0x30 ../system/xdone.o
+                                 0xe8 (size before relaxing)
+ .debug_str     0x0000074e       0x14 ../system/userret.o
+                                 0xbf (size before relaxing)
+ .debug_str     0x00000762       0x34 ../system/clkinit.o
+                                0x125 (size before relaxing)
+ .debug_str     0x00000796       0x22 ../system/clkhandler.o
+                                0x14b (size before relaxing)
+ .debug_str     0x000007b8       0x1c ../system/insertd.o
+                                0x19a (size before relaxing)
+ .debug_str     0x000007d4       0x12 ../system/sleep.o
+                                0x1a3 (size before relaxing)
+ .debug_str     0x000007e6       0x1c ../system/unsleep.o
+                                0x1a1 (size before relaxing)
+ .debug_str     0x00000802       0x21 ../system/wakeup.o
+                                 0xf3 (size before relaxing)
+ .debug_str     0x00000823       0x31 ../system/semcreate.o
+                                0x120 (size before relaxing)
+ .debug_str     0x00000854       0x1c ../system/semfree.o
+                                0x143 (size before relaxing)
+ .debug_str     0x00000870       0x1e ../system/semcount.o
+                                 0xe8 (size before relaxing)
+ .debug_str     0x0000088e       0x1a ../system/signal.o
+                                0x121 (size before relaxing)
+ .debug_str     0x000008a8       0x1c ../system/signaln.o
+                                0x123 (size before relaxing)
+ .debug_str     0x000008c4       0x16 ../system/wait.o
+                                0x1bc (size before relaxing)
+ .debug_str     0x000008da       0x2f ../system/memget.o
+                                0x110 (size before relaxing)
+ .debug_str     0x00000909       0x23 ../system/memfree.o
+                                0x16a (size before relaxing)
+ .debug_str     0x0000092c       0x28 ../system/stkget.o
+                                0x119 (size before relaxing)
+ .debug_str     0x00000954       0x16 ../system/send.o
+                                0x188 (size before relaxing)
+ .debug_str     0x0000096a       0x1c ../system/receive.o
+                                0x191 (size before relaxing)
+ .debug_str     0x00000986       0x1c ../system/recvclr.o
+                                0x191 (size before relaxing)
+ .debug_str     0x000009a2       0x23 ../system/control.o
+                                0x12b (size before relaxing)
+ .debug_str     0x000009c5       0x18 ../system/open.o
+                                0x137 (size before relaxing)
+ .debug_str     0x000009dd       0x18 ../system/ioerr.o
+                                 0xa7 (size before relaxing)
+ .debug_str     0x000009f5       0x1a ../system/ionull.o
+                                 0xa9 (size before relaxing)
+ .debug_str     0x00000a0f       0x18 ../system/read.o
+                                0x126 (size before relaxing)
+ .debug_str     0x00000a27       0x11 ../system/putc.o
+                                0x119 (size before relaxing)
+ .debug_str     0x00000a38       0x21 ../system/getdev.o
+                                0x123 (size before relaxing)
+ .debug_str     0x00000a59       0x4d ../device/loopback/loopbackGetc.o
+                                0x19a (size before relaxing)
+ .debug_str     0x00000aa6       0x31 ../device/loopback/loopbackClose.o
+                                0x19c (size before relaxing)
+ .debug_str     0x00000ad7       0x2f ../device/loopback/loopbackOpen.o
+                                0x19a (size before relaxing)
+ .debug_str     0x00000b06       0x2f ../device/loopback/loopbackPutc.o
+                                0x19a (size before relaxing)
+ .debug_str     0x00000b35       0x31 ../device/loopback/loopbackWrite.o
+                                0x16f (size before relaxing)
+ .debug_str     0x00000b66       0x2f ../device/loopback/loopbackRead.o
+                                0x16d (size before relaxing)
+ .debug_str     0x00000b95       0x35 ../device/loopback/loopbackControl.o
+                                0x188 (size before relaxing)
+ .debug_str     0x00000bca       0x2f ../device/loopback/loopbackInit.o
+                                0x16d (size before relaxing)
+ .debug_str     0x00000bf9      0x10a ../device/uart-pl011/uartInit.o
+                                0x236 (size before relaxing)
+ .debug_str     0x00000d03       0x33 ../device/uart-pl011/uartInterrupt.o
+                                0x248 (size before relaxing)
+ .debug_str     0x00000d36       0x29 ../device/uart-pl011/uartPutc.o
+                                0x12c (size before relaxing)
+ .debug_str     0x00000d5f       0x29 ../device/uart-pl011/uartRead.o
+                                0x1e8 (size before relaxing)
+ .debug_str     0x00000d88       0x2b ../device/uart-pl011/uartWrite.o
+                                0x258 (size before relaxing)
+ .debug_str     0x00000db3       0x29 ../device/uart-pl011/uartGetc.o
+                                0x12c (size before relaxing)
+ .debug_str     0x00000ddc       0x39 ../device/uart-pl011/kprintf.o
+                                0x274 (size before relaxing)
+ .debug_str     0x00000e15       0x40 ../device/tty/ttyControl.o
+                                0x173 (size before relaxing)
+ .debug_str     0x00000e55       0x2f ../device/tty/ttyOpen.o
+                                0x1c0 (size before relaxing)
+ .debug_str     0x00000e84       0x30 ../device/tty/ttyRead.o
+                                0x17b (size before relaxing)
+ .debug_str     0x00000eb4       0x22 ../device/tty/ttyClose.o
+                                0x18d (size before relaxing)
+ .debug_str     0x00000ed6       0x20 ../device/tty/ttyGetc.o
+                                0x12a (size before relaxing)
+ .debug_str     0x00000ef6       0x20 ../device/tty/ttyInit.o
+                                0x15e (size before relaxing)
+ .debug_str     0x00000f16       0x20 ../device/tty/ttyPutc.o
+                                0x15e (size before relaxing)
+ .debug_str     0x00000f36       0x22 ../device/tty/ttyWrite.o
+                                0x132 (size before relaxing)
+ .debug_str     0x00000f58       0x59 ../apps/future.o
+                                0x204 (size before relaxing)
+ .debug_str     0x00000fb1       0xe3 ../apps/date.o
+                                0x1a9 (size before relaxing)
+ .debug_str     0x00001094       0x22 ../apps/future_cons.o
+                                0x19d (size before relaxing)
+ .debug_str     0x000010b6       0x22 ../apps/future_prod.o
+                                 0xd9 (size before relaxing)
+ .debug_str     0x000010d8       0x52 ../mailbox/mailboxInit.o
+                                0x11a (size before relaxing)
+ .debug_str     0x0000112a       0xc2 ../shell/shell.o
+                                0x2a7 (size before relaxing)
+ .debug_str     0x000011ec       0x2a ../shell/lexan.o
+                                 0xce (size before relaxing)
+ .debug_str     0x00001216       0x1f ../shell/xsh_clear.o
+                                0x1a1 (size before relaxing)
+ .debug_str     0x00001235       0x1d ../shell/xsh_date.o
+                                0x19f (size before relaxing)
+ .debug_str     0x00001252       0x1d ../shell/xsh_exit.o
+                                0x19f (size before relaxing)
+ .debug_str     0x0000126f       0x2a ../shell/xsh_help.o
+                                0x1d9 (size before relaxing)
+ .debug_str     0x00001299       0x25 ../shell/xsh_reset.o
+                                0x1ce (size before relaxing)
+ .debug_str     0x000012be       0x2d ../shell/xsh_prodcons.o
+                                0x1bd (size before relaxing)
+ .debug_str     0x000012eb       0x25 ../shell/xsh_sleep.o
+                                0x1a7 (size before relaxing)
+ .debug_str     0x00001310       0x1d ../shell/xsh_kill.o
+                                0x19f (size before relaxing)
+ .debug_str     0x0000132d       0x21 ../shell/xsh_ps.o
+                                0x1aa (size before relaxing)
+ .debug_str     0x0000134e       0x23 ../shell/xsh_memdump.o
+                                 0xda (size before relaxing)
+ .debug_str     0x00001371       0x29 ../shell/xsh_memstat.o
+                                 0xe8 (size before relaxing)
+ .debug_str     0x0000139a       0x25 ../shell/xsh_uartstat.o
+                                 0xdc (size before relaxing)
+ .debug_str     0x000013bf       0x2c ../shell/xsh_gpiostat.o
+                                0x1db (size before relaxing)
+ .debug_str     0x000013eb       0x1b ../shell/xsh_led.o
+                                0x1c4 (size before relaxing)
+ .debug_str     0x00001406       0x23 ../shell/xsh_tar.o
+                                 0xe2 (size before relaxing)
+ .debug_str     0x00001429       0x1d ../shell/xsh_test.o
+                                 0xb8 (size before relaxing)
+ .debug_str     0x00001446       0x27 ../shell/xsh_testsuite.o
+                                 0xde (size before relaxing)
+ .debug_str     0x0000146d       0x11 ../system/conf.o
+                                0x114 (size before relaxing)
+ .debug_str     0x0000147e       0x20 ../system/main.o
+                                 0xc3 (size before relaxing)
+ .debug_str     0x0000149e       0x3a ../lib/libxc.a(atoi.o)
+                                 0x4b (size before relaxing)
+ .debug_str     0x000014d8        0xc ../lib/libxc.a(atol.o)
+                                 0x54 (size before relaxing)
+ .debug_str     0x000014e4        0xe ../lib/libxc.a(bzero.o)
+                                 0x4d (size before relaxing)
+ .debug_str     0x000014f2        0x9 ../lib/libxc.a(ctype_.o)
+                                 0x59 (size before relaxing)
+ .debug_str     0x000014fb       0x79 ../lib/libxc.a(doprnt.o)
+                                 0xed (size before relaxing)
+ .debug_str     0x00001574       0x12 ../lib/libxc.a(fprintf.o)
+                                 0x75 (size before relaxing)
+ .debug_str     0x00000000       0x12 ../lib/libxc.a(printf.o)
+                                0x19a (size before relaxing)
+ .debug_str     0x00001586        0xa ../lib/libxc.a(strncmp.o)
+                                 0x51 (size before relaxing)
+ .debug_str     0x00001590       0x12 ../lib/libxc.a(strncpy.o)
+                                 0x51 (size before relaxing)
+ .debug_str     0x000015a2        0xe ../lib/libxc.a(malloc.o)
+                                 0xc2 (size before relaxing)
+
+.debug_frame    0x00000000     0x1408
+ .debug_frame   0x00000000       0x28 ../system/platforms/raspberry-pi/clkupdate.o
+ .debug_frame   0x00000028       0x40 ../system/platforms/raspberry-pi/create.o
+ .debug_frame   0x00000068       0x70 ../system/platforms/raspberry-pi/handlers.o
+ .debug_frame   0x000000d8       0xf8 ../system/platforms/raspberry-pi/interrupt.o
+ .debug_frame   0x000001d0       0x28 ../system/platforms/raspberry-pi/platforminit.o
+ .debug_frame   0x000001f8       0x28 ../system/platforms/raspberry-pi/stubs.o
+ .debug_frame   0x00000220      0x104 ../system/platforms/raspberry-pi/vic.o
+ .debug_frame   0x00000324       0x40 ../system/initialize.o
+ .debug_frame   0x00000364       0x3c ../system/queue.o
+ .debug_frame   0x000003a0       0x2c ../system/kill.o
+ .debug_frame   0x000003cc       0x2c ../system/ready.o
+ .debug_frame   0x000003f8       0x2c ../system/resched.o
+ .debug_frame   0x00000424       0x2c ../system/resume.o
+ .debug_frame   0x00000450       0x54 ../system/getitem.o
+ .debug_frame   0x000004a4       0x28 ../system/queinit.o
+ .debug_frame   0x000004cc       0x24 ../system/insert.o
+ .debug_frame   0x000004f0       0x20 ../system/gettid.o
+ .debug_frame   0x00000510       0x28 ../system/xdone.o
+ .debug_frame   0x00000538       0x28 ../system/userret.o
+ .debug_frame   0x00000560       0x28 ../system/clkinit.o
+ .debug_frame   0x00000588       0x28 ../system/clkhandler.o
+ .debug_frame   0x000005b0       0x24 ../system/insertd.o
+ .debug_frame   0x000005d4       0x28 ../system/sleep.o
+ .debug_frame   0x000005fc       0x2c ../system/unsleep.o
+ .debug_frame   0x00000628       0x38 ../system/wakeup.o
+ .debug_frame   0x00000660       0x40 ../system/semcreate.o
+ .debug_frame   0x000006a0       0x2c ../system/semfree.o
+ .debug_frame   0x000006cc       0x24 ../system/semcount.o
+ .debug_frame   0x000006f0       0x2c ../system/signal.o
+ .debug_frame   0x0000071c       0x2c ../system/signaln.o
+ .debug_frame   0x00000748       0x2c ../system/wait.o
+ .debug_frame   0x00000774       0x30 ../system/memget.o
+ .debug_frame   0x000007a4       0x30 ../system/memfree.o
+ .debug_frame   0x000007d4       0x28 ../system/stkget.o
+ .debug_frame   0x000007fc       0x2c ../system/send.o
+ .debug_frame   0x00000828       0x2c ../system/receive.o
+ .debug_frame   0x00000854       0x2c ../system/recvclr.o
+ .debug_frame   0x00000880       0x28 ../system/control.o
+ .debug_frame   0x000008a8       0x34 ../system/open.o
+ .debug_frame   0x000008dc       0x20 ../system/ioerr.o
+ .debug_frame   0x000008fc       0x20 ../system/ionull.o
+ .debug_frame   0x0000091c       0x28 ../system/read.o
+ .debug_frame   0x00000944       0x28 ../system/putc.o
+ .debug_frame   0x0000096c       0x28 ../system/getdev.o
+ .debug_frame   0x00000994       0x28 ../device/loopback/loopbackGetc.o
+ .debug_frame   0x000009bc       0x28 ../device/loopback/loopbackClose.o
+ .debug_frame   0x000009e4       0x28 ../device/loopback/loopbackOpen.o
+ .debug_frame   0x00000a0c       0x2c ../device/loopback/loopbackPutc.o
+ .debug_frame   0x00000a38       0x28 ../device/loopback/loopbackWrite.o
+ .debug_frame   0x00000a60       0x2c ../device/loopback/loopbackRead.o
+ .debug_frame   0x00000a8c       0x24 ../device/loopback/loopbackControl.o
+ .debug_frame   0x00000ab0       0x24 ../device/loopback/loopbackInit.o
+ .debug_frame   0x00000ad4       0x28 ../device/uart-pl011/uartInit.o
+ .debug_frame   0x00000afc       0x28 ../device/uart-pl011/uartInterrupt.o
+ .debug_frame   0x00000b24       0x28 ../device/uart-pl011/uartPutc.o
+ .debug_frame   0x00000b4c       0x28 ../device/uart-pl011/uartRead.o
+ .debug_frame   0x00000b74       0x28 ../device/uart-pl011/uartWrite.o
+ .debug_frame   0x00000b9c       0x28 ../device/uart-pl011/uartGetc.o
+ .debug_frame   0x00000bc4       0x5c ../device/uart-pl011/kprintf.o
+ .debug_frame   0x00000c20       0x24 ../device/tty/ttyControl.o
+ .debug_frame   0x00000c44       0x28 ../device/tty/ttyOpen.o
+ .debug_frame   0x00000c6c       0x40 ../device/tty/ttyRead.o
+ .debug_frame   0x00000cac       0x28 ../device/tty/ttyClose.o
+ .debug_frame   0x00000cd4       0x28 ../device/tty/ttyGetc.o
+ .debug_frame   0x00000cfc       0x28 ../device/tty/ttyInit.o
+ .debug_frame   0x00000d24       0x28 ../device/tty/ttyPutc.o
+ .debug_frame   0x00000d4c       0x28 ../device/tty/ttyWrite.o
+ .debug_frame   0x00000d74       0x94 ../apps/future.o
+ .debug_frame   0x00000e08       0x80 ../apps/date.o
+ .debug_frame   0x00000e88       0x28 ../apps/future_cons.o
+ .debug_frame   0x00000eb0       0x28 ../apps/future_prod.o
+ .debug_frame   0x00000ed8       0x28 ../mailbox/mailboxInit.o
+ .debug_frame   0x00000f00       0x2c ../shell/shell.o
+ .debug_frame   0x00000f2c       0x24 ../shell/lexan.o
+ .debug_frame   0x00000f50       0x28 ../shell/xsh_clear.o
+ .debug_frame   0x00000f78       0x28 ../shell/xsh_date.o
+ .debug_frame   0x00000fa0       0x28 ../shell/xsh_exit.o
+ .debug_frame   0x00000fc8       0x28 ../shell/xsh_help.o
+ .debug_frame   0x00000ff0       0x28 ../shell/xsh_reset.o
+ .debug_frame   0x00001018       0x28 ../shell/xsh_prodcons.o
+ .debug_frame   0x00001040       0x28 ../shell/xsh_sleep.o
+ .debug_frame   0x00001068       0x28 ../shell/xsh_kill.o
+ .debug_frame   0x00001090       0x2c ../shell/xsh_ps.o
+ .debug_frame   0x000010bc       0x24 ../shell/xsh_memdump.o
+ .debug_frame   0x000010e0       0x3c ../shell/xsh_memstat.o
+ .debug_frame   0x0000111c       0x24 ../shell/xsh_uartstat.o
+ .debug_frame   0x00001140       0x28 ../shell/xsh_gpiostat.o
+ .debug_frame   0x00001168       0x28 ../shell/xsh_led.o
+ .debug_frame   0x00001190       0x3c ../shell/xsh_tar.o
+ .debug_frame   0x000011cc       0x24 ../shell/xsh_test.o
+ .debug_frame   0x000011f0       0x24 ../shell/xsh_testsuite.o
+ .debug_frame   0x00001214       0x28 ../system/main.o
+ .debug_frame   0x0000123c       0x28 ../lib/libxc.a(atoi.o)
+ .debug_frame   0x00001264       0x28 ../lib/libxc.a(atol.o)
+ .debug_frame   0x0000128c       0x20 ../lib/libxc.a(bzero.o)
+ .debug_frame   0x000012ac       0x58 ../lib/libxc.a(doprnt.o)
+ .debug_frame   0x00001304       0x34 ../lib/libxc.a(fprintf.o)
+ .debug_frame   0x00001338       0x38 ../lib/libxc.a(printf.o)
+ .debug_frame   0x00001370       0x28 ../lib/libxc.a(strncmp.o)
+ .debug_frame   0x00001398       0x28 ../lib/libxc.a(strncpy.o)
+ .debug_frame   0x000013c0       0x28 ../lib/libxc.a(malloc.o)
+ .debug_frame   0x000013e8       0x20 /nfs/nfs5/home/research/hardware/arm2/arm-2012.09/bin/../lib/gcc/arm-none-eabi/4.7.2/libgcc.a(_divsi3.o)
